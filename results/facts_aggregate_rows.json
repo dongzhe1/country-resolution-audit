@@ -1,0 +1,19 @@
+{
+  "admissible_mappings": "$2.0\\times10^{3}$",
+  "ambiguous": 11,
+  "blocks_published": 4,
+  "concentrated_rows": 6,
+  "draws": 2048,
+  "rows_3plus_mid": 9,
+  "rows_summarised": 9,
+  "spread_median_hi": 9.8,
+  "spread_median_lo": 5.0,
+  "spread_median_mid": 6.5,
+  "spread_min_lo": 2.3,
+  "spread_min_mid": 3.0,
+  "spread_ref_median": 5.0,
+  "states": 60,
+  "unit_blocks": 15,
+  "unit_individual": 15,
+  "units": 30
+}

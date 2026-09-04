@@ -1,0 +1,153 @@
+iso3,resolved,sids,ldc,income_group,annual_co2_t,t_per_musd_market_yr,t_per_musd_ppp_yr
+MHL,False,True,False,Upper middle income,42002,136.370,135.789
+MUS,True,True,False,Upper middle income,1722871,106.628,43.631
+DJI,False,False,True,Lower middle income,459879,99.443,50.308
+TGO,False,False,True,Lower middle income,937507,78.849,29.233
+MYS,True,False,False,Upper middle income,37021662,78.404,26.810
+KIR,False,True,True,Lower middle income,24290,69.553,48.436
+FSM,False,True,False,Upper middle income,33889,67.534,67.263
+MLT,True,False,False,High income,1686752,60.736,42.322
+TUV,False,True,True,Upper middle income,3465,60.429,56.435
+BHS,False,True,False,High income,857959,54.189,51.822
+SLB,False,True,True,Lower middle income,77185,44.116,35.168
+TTO,True,True,False,High income,1140674,43.969,22.914
+GIN,False,False,True,Lower middle income,1241427,43.795,18.403
+MOZ,False,False,True,Low income,874132,39.132,14.775
+CPV,False,True,False,Upper middle income,117853,38.556,20.075
+COG,False,False,False,Lower middle income,603590,37.015,13.608
+JAM,False,True,False,Upper middle income,833280,36.700,22.736
+NAM,True,False,False,Lower middle income,551428,36.566,15.557
+VUT,False,True,False,Lower middle income,44238,32.680,30.899
+GNQ,True,False,False,Upper middle income,410244,31.992,12.697
+PLW,False,True,False,High income,10974,31.810,29.450
+TON,False,True,False,Upper middle income,20666,30.426,24.268
+COM,False,True,True,Lower middle income,51034,28.119,14.548
+BRN,True,False,False,High income,416784,27.726,10.007
+LKA,True,False,False,Upper middle income,3003416,27.599,8.728
+EGY,True,False,False,Lower middle income,9857115,26.987,4.423
+SYC,False,True,False,High income,63528,26.614,15.702
+OMN,True,False,False,High income,2594007,23.667,11.750
+QAT,True,False,False,High income,5040214,23.382,13.919
+SLE,False,False,True,Low income,172120,23.060,5.646
+FJI,False,True,False,Upper middle income,141364,22.808,9.837
+PAN,True,False,False,High income,2030472,22.445,10.854
+PNG,False,True,False,Lower middle income,685477,21.092,13.263
+NRU,False,True,False,High income,3457,19.636,21.257
+LBR,False,False,True,Low income,102772,19.591,9.772
+ARE,True,False,False,High income,10647485,19.278,12.215
+MRT,False,False,True,Lower middle income,208729,17.871,5.472
+WSM,False,True,False,Upper middle income,21811,16.934,11.432
+LCA,False,True,False,Upper middle income,44740,16.842,8.853
+SGP,True,True,False,High income,9914497,16.418,10.723
+GMB,False,False,True,Low income,39896,15.382,4.153
+GAB,True,False,False,Upper middle income,314937,14.698,5.758
+MAR,True,False,False,Lower middle income,2615590,14.342,6.485
+SEN,False,False,True,Lower middle income,499626,13.501,5.298
+ZAF,True,False,False,Upper middle income,5644904,13.214,5.698
+MDV,False,True,False,Upper middle income,88896,11.484,6.423
+AUS,True,False,False,High income,20529576,11.415,10.468
+AGO,False,False,True,Lower middle income,1280204,10.478,3.391
+ATG,False,True,False,High income,21771,9.311,6.961
+NGA,True,False,False,Lower middle income,2672473,9.190,1.262
+KOR,True,False,False,High income,16841259,8.995,5.330
+CMR,True,False,False,Lower middle income,526390,8.932,3.229
+DOM,True,True,False,Upper middle income,1123860,8.821,3.566
+SUR,False,True,False,Upper middle income,39472,8.726,2.850
+BRA,True,False,False,Upper middle income,19290994,8.461,4.068
+TLS,False,True,True,Lower middle income,16088,8.458,2.593
+CHL,True,False,False,High income,2972317,8.317,4.169
+ECU,True,False,False,Upper middle income,1078663,8.277,3.753
+URY,True,False,False,High income,693815,8.129,5.598
+BLZ,False,True,False,Upper middle income,27019,8.122,4.509
+NZL,True,False,False,High income,2142894,8.115,7.260
+KWT,True,False,False,High income,1254571,7.980,4.823
+DMA,False,True,False,Upper middle income,5612,7.752,3.974
+GHA,True,False,False,Lower middle income,876815,7.677,3.163
+BEN,False,False,True,Lower middle income,186921,7.609,2.910
+COL,True,False,False,Upper middle income,3462813,7.570,2.918
+MDG,True,False,True,Low income,147830,7.534,2.449
+VNM,True,False,False,Upper middle income,3872217,7.523,2.340
+LBN,False,False,False,Lower middle income,192969,7.430,2.789
+PER,True,False,False,Upper middle income,2467691,7.369,4.033
+CIV,True,False,False,Lower middle income,728911,7.306,2.972
+GRC,True,False,False,High income,2036157,7.256,4.430
+GRD,False,True,False,Upper middle income,10083,7.100,4.322
+ERI,False,False,True,Low income,14649,7.094,
+LBY,False,False,False,Upper middle income,337951,7.026,3.196
+KNA,False,True,False,High income,7986,6.748,4.885
+BRB,False,True,False,High income,51805,6.462,7.474
+HND,True,False,False,Lower middle income,255298,6.447,3.143
+VCT,False,True,False,Upper middle income,8053,6.416,3.757
+SOM,False,False,True,Low income,80976,6.231,2.655
+THA,True,False,False,Upper middle income,3569188,6.186,1.999
+CRI,True,False,False,High income,601511,5.845,3.716
+STP,False,True,True,Lower middle income,5676,5.785,3.841
+BEL,True,False,False,High income,4189857,5.775,4.760
+GTM,True,False,False,Upper middle income,702169,5.695,2.650
+ESP,True,False,False,High income,10834813,5.683,3.820
+IDN,True,False,False,Upper middle income,8133897,5.626,1.742
+VEN,True,False,False,Lower middle income,540929,5.428,
+BHR,True,False,False,High income,263756,5.387,2.469
+PHL,True,False,False,Upper middle income,2546776,5.229,1.861
+IRQ,True,False,False,Upper middle income,1280525,5.034,1.920
+CYP,True,False,False,High income,201893,4.897,3.293
+GNB,False,True,True,Low income,12293,4.863,1.805
+PRT,True,False,False,High income,1685456,4.862,3.001
+EST,True,False,False,High income,224284,4.769,3.243
+TZA,True,False,True,Lower middle income,429721,4.767,1.530
+JOR,True,False,False,Upper middle income,292707,4.751,2.126
+SAU,True,False,False,High income,5934302,4.647,2.337
+ISL,False,False,False,High income,170276,4.413,5.272
+JPN,True,False,False,High income,18867462,4.254,2.810
+KEN,True,False,False,Lower middle income,575422,4.233,1.533
+NLD,True,False,False,High income,5620245,4.217,3.665
+ARG,True,False,False,Upper middle income,2778458,4.067,1.995
+NIC,True,False,False,Lower middle income,90390,4.065,1.499
+YEM,False,False,True,Low income,86769,4.016,
+LVA,True,False,False,High income,188563,3.878,2.303
+SLV,True,False,False,Upper middle income,136643,3.722,1.626
+TUR,True,False,False,Upper middle income,5004674,3.133,1.297
+IND,True,False,False,Lower middle income,12241077,3.094,0.787
+TUN,True,False,False,Lower middle income,175729,3.056,0.984
+BGD,True,False,True,Lower middle income,1380718,3.026,0.823
+DZA,True,False,False,Upper middle income,859989,2.996,1.041
+COD,False,False,True,Low income,261105,2.868,1.311
+CHN,True,False,False,Upper middle income,55320135,2.837,1.447
+MEX,True,False,False,Upper middle income,5145480,2.808,1.523
+GUY,False,True,False,High income,73703,2.720,1.105
+SVN,True,False,False,High income,214884,2.698,1.755
+PAK,True,False,False,Lower middle income,1082626,2.658,0.688
+LTU,True,False,False,High income,250977,2.636,1.560
+MMR,False,False,True,Lower middle income,211344,2.588,0.646
+HTI,False,True,True,Lower middle income,81235,2.532,2.178
+DNK,True,False,False,High income,1139881,2.464,2.356
+CAN,True,False,False,High income,5706654,2.460,2.112
+SDN,False,False,True,Low income,140372,2.333,1.313
+KHM,False,False,True,Lower middle income,119214,2.325,0.847
+MNE,False,False,False,Upper middle income,21066,2.282,0.992
+GEO,True,False,False,Upper middle income,80808,2.119,0.771
+RUS,True,False,False,High income,5313676,2.075,0.763
+NOR,True,False,False,High income,975683,1.838,1.657
+HRV,True,False,False,High income,174981,1.666,0.913
+FIN,True,False,False,High income,475935,1.501,1.300
+SWE,True,False,False,High income,994494,1.487,1.321
+ITA,True,False,False,High income,3736576,1.464,1.017
+IRN,True,False,False,Upper middle income,525861,1.450,0.289
+CUB,False,True,False,Upper middle income,154110,1.436,
+UKR,True,False,False,Upper middle income,261116,1.219,0.396
+USA,True,False,False,High income,36550743,1.188,1.248
+ISR,True,False,False,High income,705276,1.155,1.231
+GBR,True,False,False,High income,4359597,1.089,1.001
+ALB,True,False,False,Upper middle income,33261,1.089,0.524
+FRA,True,False,False,High income,3305407,0.982,0.771
+SYR,True,False,False,Low income,19569,0.824,
+BGR,True,False,False,High income,95574,0.731,0.354
+POL,True,False,False,High income,609306,0.588,0.325
+DEU,True,False,False,High income,2822381,0.559,0.457
+IRL,True,False,False,High income,344417,0.477,0.453
+ROU,True,False,False,High income,204284,0.477,0.218
+TKM,False,False,False,Upper middle income,5684,0.114,0.036
+AZE,False,False,False,Upper middle income,5295,0.070,0.021
+PRY,True,False,False,Upper middle income,366,0.007,0.003
+KAZ,False,False,False,Upper middle income,1611,0.005,0.002
+MDA,False,False,False,Upper middle income,17,0.001,0.000

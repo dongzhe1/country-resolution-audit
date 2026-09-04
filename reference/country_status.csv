@@ -1,0 +1,250 @@
+iso3,name,ldc,landlocked,sids,development
+ABW,Aruba,FALSE,FALSE,TRUE,Developing
+AFG,Afghanistan,TRUE,TRUE,FALSE,Developing
+AGO,Angola,TRUE,FALSE,FALSE,Developing
+AIA,Anguilla,FALSE,FALSE,TRUE,Developing
+ALA,Åland Islands,FALSE,FALSE,FALSE,Developed
+ALB,Albania,FALSE,FALSE,FALSE,Developed
+AND,Andorra,FALSE,FALSE,FALSE,Developed
+ARE,United Arab Emirates,FALSE,FALSE,FALSE,Developing
+ARG,Argentina,FALSE,FALSE,FALSE,Developing
+ARM,Armenia,FALSE,TRUE,FALSE,Developing
+ASM,American Samoa,FALSE,FALSE,TRUE,Developing
+ATA,Antarctica,FALSE,FALSE,FALSE,
+ATF,French Southern Territories,FALSE,FALSE,FALSE,Developing
+ATG,Antigua and Barbuda,FALSE,FALSE,TRUE,Developing
+AUS,Australia,FALSE,FALSE,FALSE,Developed
+AUT,Austria,FALSE,FALSE,FALSE,Developed
+AZE,Azerbaijan,FALSE,TRUE,FALSE,Developing
+BDI,Burundi,TRUE,TRUE,FALSE,Developing
+BEL,Belgium,FALSE,FALSE,FALSE,Developed
+BEN,Benin,TRUE,FALSE,FALSE,Developing
+BES,"Bonaire, Sint Eustatius and Saba",FALSE,FALSE,TRUE,Developing
+BFA,Burkina Faso,TRUE,TRUE,FALSE,Developing
+BGD,Bangladesh,TRUE,FALSE,FALSE,Developing
+BGR,Bulgaria,FALSE,FALSE,FALSE,Developed
+BHR,Bahrain,FALSE,FALSE,FALSE,Developing
+BHS,Bahamas,FALSE,FALSE,TRUE,Developing
+BIH,Bosnia and Herzegovina,FALSE,FALSE,FALSE,Developed
+BLM,Saint Barthélemy,FALSE,FALSE,FALSE,Developing
+BLR,Belarus,FALSE,FALSE,FALSE,Developed
+BLZ,Belize,FALSE,FALSE,TRUE,Developing
+BMU,Bermuda,FALSE,FALSE,FALSE,Developed
+BOL,Bolivia (Plurinational State of),FALSE,TRUE,FALSE,Developing
+BRA,Brazil,FALSE,FALSE,FALSE,Developing
+BRB,Barbados,FALSE,FALSE,TRUE,Developing
+BRN,Brunei Darussalam,FALSE,FALSE,FALSE,Developing
+BTN,Bhutan,FALSE,TRUE,FALSE,Developing
+BVT,Bouvet Island,FALSE,FALSE,FALSE,Developing
+BWA,Botswana,FALSE,TRUE,FALSE,Developing
+CAF,Central African Republic,TRUE,TRUE,FALSE,Developing
+CAN,Canada,FALSE,FALSE,FALSE,Developed
+CCK,Cocos (Keeling) Islands,FALSE,FALSE,FALSE,Developed
+CHE,Switzerland,FALSE,FALSE,FALSE,Developed
+CHL,Chile,FALSE,FALSE,FALSE,Developing
+CHN,China,FALSE,FALSE,FALSE,Developing
+CIV,Côte d’Ivoire,FALSE,FALSE,FALSE,Developing
+CMR,Cameroon,FALSE,FALSE,FALSE,Developing
+COD,Democratic Republic of the Congo,TRUE,FALSE,FALSE,Developing
+COG,Congo,FALSE,FALSE,FALSE,Developing
+COK,Cook Islands,FALSE,FALSE,TRUE,Developing
+COL,Colombia,FALSE,FALSE,FALSE,Developing
+COM,Comoros,TRUE,FALSE,TRUE,Developing
+CPV,Cabo Verde,FALSE,FALSE,TRUE,Developing
+CRI,Costa Rica,FALSE,FALSE,FALSE,Developing
+CUB,Cuba,FALSE,FALSE,TRUE,Developing
+CUW,Curaçao,FALSE,FALSE,TRUE,Developing
+CXR,Christmas Island,FALSE,FALSE,FALSE,Developed
+CYM,Cayman Islands,FALSE,FALSE,FALSE,Developing
+CYP,Cyprus,FALSE,FALSE,FALSE,Developed
+CZE,Czechia,FALSE,FALSE,FALSE,Developed
+DEU,Germany,FALSE,FALSE,FALSE,Developed
+DJI,Djibouti,TRUE,FALSE,FALSE,Developing
+DMA,Dominica,FALSE,FALSE,TRUE,Developing
+DNK,Denmark,FALSE,FALSE,FALSE,Developed
+DOM,Dominican Republic,FALSE,FALSE,TRUE,Developing
+DZA,Algeria,FALSE,FALSE,FALSE,Developing
+ECU,Ecuador,FALSE,FALSE,FALSE,Developing
+EGY,Egypt,FALSE,FALSE,FALSE,Developing
+ERI,Eritrea,TRUE,FALSE,FALSE,Developing
+ESH,Western Sahara,FALSE,FALSE,FALSE,Developing
+ESP,Spain,FALSE,FALSE,FALSE,Developed
+EST,Estonia,FALSE,FALSE,FALSE,Developed
+ETH,Ethiopia,TRUE,TRUE,FALSE,Developing
+FIN,Finland,FALSE,FALSE,FALSE,Developed
+FJI,Fiji,FALSE,FALSE,TRUE,Developing
+FLK,Falkland Islands (Malvinas),FALSE,FALSE,FALSE,Developing
+FRA,France,FALSE,FALSE,FALSE,Developed
+FRO,Faroe Islands,FALSE,FALSE,FALSE,Developed
+FSM,Micronesia (Federated States of),FALSE,FALSE,TRUE,Developing
+GAB,Gabon,FALSE,FALSE,FALSE,Developing
+GBR,United Kingdom of Great Britain and Northern Ireland,FALSE,FALSE,FALSE,Developed
+GEO,Georgia,FALSE,FALSE,FALSE,Developing
+GGY,Guernsey,FALSE,FALSE,FALSE,Developed
+GHA,Ghana,FALSE,FALSE,FALSE,Developing
+GIB,Gibraltar,FALSE,FALSE,FALSE,Developed
+GIN,Guinea,TRUE,FALSE,FALSE,Developing
+GLP,Guadeloupe,FALSE,FALSE,FALSE,Developing
+GMB,Gambia,TRUE,FALSE,FALSE,Developing
+GNB,Guinea-Bissau,TRUE,FALSE,TRUE,Developing
+GNQ,Equatorial Guinea,FALSE,FALSE,FALSE,Developing
+GRC,Greece,FALSE,FALSE,FALSE,Developed
+GRD,Grenada,FALSE,FALSE,TRUE,Developing
+GRL,Greenland,FALSE,FALSE,FALSE,Developed
+GTM,Guatemala,FALSE,FALSE,FALSE,Developing
+GUF,French Guiana,FALSE,FALSE,FALSE,Developing
+GUM,Guam,FALSE,FALSE,TRUE,Developing
+GUY,Guyana,FALSE,FALSE,TRUE,Developing
+HKG,"China, Hong Kong Special Administrative Region",FALSE,FALSE,FALSE,Developing
+HMD,Heard Island and McDonald Islands,FALSE,FALSE,FALSE,Developed
+HND,Honduras,FALSE,FALSE,FALSE,Developing
+HRV,Croatia,FALSE,FALSE,FALSE,Developed
+HTI,Haiti,TRUE,FALSE,TRUE,Developing
+HUN,Hungary,FALSE,FALSE,FALSE,Developed
+IDN,Indonesia,FALSE,FALSE,FALSE,Developing
+IMN,Isle of Man,FALSE,FALSE,FALSE,Developed
+IND,India,FALSE,FALSE,FALSE,Developing
+IOT,British Indian Ocean Territory,FALSE,FALSE,FALSE,Developing
+IRL,Ireland,FALSE,FALSE,FALSE,Developed
+IRN,Iran (Islamic Republic of),FALSE,FALSE,FALSE,Developing
+IRQ,Iraq,FALSE,FALSE,FALSE,Developing
+ISL,Iceland,FALSE,FALSE,FALSE,Developed
+ISO-alpha3 Code,Country or Area,TRUE,TRUE,TRUE,Developed / Developing Countries
+ISR,Israel,FALSE,FALSE,FALSE,Developed
+ITA,Italy,FALSE,FALSE,FALSE,Developed
+JAM,Jamaica,FALSE,FALSE,TRUE,Developing
+JEY,Jersey,FALSE,FALSE,FALSE,Developed
+JOR,Jordan,FALSE,FALSE,FALSE,Developing
+JPN,Japan,FALSE,FALSE,FALSE,Developed
+KAZ,Kazakhstan,FALSE,TRUE,FALSE,Developing
+KEN,Kenya,FALSE,FALSE,FALSE,Developing
+KGZ,Kyrgyzstan,FALSE,TRUE,FALSE,Developing
+KHM,Cambodia,TRUE,FALSE,FALSE,Developing
+KIR,Kiribati,TRUE,FALSE,TRUE,Developing
+KNA,Saint Kitts and Nevis,FALSE,FALSE,TRUE,Developing
+KOR,Republic of Korea,FALSE,FALSE,FALSE,Developing
+KWT,Kuwait,FALSE,FALSE,FALSE,Developing
+LAO,Lao People's Democratic Republic,TRUE,TRUE,FALSE,Developing
+LBN,Lebanon,FALSE,FALSE,FALSE,Developing
+LBR,Liberia,TRUE,FALSE,FALSE,Developing
+LBY,Libya,FALSE,FALSE,FALSE,Developing
+LCA,Saint Lucia,FALSE,FALSE,TRUE,Developing
+LIE,Liechtenstein,FALSE,FALSE,FALSE,Developed
+LKA,Sri Lanka,FALSE,FALSE,FALSE,Developing
+LSO,Lesotho,TRUE,TRUE,FALSE,Developing
+LTU,Lithuania,FALSE,FALSE,FALSE,Developed
+LUX,Luxembourg,FALSE,FALSE,FALSE,Developed
+LVA,Latvia,FALSE,FALSE,FALSE,Developed
+MAC,"China, Macao Special Administrative Region",FALSE,FALSE,FALSE,Developing
+MAF,Saint Martin (French Part),FALSE,FALSE,FALSE,Developing
+MAR,Morocco,FALSE,FALSE,FALSE,Developing
+MCO,Monaco,FALSE,FALSE,FALSE,Developed
+MDA,Republic of Moldova,FALSE,TRUE,FALSE,Developed
+MDG,Madagascar,TRUE,FALSE,FALSE,Developing
+MDV,Maldives,FALSE,FALSE,TRUE,Developing
+MEX,Mexico,FALSE,FALSE,FALSE,Developing
+MHL,Marshall Islands,FALSE,FALSE,TRUE,Developing
+MKD,North Macedonia,FALSE,TRUE,FALSE,Developed
+MLI,Mali,TRUE,TRUE,FALSE,Developing
+MLT,Malta,FALSE,FALSE,FALSE,Developed
+MMR,Myanmar,TRUE,FALSE,FALSE,Developing
+MNE,Montenegro,FALSE,FALSE,FALSE,Developed
+MNG,Mongolia,FALSE,TRUE,FALSE,Developing
+MNP,Northern Mariana Islands,FALSE,FALSE,TRUE,Developing
+MOZ,Mozambique,TRUE,FALSE,FALSE,Developing
+MRT,Mauritania,TRUE,FALSE,FALSE,Developing
+MSR,Montserrat,FALSE,FALSE,TRUE,Developing
+MTQ,Martinique,FALSE,FALSE,FALSE,Developing
+MUS,Mauritius,FALSE,FALSE,TRUE,Developing
+MWI,Malawi,TRUE,TRUE,FALSE,Developing
+MYS,Malaysia,FALSE,FALSE,FALSE,Developing
+MYT,Mayotte,FALSE,FALSE,FALSE,Developing
+NAM,Namibia,FALSE,FALSE,FALSE,Developing
+NCL,New Caledonia,FALSE,FALSE,TRUE,Developing
+NER,Niger,TRUE,TRUE,FALSE,Developing
+NFK,Norfolk Island,FALSE,FALSE,FALSE,Developed
+NGA,Nigeria,FALSE,FALSE,FALSE,Developing
+NIC,Nicaragua,FALSE,FALSE,FALSE,Developing
+NIU,Niue,FALSE,FALSE,TRUE,Developing
+NLD,Netherlands (Kingdom of the),FALSE,FALSE,FALSE,Developed
+NOR,Norway,FALSE,FALSE,FALSE,Developed
+NPL,Nepal,TRUE,TRUE,FALSE,Developing
+NRU,Naoero,FALSE,FALSE,TRUE,Developing
+NZL,New Zealand,FALSE,FALSE,FALSE,Developed
+OMN,Oman,FALSE,FALSE,FALSE,Developing
+PAK,Pakistan,FALSE,FALSE,FALSE,Developing
+PAN,Panama,FALSE,FALSE,FALSE,Developing
+PCN,Pitcairn,FALSE,FALSE,FALSE,Developing
+PER,Peru,FALSE,FALSE,FALSE,Developing
+PHL,Philippines,FALSE,FALSE,FALSE,Developing
+PLW,Palau,FALSE,FALSE,TRUE,Developing
+PNG,Papua New Guinea,FALSE,FALSE,TRUE,Developing
+POL,Poland,FALSE,FALSE,FALSE,Developed
+PRI,Puerto Rico,FALSE,FALSE,TRUE,Developing
+PRK,Democratic People's Republic of Korea,FALSE,FALSE,FALSE,Developing
+PRT,Portugal,FALSE,FALSE,FALSE,Developed
+PRY,Paraguay,FALSE,TRUE,FALSE,Developing
+PSE,State of Palestine,FALSE,FALSE,FALSE,Developing
+PYF,French Polynesia,FALSE,FALSE,TRUE,Developing
+QAT,Qatar,FALSE,FALSE,FALSE,Developing
+REU,Réunion,FALSE,FALSE,FALSE,Developing
+ROU,Romania,FALSE,FALSE,FALSE,Developed
+RUS,Russian Federation,FALSE,FALSE,FALSE,Developed
+RWA,Rwanda,TRUE,TRUE,FALSE,Developing
+SAU,Saudi Arabia,FALSE,FALSE,FALSE,Developing
+SDN,Sudan,TRUE,FALSE,FALSE,Developing
+SEN,Senegal,TRUE,FALSE,FALSE,Developing
+SGP,Singapore,FALSE,FALSE,TRUE,Developing
+SGS,South Georgia and the South Sandwich Islands,FALSE,FALSE,FALSE,Developing
+SHN,Saint Helena,FALSE,FALSE,FALSE,Developing
+SJM,Svalbard and Jan Mayen Islands,FALSE,FALSE,FALSE,Developed
+SLB,Solomon Islands,TRUE,FALSE,TRUE,Developing
+SLE,Sierra Leone,TRUE,FALSE,FALSE,Developing
+SLV,El Salvador,FALSE,FALSE,FALSE,Developing
+SMR,San Marino,FALSE,FALSE,FALSE,Developed
+SOM,Somalia,TRUE,FALSE,FALSE,Developing
+SPM,Saint Pierre and Miquelon,FALSE,FALSE,FALSE,Developed
+SRB,Serbia,FALSE,FALSE,FALSE,Developed
+SSD,South Sudan,TRUE,TRUE,FALSE,Developing
+STP,Sao Tome and Principe,FALSE,FALSE,TRUE,Developing
+SUR,Suriname,FALSE,FALSE,TRUE,Developing
+SVK,Slovakia,FALSE,FALSE,FALSE,Developed
+SVN,Slovenia,FALSE,FALSE,FALSE,Developed
+SWE,Sweden,FALSE,FALSE,FALSE,Developed
+SWZ,Eswatini,FALSE,TRUE,FALSE,Developing
+SXM,Sint Maarten (Dutch part),FALSE,FALSE,TRUE,Developing
+SYC,Seychelles,FALSE,FALSE,TRUE,Developing
+SYR,Syrian Arab Republic,FALSE,FALSE,FALSE,Developing
+TCA,Turks and Caicos Islands,FALSE,FALSE,FALSE,Developing
+TCD,Chad,TRUE,TRUE,FALSE,Developing
+TGO,Togo,TRUE,FALSE,FALSE,Developing
+THA,Thailand,FALSE,FALSE,FALSE,Developing
+TJK,Tajikistan,FALSE,TRUE,FALSE,Developing
+TKL,Tokelau,FALSE,FALSE,FALSE,Developing
+TKM,Turkmenistan,FALSE,TRUE,FALSE,Developing
+TLS,Timor-Leste,TRUE,FALSE,TRUE,Developing
+TON,Tonga,FALSE,FALSE,TRUE,Developing
+TTO,Trinidad and Tobago,FALSE,FALSE,TRUE,Developing
+TUN,Tunisia,FALSE,FALSE,FALSE,Developing
+TUR,Türkiye,FALSE,FALSE,FALSE,Developing
+TUV,Tuvalu,TRUE,FALSE,TRUE,Developing
+TZA,United Republic of Tanzania,TRUE,FALSE,FALSE,Developing
+UGA,Uganda,TRUE,TRUE,FALSE,Developing
+UKR,Ukraine,FALSE,FALSE,FALSE,Developed
+UMI,United States Minor Outlying Islands,FALSE,FALSE,FALSE,Developing
+URY,Uruguay,FALSE,FALSE,FALSE,Developing
+USA,United States of America,FALSE,FALSE,FALSE,Developed
+UZB,Uzbekistan,FALSE,TRUE,FALSE,Developing
+VAT,Holy See,FALSE,FALSE,FALSE,Developed
+VCT,Saint Vincent and the Grenadines,FALSE,FALSE,TRUE,Developing
+VEN,Venezuela (Bolivarian Republic of),FALSE,FALSE,FALSE,Developing
+VGB,British Virgin Islands,FALSE,FALSE,TRUE,Developing
+VIR,United States Virgin Islands,FALSE,FALSE,TRUE,Developing
+VNM,Viet Nam,FALSE,FALSE,FALSE,Developing
+VUT,Vanuatu,FALSE,FALSE,TRUE,Developing
+WLF,Wallis and Futuna Islands,FALSE,FALSE,FALSE,Developing
+WSM,Samoa,FALSE,FALSE,TRUE,Developing
+YEM,Yemen,TRUE,FALSE,FALSE,Developing
+ZAF,South Africa,FALSE,FALSE,FALSE,Developing
+ZMB,Zambia,TRUE,TRUE,FALSE,Developing
+ZWE,Zimbabwe,FALSE,TRUE,FALSE,Developing

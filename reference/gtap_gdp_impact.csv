@@ -1,0 +1,1664 @@
+scenario,gtap_region,resolution,gdp_2030,gdp_2040,gdp_2050
+21,Albania,individual,-0.054,-0.153,-0.16
+21,Algeria,individual,-0.119,-0.295,-0.351
+21,Argentina,individual,-0.038,-0.097,-0.114
+21,Armenia,individual,-0.04,-0.1,-0.126
+21,Australia,individual,-0.093,-0.242,-0.292
+21,Bahrain,individual,-0.109,-0.318,-0.365
+21,Bangladesh,individual,-0.083,-0.268,-0.301
+21,Belgium,individual,-0.067,-0.171,-0.198
+21,Bolivia (Plurinational State of),individual,-0.018,-0.049,-0.056
+21,Botswana,individual,-0.019,-0.05,-0.05
+21,Brazil,individual,-0.052,-0.12,-0.139
+21,Brunei Darussalam,individual,-0.067,-0.229,-0.249
+21,Bulgaria,individual,-0.097,-0.241,-0.284
+21,Cameroon,individual,-0.075,-0.205,-0.229
+21,Canada,individual,-0.036,-0.098,-0.117
+21,Chile,individual,-0.179,-0.428,-0.499
+21,China,individual,-0.055,-0.151,-0.179
+21,Colombia,individual,-0.092,-0.224,-0.251
+21,Costa Rica,individual,-0.163,-0.392,-0.424
+21,Croatia,individual,-0.028,-0.08,-0.089
+21,Cyprus,individual,-0.073,-0.202,-0.226
+21,Côte d'Ivoire,individual,-0.102,-0.284,-0.316
+21,Denmark,individual,-0.03,-0.083,-0.095
+21,Dominican Republic,individual,-0.088,-0.246,-0.269
+21,Ecuador,individual,-0.126,-0.291,-0.317
+21,Egypt,individual,-0.11,-0.342,-0.408
+21,El Salvador,individual,-0.112,-0.284,-0.307
+21,Equatorial Guinea,individual,0.002,0.008,0.023
+21,Estonia,individual,-0.051,-0.129,-0.15
+21,Eswatini,individual,-0.021,-0.051,-0.054
+21,Finland,individual,-0.048,-0.124,-0.146
+21,France,individual,-0.017,-0.044,-0.05
+21,Gabon,individual,-0.127,-0.333,-0.406
+21,Georgia,individual,-0.066,-0.186,-0.216
+21,Germany,individual,-0.026,-0.069,-0.081
+21,Ghana,individual,-0.094,-0.265,-0.304
+21,Greece,individual,-0.047,-0.118,-0.135
+21,Guatemala,individual,-0.138,-0.314,-0.341
+21,Honduras,individual,-0.189,-0.475,-0.518
+21,India,individual,-0.044,-0.127,-0.151
+21,Indonesia,individual,-0.081,-0.227,-0.285
+21,Iran (Islamic Republic of),individual,-0.024,-0.083,-0.094
+21,Iraq,individual,-0.047,-0.148,-0.173
+21,Ireland,individual,-0.027,-0.078,-0.087
+21,Israel,individual,-0.053,-0.147,-0.166
+21,Italy,individual,-0.029,-0.079,-0.088
+21,Japan,individual,-0.042,-0.114,-0.135
+21,Jordan,individual,-0.025,-0.071,-0.083
+21,Kenya,individual,-0.185,-0.449,-0.494
+21,Kuwait,individual,-0.048,-0.156,-0.17
+21,Latvia,individual,-0.059,-0.147,-0.172
+21,Lithuania,individual,-0.057,-0.144,-0.16
+21,Madagascar,individual,-0.136,-0.372,-0.415
+21,Malaysia,individual,-0.104,-0.31,-0.363
+21,Malta,individual,-0.191,-0.58,-0.629
+21,Mauritius,individual,-0.1,-0.24,-0.26
+21,Mexico,individual,-0.033,-0.096,-0.117
+21,Morocco,individual,-0.105,-0.283,-0.325
+21,Namibia,individual,-0.028,-0.066,-0.069
+21,Netherlands (Kingdom of the),individual,-0.033,-0.087,-0.1
+21,New Zealand,individual,-0.114,-0.284,-0.312
+21,Nicaragua,individual,-0.165,-0.413,-0.448
+21,Nigeria,individual,-0.058,-0.164,-0.184
+21,Norway,individual,-0.023,-0.063,-0.076
+21,Oman,individual,-0.131,-0.389,-0.465
+21,Pakistan,individual,-0.056,-0.162,-0.185
+21,Panama,individual,-0.084,-0.256,-0.279
+21,Paraguay,individual,-0.075,-0.197,-0.223
+21,Peru,individual,-0.151,-0.362,-0.427
+21,Philippines,individual,-0.079,-0.24,-0.285
+21,Poland,individual,-0.025,-0.069,-0.081
+21,Portugal,individual,-0.054,-0.144,-0.163
+21,Qatar,individual,-0.126,-0.413,-0.454
+21,Republic of Korea,individual,-0.088,-0.253,-0.295
+21,Rest of American SIDS,aggregate,-0.152,-0.44,-0.479
+21,Rest of Asia,aggregate,-0.03,-0.1,-0.113
+21,Rest of Asian SIDS and LDCs,aggregate,-0.125,-0.372,-0.43
+21,Rest of Caribbean,aggregate,-0.078,-0.206,-0.23
+21,Rest of Europe,aggregate,-0.021,-0.059,-0.067
+21,Rest of LDC in Africa,aggregate,-0.109,-0.299,-0.343
+21,Rest of Middle East and North Africa,aggregate,-0.077,-0.2,-0.216
+21,Rest of Oceania,aggregate,-0.18,-0.472,-0.531
+21,Rest of Western Africa,aggregate,-0.28,-0.783,-0.927
+21,Rest of developing economies in Europe and Central Asia,aggregate,-0.029,-0.084,-0.096
+21,Rest of landlocked economies in Africa,aggregate,-0.048,-0.126,-0.138
+21,Rest of the world,aggregate,-0.026,-0.072,-0.079
+21,Romania,individual,-0.024,-0.062,-0.072
+21,Russian Federation,individual,-0.035,-0.089,-0.106
+21,Saudi Arabia,individual,-0.093,-0.26,-0.29
+21,Serbia,individual,-0.025,-0.063,-0.072
+21,Singapore,individual,-0.079,-0.227,-0.254
+21,Slovenia,individual,-0.044,-0.125,-0.139
+21,South Africa,individual,-0.101,-0.233,-0.268
+21,Spain,individual,-0.045,-0.119,-0.137
+21,Sri Lanka,individual,-0.061,-0.173,-0.192
+21,Sweden,individual,-0.03,-0.079,-0.094
+21,Syrian Arab Republic,individual,-0.072,-0.195,-0.21
+21,Thailand,individual,-0.083,-0.24,-0.279
+21,Trinidad and Tobago,individual,-0.145,-0.398,-0.43
+21,Tunisia,individual,-0.104,-0.286,-0.324
+21,Türkiye,individual,-0.083,-0.22,-0.259
+21,Ukraine,individual,-0.093,-0.213,-0.258
+21,United Arab Emirates,individual,-0.097,-0.287,-0.321
+21,United Kingdom of Great Britain and Northern Ireland,individual,-0.034,-0.091,-0.104
+21,United Republic of Tanzania,individual,-0.131,-0.328,-0.359
+21,United States of America,individual,-0.018,-0.051,-0.058
+21,Uruguay,individual,-0.091,-0.218,-0.251
+21,Uzbekistan,individual,-0.014,-0.055,-0.061
+21,Venezuela (Bolivarian Republic of),individual,-0.031,-0.077,-0.086
+21,Viet Nam,individual,-0.242,-0.824,-0.981
+21,Zimbabwe,individual,-0.069,-0.165,-0.177
+22,Albania,individual,-0.053,-0.153,-0.161
+22,Algeria,individual,-0.108,-0.293,-0.353
+22,Argentina,individual,-0.036,-0.095,-0.115
+22,Armenia,individual,-0.036,-0.099,-0.128
+22,Australia,individual,-0.085,-0.239,-0.297
+22,Bahrain,individual,-0.103,-0.313,-0.371
+22,Bangladesh,individual,-0.078,-0.265,-0.308
+22,Belgium,individual,-0.062,-0.169,-0.199
+22,Bolivia (Plurinational State of),individual,-0.018,-0.048,-0.057
+22,Botswana,individual,-0.022,-0.048,-0.051
+22,Brazil,individual,-0.048,-0.118,-0.141
+22,Brunei Darussalam,individual,-0.065,-0.226,-0.253
+22,Bulgaria,individual,-0.088,-0.239,-0.286
+22,Cameroon,individual,-0.075,-0.201,-0.233
+22,Canada,individual,-0.034,-0.097,-0.119
+22,Chile,individual,-0.17,-0.422,-0.508
+22,China,individual,-0.051,-0.15,-0.182
+22,Colombia,individual,-0.089,-0.22,-0.257
+22,Costa Rica,individual,-0.161,-0.383,-0.431
+22,Croatia,individual,-0.026,-0.079,-0.09
+22,Cyprus,individual,-0.07,-0.201,-0.228
+22,Côte d'Ivoire,individual,-0.103,-0.278,-0.32
+22,Denmark,individual,-0.028,-0.082,-0.096
+22,Dominican Republic,individual,-0.086,-0.241,-0.273
+22,Ecuador,individual,-0.125,-0.285,-0.323
+22,Egypt,individual,-0.102,-0.34,-0.415
+22,El Salvador,individual,-0.108,-0.278,-0.312
+22,Equatorial Guinea,individual,0.002,0.011,0.024
+22,Estonia,individual,-0.047,-0.127,-0.15
+22,Eswatini,individual,-0.022,-0.05,-0.055
+22,Finland,individual,-0.044,-0.122,-0.147
+22,France,individual,-0.015,-0.043,-0.051
+22,Gabon,individual,-0.12,-0.329,-0.413
+22,Georgia,individual,-0.063,-0.184,-0.218
+22,Germany,individual,-0.025,-0.067,-0.082
+22,Ghana,individual,-0.093,-0.26,-0.31
+22,Greece,individual,-0.043,-0.117,-0.136
+22,Guatemala,individual,-0.134,-0.307,-0.346
+22,Honduras,individual,-0.184,-0.466,-0.527
+22,India,individual,-0.041,-0.126,-0.154
+22,Indonesia,individual,-0.073,-0.226,-0.29
+22,Iran (Islamic Republic of),individual,-0.024,-0.082,-0.095
+22,Iraq,individual,-0.046,-0.146,-0.182
+22,Ireland,individual,-0.025,-0.077,-0.089
+22,Israel,individual,-0.05,-0.146,-0.169
+22,Italy,individual,-0.027,-0.078,-0.089
+22,Japan,individual,-0.039,-0.112,-0.136
+22,Jordan,individual,-0.024,-0.071,-0.084
+22,Kenya,individual,-0.185,-0.44,-0.505
+22,Kuwait,individual,-0.045,-0.155,-0.174
+22,Latvia,individual,-0.054,-0.144,-0.173
+22,Lithuania,individual,-0.052,-0.142,-0.161
+22,Madagascar,individual,-0.136,-0.364,-0.425
+22,Malaysia,individual,-0.093,-0.309,-0.368
+22,Malta,individual,-0.186,-0.574,-0.635
+22,Mauritius,individual,-0.1,-0.235,-0.266
+22,Mexico,individual,-0.031,-0.095,-0.12
+22,Morocco,individual,-0.098,-0.282,-0.33
+22,Namibia,individual,-0.03,-0.064,-0.07
+22,Netherlands (Kingdom of the),individual,-0.03,-0.086,-0.101
+22,New Zealand,individual,-0.113,-0.278,-0.318
+22,Nicaragua,individual,-0.162,-0.404,-0.457
+22,Nigeria,individual,-0.058,-0.16,-0.188
+22,Norway,individual,-0.02,-0.062,-0.077
+22,Oman,individual,-0.123,-0.385,-0.472
+22,Pakistan,individual,-0.053,-0.16,-0.189
+22,Panama,individual,-0.075,-0.255,-0.286
+22,Paraguay,individual,-0.074,-0.193,-0.228
+22,Peru,individual,-0.142,-0.358,-0.434
+22,Philippines,individual,-0.072,-0.239,-0.289
+22,Poland,individual,-0.024,-0.068,-0.081
+22,Portugal,individual,-0.05,-0.142,-0.165
+22,Qatar,individual,-0.121,-0.406,-0.46
+22,Republic of Korea,individual,-0.081,-0.25,-0.298
+22,Rest of American SIDS,aggregate,-0.148,-0.432,-0.49
+22,Rest of Asia,aggregate,-0.029,-0.098,-0.115
+22,Rest of Asian SIDS and LDCs,aggregate,-0.115,-0.369,-0.439
+22,Rest of Caribbean,aggregate,-0.075,-0.203,-0.233
+22,Rest of Europe,aggregate,-0.02,-0.059,-0.068
+22,Rest of LDC in Africa,aggregate,-0.105,-0.293,-0.35
+22,Rest of Middle East and North Africa,aggregate,-0.073,-0.199,-0.218
+22,Rest of Oceania,aggregate,-0.173,-0.465,-0.542
+22,Rest of Western Africa,aggregate,-0.257,-0.779,-0.951
+22,Rest of developing economies in Europe and Central Asia,aggregate,-0.028,-0.083,-0.098
+22,Rest of landlocked economies in Africa,aggregate,-0.048,-0.123,-0.141
+22,Rest of the world,aggregate,-0.023,-0.072,-0.081
+22,Romania,individual,-0.023,-0.061,-0.073
+22,Russian Federation,individual,-0.032,-0.087,-0.107
+22,Saudi Arabia,individual,-0.085,-0.258,-0.295
+22,Serbia,individual,-0.023,-0.062,-0.073
+22,Singapore,individual,-0.07,-0.225,-0.257
+22,Slovenia,individual,-0.043,-0.123,-0.14
+22,South Africa,individual,-0.1,-0.227,-0.271
+22,Spain,individual,-0.042,-0.117,-0.138
+22,Sri Lanka,individual,-0.057,-0.171,-0.196
+22,Sweden,individual,-0.028,-0.078,-0.095
+22,Syrian Arab Republic,individual,-0.07,-0.194,-0.212
+22,Thailand,individual,-0.078,-0.237,-0.282
+22,Trinidad and Tobago,individual,-0.137,-0.393,-0.435
+22,Tunisia,individual,-0.096,-0.285,-0.327
+22,Türkiye,individual,-0.077,-0.217,-0.262
+22,Ukraine,individual,-0.085,-0.21,-0.26
+22,United Arab Emirates,individual,-0.094,-0.282,-0.325
+22,United Kingdom of Great Britain and Northern Ireland,individual,-0.032,-0.09,-0.106
+22,United Republic of Tanzania,individual,-0.132,-0.321,-0.366
+22,United States of America,individual,-0.017,-0.051,-0.059
+22,Uruguay,individual,-0.087,-0.214,-0.254
+22,Uzbekistan,individual,-0.014,-0.054,-0.061
+22,Venezuela (Bolivarian Republic of),individual,-0.029,-0.076,-0.088
+22,Viet Nam,individual,-0.222,-0.825,-1.003
+22,Zimbabwe,individual,-0.068,-0.161,-0.179
+23,Albania,individual,-0.043,-0.153,-0.159
+23,Algeria,individual,-0.089,-0.295,-0.344
+23,Argentina,individual,-0.031,-0.095,-0.113
+23,Armenia,individual,-0.035,-0.098,-0.123
+23,Australia,individual,-0.071,-0.235,-0.288
+23,Bahrain,individual,-0.074,-0.322,-0.361
+23,Bangladesh,individual,-0.065,-0.257,-0.296
+23,Belgium,individual,-0.051,-0.168,-0.193
+23,Bolivia (Plurinational State of),individual,-0.014,-0.044,-0.054
+23,Botswana,individual,-0.014,-0.053,-0.053
+23,Brazil,individual,-0.043,-0.117,-0.136
+23,Brunei Darussalam,individual,-0.054,-0.225,-0.244
+23,Bulgaria,individual,-0.073,-0.239,-0.279
+23,Cameroon,individual,-0.057,-0.207,-0.23
+23,Canada,individual,-0.031,-0.093,-0.114
+23,Chile,individual,-0.141,-0.411,-0.488
+23,China,individual,-0.045,-0.149,-0.176
+23,Colombia,individual,-0.069,-0.213,-0.246
+23,Costa Rica,individual,-0.12,-0.375,-0.416
+23,Croatia,individual,-0.022,-0.08,-0.087
+23,Cyprus,individual,-0.054,-0.203,-0.224
+23,Côte d'Ivoire,individual,-0.077,-0.289,-0.318
+23,Denmark,individual,-0.023,-0.083,-0.094
+23,Dominican Republic,individual,-0.066,-0.239,-0.267
+23,Ecuador,individual,-0.094,-0.28,-0.31
+23,Egypt,individual,-0.086,-0.349,-0.403
+23,El Salvador,individual,-0.084,-0.271,-0.3
+23,Equatorial Guinea,individual,0.0,0.009,0.023
+23,Estonia,individual,-0.037,-0.128,-0.147
+23,Eswatini,individual,-0.016,-0.05,-0.054
+23,Finland,individual,-0.036,-0.123,-0.143
+23,France,individual,-0.013,-0.043,-0.049
+23,Gabon,individual,-0.102,-0.328,-0.402
+23,Georgia,individual,-0.049,-0.188,-0.214
+23,Germany,individual,-0.02,-0.068,-0.08
+23,Ghana,individual,-0.072,-0.266,-0.304
+23,Greece,individual,-0.035,-0.117,-0.132
+23,Guatemala,individual,-0.102,-0.294,-0.33
+23,Honduras,individual,-0.141,-0.451,-0.505
+23,India,individual,-0.033,-0.124,-0.149
+23,Indonesia,individual,-0.068,-0.227,-0.28
+23,Iran (Islamic Republic of),individual,-0.018,-0.085,-0.093
+23,Iraq,individual,-0.031,-0.145,-0.174
+23,Ireland,individual,-0.02,-0.078,-0.086
+23,Israel,individual,-0.039,-0.148,-0.165
+23,Italy,individual,-0.022,-0.079,-0.087
+23,Japan,individual,-0.034,-0.113,-0.132
+23,Jordan,individual,-0.019,-0.071,-0.082
+23,Kenya,individual,-0.147,-0.438,-0.491
+23,Kuwait,individual,-0.031,-0.159,-0.171
+23,Latvia,individual,-0.042,-0.146,-0.168
+23,Lithuania,individual,-0.043,-0.141,-0.155
+23,Madagascar,individual,-0.104,-0.366,-0.413
+23,Malaysia,individual,-0.085,-0.31,-0.356
+23,Malta,individual,-0.145,-0.585,-0.626
+23,Mauritius,individual,-0.078,-0.23,-0.256
+23,Mexico,individual,-0.027,-0.093,-0.116
+23,Morocco,individual,-0.079,-0.286,-0.322
+23,Namibia,individual,-0.02,-0.066,-0.07
+23,Netherlands (Kingdom of the),individual,-0.025,-0.086,-0.098
+23,New Zealand,individual,-0.087,-0.273,-0.306
+23,Nicaragua,individual,-0.121,-0.394,-0.439
+23,Nigeria,individual,-0.043,-0.166,-0.186
+23,Norway,individual,-0.016,-0.063,-0.075
+23,Oman,individual,-0.096,-0.392,-0.46
+23,Pakistan,individual,-0.042,-0.157,-0.182
+23,Panama,individual,-0.068,-0.249,-0.273
+23,Paraguay,individual,-0.061,-0.189,-0.219
+23,Peru,individual,-0.121,-0.348,-0.417
+23,Philippines,individual,-0.064,-0.241,-0.28
+23,Poland,individual,-0.019,-0.069,-0.079
+23,Portugal,individual,-0.042,-0.142,-0.16
+23,Qatar,individual,-0.089,-0.416,-0.45
+23,Republic of Korea,individual,-0.07,-0.253,-0.29
+23,Rest of American SIDS,aggregate,-0.113,-0.427,-0.477
+23,Rest of Asia,aggregate,-0.023,-0.102,-0.112
+23,Rest of Asian SIDS and LDCs,aggregate,-0.093,-0.365,-0.424
+23,Rest of Caribbean,aggregate,-0.059,-0.202,-0.227
+23,Rest of Europe,aggregate,-0.016,-0.059,-0.066
+23,Rest of LDC in Africa,aggregate,-0.084,-0.294,-0.34
+23,Rest of Middle East and North Africa,aggregate,-0.058,-0.2,-0.214
+23,Rest of Oceania,aggregate,-0.137,-0.459,-0.523
+23,Rest of Western Africa,aggregate,-0.225,-0.784,-0.926
+23,Rest of developing economies in Europe and Central Asia,aggregate,-0.022,-0.085,-0.096
+23,Rest of landlocked economies in Africa,aggregate,-0.036,-0.123,-0.137
+23,Rest of the world,aggregate,-0.017,-0.067,-0.076
+23,Romania,individual,-0.019,-0.061,-0.071
+23,Russian Federation,individual,-0.026,-0.088,-0.104
+23,Saudi Arabia,individual,-0.061,-0.256,-0.286
+23,Serbia,individual,-0.02,-0.062,-0.071
+23,Singapore,individual,-0.059,-0.225,-0.249
+23,Slovenia,individual,-0.033,-0.126,-0.138
+23,South Africa,individual,-0.076,-0.227,-0.265
+23,Spain,individual,-0.034,-0.119,-0.135
+23,Sri Lanka,individual,-0.045,-0.163,-0.187
+23,Sweden,individual,-0.023,-0.079,-0.093
+23,Syrian Arab Republic,individual,-0.054,-0.195,-0.207
+23,Thailand,individual,-0.065,-0.237,-0.275
+23,Trinidad and Tobago,individual,-0.109,-0.392,-0.427
+23,Tunisia,individual,-0.08,-0.287,-0.32
+23,Türkiye,individual,-0.065,-0.219,-0.255
+23,Ukraine,individual,-0.072,-0.21,-0.252
+23,United Arab Emirates,individual,-0.07,-0.288,-0.318
+23,United Kingdom of Great Britain and Northern Ireland,individual,-0.026,-0.091,-0.103
+23,United Republic of Tanzania,individual,-0.101,-0.324,-0.358
+23,United States of America,individual,-0.015,-0.049,-0.057
+23,Uruguay,individual,-0.076,-0.21,-0.246
+23,Uzbekistan,individual,-0.01,-0.057,-0.06
+23,Venezuela (Bolivarian Republic of),individual,-0.024,-0.073,-0.083
+23,Viet Nam,individual,-0.2,-0.82,-0.967
+23,Zimbabwe,individual,-0.054,-0.159,-0.174
+24,Albania,individual,-0.047,-0.152,-0.158
+24,Algeria,individual,-0.092,-0.28,-0.344
+24,Argentina,individual,-0.028,-0.095,-0.114
+24,Armenia,individual,-0.032,-0.098,-0.125
+24,Australia,individual,-0.058,-0.235,-0.291
+24,Bahrain,individual,-0.077,-0.306,-0.363
+24,Bangladesh,individual,-0.069,-0.251,-0.297
+24,Belgium,individual,-0.05,-0.162,-0.194
+24,Bolivia (Plurinational State of),individual,-0.014,-0.045,-0.054
+24,Botswana,individual,-0.014,-0.065,-0.059
+24,Brazil,individual,-0.037,-0.116,-0.137
+24,Brunei Darussalam,individual,-0.058,-0.218,-0.244
+24,Bulgaria,individual,-0.075,-0.23,-0.28
+24,Cameroon,individual,-0.055,-0.222,-0.239
+24,Canada,individual,-0.029,-0.093,-0.116
+24,Chile,individual,-0.128,-0.419,-0.498
+24,China,individual,-0.043,-0.145,-0.177
+24,Colombia,individual,-0.066,-0.22,-0.252
+24,Costa Rica,individual,-0.117,-0.397,-0.432
+24,Croatia,individual,-0.023,-0.077,-0.087
+24,Cyprus,individual,-0.058,-0.196,-0.224
+24,Côte d'Ivoire,individual,-0.076,-0.311,-0.334
+24,Denmark,individual,-0.024,-0.08,-0.094
+24,Dominican Republic,individual,-0.066,-0.249,-0.275
+24,Ecuador,individual,-0.089,-0.296,-0.322
+24,Egypt,individual,-0.089,-0.33,-0.406
+24,El Salvador,individual,-0.083,-0.281,-0.31
+24,Equatorial Guinea,individual,0.0,0.003,0.026
+24,Estonia,individual,-0.038,-0.122,-0.148
+24,Eswatini,individual,-0.015,-0.055,-0.057
+24,Finland,individual,-0.036,-0.117,-0.144
+24,France,individual,-0.013,-0.042,-0.049
+24,Gabon,individual,-0.091,-0.337,-0.411
+24,Georgia,individual,-0.052,-0.181,-0.215
+24,Germany,individual,-0.02,-0.067,-0.081
+24,Ghana,individual,-0.068,-0.281,-0.314
+24,Greece,individual,-0.036,-0.112,-0.131
+24,Guatemala,individual,-0.1,-0.306,-0.339
+24,Honduras,individual,-0.139,-0.468,-0.519
+24,India,individual,-0.031,-0.123,-0.151
+24,Indonesia,individual,-0.064,-0.215,-0.283
+24,Iran (Islamic Republic of),individual,-0.021,-0.079,-0.093
+24,Iraq,individual,-0.032,-0.144,-0.179
+24,Ireland,individual,-0.021,-0.074,-0.087
+24,Israel,individual,-0.041,-0.143,-0.165
+24,Italy,individual,-0.023,-0.077,-0.087
+24,Japan,individual,-0.033,-0.108,-0.132
+24,Jordan,individual,-0.02,-0.069,-0.082
+24,Kenya,individual,-0.134,-0.469,-0.51
+24,Kuwait,individual,-0.036,-0.145,-0.168
+24,Latvia,individual,-0.044,-0.138,-0.169
+24,Lithuania,individual,-0.043,-0.134,-0.156
+24,Madagascar,individual,-0.096,-0.39,-0.432
+24,Malaysia,individual,-0.083,-0.292,-0.356
+24,Malta,individual,-0.16,-0.565,-0.621
+24,Mauritius,individual,-0.07,-0.244,-0.263
+24,Mexico,individual,-0.026,-0.092,-0.117
+24,Morocco,individual,-0.081,-0.274,-0.322
+24,Namibia,individual,-0.019,-0.076,-0.076
+24,Netherlands (Kingdom of the),individual,-0.025,-0.082,-0.098
+24,New Zealand,individual,-0.081,-0.286,-0.315
+24,Nicaragua,individual,-0.12,-0.414,-0.456
+24,Nigeria,individual,-0.041,-0.18,-0.193
+24,Norway,individual,-0.016,-0.058,-0.075
+24,Oman,individual,-0.1,-0.374,-0.462
+24,Pakistan,individual,-0.043,-0.155,-0.183
+24,Panama,individual,-0.061,-0.242,-0.279
+24,Paraguay,individual,-0.052,-0.196,-0.225
+24,Peru,individual,-0.107,-0.354,-0.425
+24,Philippines,individual,-0.064,-0.228,-0.281
+24,Poland,individual,-0.019,-0.066,-0.08
+24,Portugal,individual,-0.042,-0.139,-0.161
+24,Qatar,individual,-0.103,-0.393,-0.446
+24,Republic of Korea,individual,-0.071,-0.239,-0.289
+24,Rest of American SIDS,aggregate,-0.109,-0.443,-0.491
+24,Rest of Asia,aggregate,-0.026,-0.095,-0.111
+24,Rest of Asian SIDS and LDCs,aggregate,-0.101,-0.348,-0.425
+24,Rest of Caribbean,aggregate,-0.057,-0.207,-0.235
+24,Rest of Europe,aggregate,-0.017,-0.058,-0.066
+24,Rest of LDC in Africa,aggregate,-0.081,-0.302,-0.348
+24,Rest of Middle East and North Africa,aggregate,-0.063,-0.194,-0.213
+24,Rest of Oceania,aggregate,-0.127,-0.469,-0.536
+24,Rest of Western Africa,aggregate,-0.204,-0.793,-0.94
+24,Rest of developing economies in Europe and Central Asia,aggregate,-0.023,-0.082,-0.096
+24,Rest of landlocked economies in Africa,aggregate,-0.036,-0.128,-0.142
+24,Rest of the world,aggregate,-0.021,-0.063,-0.076
+24,Romania,individual,-0.019,-0.059,-0.071
+24,Russian Federation,individual,-0.026,-0.083,-0.104
+24,Saudi Arabia,individual,-0.069,-0.239,-0.285
+24,Serbia,individual,-0.02,-0.061,-0.071
+24,Singapore,individual,-0.059,-0.212,-0.247
+24,Slovenia,individual,-0.035,-0.125,-0.14
+24,South Africa,individual,-0.07,-0.243,-0.275
+24,Spain,individual,-0.035,-0.115,-0.136
+24,Sri Lanka,individual,-0.048,-0.16,-0.188
+24,Sweden,individual,-0.023,-0.076,-0.093
+24,Syrian Arab Republic,individual,-0.061,-0.19,-0.207
+24,Thailand,individual,-0.066,-0.229,-0.275
+24,Trinidad and Tobago,individual,-0.107,-0.388,-0.426
+24,Tunisia,individual,-0.084,-0.275,-0.319
+24,Türkiye,individual,-0.063,-0.212,-0.256
+24,Ukraine,individual,-0.07,-0.203,-0.254
+24,United Arab Emirates,individual,-0.075,-0.28,-0.319
+24,United Kingdom of Great Britain and Northern Ireland,individual,-0.026,-0.088,-0.104
+24,United Republic of Tanzania,individual,-0.093,-0.348,-0.371
+24,United States of America,individual,-0.014,-0.048,-0.057
+24,Uruguay,individual,-0.066,-0.217,-0.251
+24,Uzbekistan,individual,-0.014,-0.053,-0.06
+24,Venezuela (Bolivarian Republic of),individual,-0.022,-0.073,-0.085
+24,Viet Nam,individual,-0.202,-0.782,-0.975
+24,Zimbabwe,individual,-0.049,-0.171,-0.182
+26,"(Bolivarian     Developing economies, LDCs and SIDS",individual,-0.035,-0.05,-0.05
+26,"(Kingdom of    Developing economies, LDCs and SIDS",individual,-0.067,-0.099,-0.105
+26,"(Plurinational   Developing economies, LDCs and SIDS",individual,-0.005,-0.006,-0.004
+26,Africa         All economies,individual,0.618,1.063,1.303
+26,Albania,individual,-0.047,-0.152,-0.158
+26,Albania          SIDS and LDCs,individual,-0.068,-0.141,-0.139
+26,Algeria,individual,-0.092,-0.28,-0.344
+26,Algeria           SIDS and LDCs,individual,-0.146,-0.228,-0.243
+26,"American        Developing economies, LDCs and SIDS",individual,-0.205,-0.314,-0.307
+26,Argentina,individual,-0.028,-0.095,-0.114
+26,Argentina        SIDS and LDCs,individual,-0.049,-0.072,-0.077
+26,Armenia,individual,-0.032,-0.098,-0.125
+26,Armenia          SIDS and LDCs,individual,-0.024,-0.033,-0.038
+26,Australia,individual,-0.058,-0.235,-0.291
+26,Australia        SIDS and LDCs,individual,-0.121,-0.187,-0.203
+26,Bahrain,individual,-0.077,-0.306,-0.363
+26,Bahrain          SIDS and LDCs,individual,-0.131,-0.189,-0.188
+26,Bangladesh,individual,-0.069,-0.251,-0.297
+26,Bangladesh       SIDS and LDCs,individual,-0.115,-0.182,-0.182
+26,Belgium,individual,-0.05,-0.162,-0.194
+26,Belgium          SIDS and LDCs,individual,-0.146,-0.219,-0.236
+26,Bolivia          SIDS and LDCs,individual,-0.01,-0.015,-0.013
+26,Bolivia (Plurinational State of),individual,-0.014,-0.045,-0.054
+26,Botswana,individual,-0.014,-0.065,-0.059
+26,Botswana         SIDS and LDCs,individual,0.0,0.003,0.016
+26,Brazil,individual,-0.037,-0.116,-0.137
+26,Brazil           SIDS and LDCs,individual,-0.076,-0.107,-0.114
+26,Brunei           SIDS and LDCs,individual,-0.101,-0.13,-0.118
+26,Brunei Darussalam,individual,-0.058,-0.218,-0.244
+26,Bulgaria,individual,-0.075,-0.23,-0.28
+26,Bulgaria         SIDS and LDCs,individual,-0.117,-0.175,-0.185
+26,Cameroon,individual,-0.055,-0.222,-0.239
+26,Cameroon          SIDS and LDCs,individual,-0.102,-0.148,-0.141
+26,Canada,individual,-0.029,-0.093,-0.116
+26,Canada            SIDS and LDCs,individual,-0.075,-0.113,-0.125
+26,"Caribbean       Developing economies, LDCs and SIDS",individual,-0.088,-0.129,-0.13
+26,Chile,individual,-0.128,-0.419,-0.498
+26,Chile             SIDS and LDCs,individual,-0.231,-0.347,-0.368
+26,China,individual,-0.043,-0.145,-0.177
+26,China             SIDS and LDCs,individual,-0.08,-0.112,-0.12
+26,Colombia,individual,-0.066,-0.22,-0.252
+26,Colombia          SIDS and LDCs,individual,-0.122,-0.184,-0.186
+26,Costa Rica,individual,-0.117,-0.397,-0.432
+26,Costa Rica        SIDS and LDCs,individual,-0.227,-0.338,-0.335
+26,Croatia,individual,-0.023,-0.077,-0.087
+26,Croatia         SIDS and LDCs,individual,-0.074,-0.114,-0.122
+26,Cyprus,individual,-0.058,-0.196,-0.224
+26,Cyprus            SIDS and LDCs,individual,-0.1,-0.162,-0.165
+26,Côte d'Ivoire,individual,-0.076,-0.311,-0.334
+26,Côte d'Ivoire     SIDS and LDCs,individual,-0.121,-0.173,-0.159
+26,"Darussalam       Developing economies, LDCs and SIDS",individual,-0.103,-0.132,-0.122
+26,Denmark,individual,-0.024,-0.08,-0.094
+26,Denmark           SIDS and LDCs,individual,-0.088,-0.135,-0.147
+26,Dominican         SIDS and LDCs,individual,-0.087,-0.132,-0.123
+26,Dominican Republic,individual,-0.066,-0.249,-0.275
+26,Ecuador,individual,-0.089,-0.296,-0.322
+26,Ecuador           SIDS and LDCs,individual,-0.169,-0.246,-0.243
+26,Egypt,individual,-0.089,-0.33,-0.406
+26,Egypt             SIDS and LDCs,individual,-0.137,-0.214,-0.215
+26,El Salvador,individual,-0.083,-0.281,-0.31
+26,El Salvador      SIDS and LDCs,individual,-0.159,-0.235,-0.233
+26,"Emirates         Developing economies, LDCs and SIDS",individual,-0.061,-0.077,-0.057
+26,Equatorial      SIDS and LDCs,individual,0.022,0.052,0.076
+26,Equatorial Guinea,individual,0.0,0.003,0.026
+26,Estonia,individual,-0.038,-0.122,-0.148
+26,Estonia         SIDS and LDCs,individual,-0.12,-0.193,-0.21
+26,Eswatini,individual,-0.015,-0.055,-0.057
+26,Eswatini        SIDS and LDCs,individual,-0.003,0.0,0.008
+26,"Europe          Developing economies, LDCs and SIDS",individual,0.042,0.074,0.09
+26,"Federation       Developing economies, LDCs and SIDS",individual,-0.025,-0.035,-0.035
+26,Finland,individual,-0.036,-0.117,-0.144
+26,Finland         SIDS and LDCs,individual,-0.082,-0.123,-0.133
+26,France,individual,-0.013,-0.042,-0.049
+26,France          SIDS and LDCs,individual,-0.038,-0.055,-0.059
+26,Gabon,individual,-0.091,-0.337,-0.411
+26,Gabon           SIDS and LDCs,individual,-0.136,-0.201,-0.218
+26,Georgia,individual,-0.052,-0.181,-0.215
+26,Georgia         SIDS and LDCs,individual,-0.052,-0.084,-0.082
+26,Germany,individual,-0.02,-0.067,-0.081
+26,Germany           SIDS and LDCs,individual,-0.029,-0.04,-0.043
+26,Ghana,individual,-0.068,-0.281,-0.314
+26,Ghana           SIDS and LDCs,individual,-0.097,-0.141,-0.133
+26,Great Britain   All economies,individual,-0.042,-0.061,-0.062
+26,Greece,individual,-0.036,-0.112,-0.131
+26,Greece          SIDS and LDCs,individual,-0.092,-0.134,-0.142
+26,Guatemala,individual,-0.1,-0.306,-0.339
+26,Guatemala       SIDS and LDCs,individual,-0.18,-0.261,-0.259
+26,"Guinea          Developing economies, LDCs and SIDS",individual,-0.014,-0.004,0.011
+26,Honduras,individual,-0.139,-0.468,-0.519
+26,Honduras        SIDS and LDCs,individual,-0.233,-0.339,-0.324
+26,India,individual,-0.031,-0.123,-0.151
+26,India             SIDS and LDCs,individual,-0.039,-0.057,-0.057
+26,Indonesia,individual,-0.064,-0.215,-0.283
+26,Indonesia       SIDS and LDCs,individual,-0.112,-0.167,-0.188
+26,Iran (Islamic     SIDS and LDCs,individual,-0.023,-0.032,-0.028
+26,Iran (Islamic Republic of),individual,-0.021,-0.079,-0.093
+26,Iraq,individual,-0.032,-0.144,-0.179
+26,Iraq              SIDS and LDCs,individual,-0.034,-0.049,-0.018
+26,Ireland,individual,-0.021,-0.074,-0.087
+26,Ireland           SIDS and LDCs,individual,0.015,0.029,0.044
+26,Israel,individual,-0.041,-0.143,-0.165
+26,Israel            SIDS and LDCs,individual,-0.079,-0.115,-0.118
+26,Italy,individual,-0.023,-0.077,-0.087
+26,Italy             SIDS and LDCs,individual,-0.042,-0.063,-0.064
+26,Japan,individual,-0.033,-0.108,-0.132
+26,Japan             SIDS and LDCs,individual,-0.056,-0.08,-0.085
+26,Jordan,individual,-0.02,-0.069,-0.082
+26,Jordan            SIDS and LDCs,individual,0.025,0.043,0.055
+26,Kenya,individual,-0.134,-0.469,-0.51
+26,Kenya             SIDS and LDCs,individual,-0.166,-0.244,-0.228
+26,"Kingdom of      Developing economies, LDCs and SIDS",individual,-0.045,-0.065,-0.067
+26,"Korea            Developing economies, LDCs and SIDS",individual,-0.109,-0.155,-0.16
+26,Kuwait,individual,-0.036,-0.145,-0.168
+26,Kuwait            SIDS and LDCs,individual,-0.019,-0.023,-0.004
+26,LDCs            All economies,individual,-0.001,0.016,0.044
+26,Latvia,individual,-0.044,-0.138,-0.169
+26,Latvia            SIDS and LDCs,individual,-0.155,-0.248,-0.272
+26,Lithuania,individual,-0.043,-0.134,-0.156
+26,Lithuania         SIDS and LDCs,individual,-0.11,-0.169,-0.177
+26,Madagascar,individual,-0.096,-0.39,-0.432
+26,Madagascar     SIDS and LDCs,individual,0.155,0.24,0.273
+26,Malaysia,individual,-0.083,-0.292,-0.356
+26,Malaysia       SIDS and LDCs,individual,-0.087,-0.101,-0.089
+26,Malta,individual,-0.16,-0.565,-0.621
+26,Malta          SIDS and LDCs,individual,-0.398,-0.659,-0.69
+26,Mauritius,individual,-0.07,-0.244,-0.263
+26,Mauritius      SIDS and LDCs,individual,-0.067,-0.095,-0.085
+26,Mexico,individual,-0.026,-0.092,-0.117
+26,Mexico         SIDS and LDCs,individual,-0.061,-0.096,-0.107
+26,"Middle East     Developing economies, LDCs and SIDS",individual,-0.066,-0.107,-0.103
+26,Morocco,individual,-0.081,-0.274,-0.322
+26,Morocco           SIDS and LDCs,individual,-0.113,-0.175,-0.175
+26,Namibia,individual,-0.019,-0.076,-0.076
+26,Namibia        SIDS and LDCs,individual,0.055,0.096,0.122
+26,Netherlands    SIDS and LDCs,individual,-0.069,-0.103,-0.11
+26,Netherlands (Kingdom of the),individual,-0.025,-0.082,-0.098
+26,New Zealand,individual,-0.081,-0.286,-0.315
+26,New Zealand    SIDS and LDCs,individual,-0.163,-0.241,-0.242
+26,Nicaragua,individual,-0.12,-0.414,-0.456
+26,Nicaragua      SIDS and LDCs,individual,-0.184,-0.264,-0.246
+26,Nigeria,individual,-0.041,-0.18,-0.193
+26,Nigeria        SIDS and LDCs,individual,-0.074,-0.113,-0.107
+26,Norway,individual,-0.016,-0.058,-0.075
+26,Norway         SIDS and LDCs,individual,-0.02,-0.031,-0.033
+26,"Oceania         Developing economies, LDCs and SIDS",individual,-0.084,-0.101,-0.081
+26,Oman,individual,-0.1,-0.374,-0.462
+26,Oman           SIDS and LDCs,individual,-0.153,-0.235,-0.244
+26,Pakistan,individual,-0.043,-0.155,-0.183
+26,Pakistan       SIDS and LDCs,individual,-0.065,-0.099,-0.097
+26,Panama,individual,-0.061,-0.242,-0.279
+26,Panama         SIDS and LDCs,individual,-0.161,-0.246,-0.248
+26,Paraguay,individual,-0.052,-0.196,-0.225
+26,Paraguay         SIDS and LDCs,individual,-0.093,-0.142,-0.145
+26,Peru,individual,-0.107,-0.354,-0.425
+26,Peru             SIDS and LDCs,individual,-0.2,-0.3,-0.323
+26,Philippines,individual,-0.064,-0.228,-0.281
+26,Philippines      SIDS and LDCs,individual,-0.094,-0.123,-0.123
+26,Poland,individual,-0.019,-0.066,-0.08
+26,Poland           SIDS and LDCs,individual,-0.027,-0.039,-0.039
+26,Portugal,individual,-0.042,-0.139,-0.161
+26,Portugal         SIDS and LDCs,individual,-0.075,-0.108,-0.111
+26,Qatar,individual,-0.103,-0.393,-0.446
+26,Qatar            SIDS and LDCs,individual,-0.202,-0.31,-0.301
+26,"Republic          Developing economies, LDCs and SIDS",individual,-0.116,-0.177,-0.171
+26,"Republic        Developing economies, LDCs and SIDS",individual,-0.608,-0.927,-0.935
+26,Republic of      SIDS and LDCs,individual,-0.111,-0.159,-0.164
+26,"Republic of     Developing economies, LDCs and SIDS",individual,0.016,0.033,0.046
+26,Republic of Korea,individual,-0.071,-0.239,-0.289
+26,"Republic of)      Developing economies, LDCs and SIDS",individual,-0.029,-0.042,-0.04
+26,Republic of)    All economies,individual,-0.036,-0.051,-0.051
+26,Rest of         SIDS and LDCs,aggregate,0.407,0.591,0.629
+26,Rest of        SIDS and LDCs,aggregate,3.555,5.77,7.096
+26,Rest of American SIDS,aggregate,-0.109,-0.443,-0.491
+26,Rest of Asia,aggregate,-0.026,-0.095,-0.111
+26,Rest of Asia    SIDS and LDCs,aggregate,-0.016,-0.019,-0.012
+26,Rest of Asian   SIDS and LDCs,aggregate,0.552,0.854,1.012
+26,Rest of Asian SIDS and LDCs,aggregate,-0.101,-0.348,-0.425
+26,Rest of Caribbean,aggregate,-0.057,-0.207,-0.235
+26,Rest of Europe,aggregate,-0.017,-0.058,-0.066
+26,Rest of LDC in Africa,aggregate,-0.081,-0.302,-0.348
+26,Rest of LDCs   SIDS and LDCs,aggregate,0.18,0.246,0.283
+26,Rest of Middle East and North Africa,aggregate,-0.063,-0.194,-0.213
+26,Rest of Oceania,aggregate,-0.127,-0.469,-0.536
+26,Rest of Western Africa,aggregate,-0.204,-0.793,-0.94
+26,Rest of developing economies in Europe and Central Asia,aggregate,-0.023,-0.082,-0.096
+26,Rest of landlocked economies in Africa,aggregate,-0.036,-0.128,-0.142
+26,Rest of the     SIDS and LDCs,aggregate,-0.056,-0.087,-0.091
+26,Rest of the world,aggregate,-0.021,-0.063,-0.076
+26,Romania,individual,-0.019,-0.059,-0.071
+26,Romania          SIDS and LDCs,individual,0.012,0.025,0.033
+26,Russian          SIDS and LDCs,individual,-0.025,-0.036,-0.036
+26,Russian Federation,individual,-0.026,-0.083,-0.104
+26,SIDS            All economies,individual,-0.208,-0.318,-0.311
+26,"SIDS and        Developing economies, LDCs and SIDS",individual,0.017,0.042,0.073
+26,Saudi Arabia,individual,-0.069,-0.239,-0.285
+26,Saudi Arabia     SIDS and LDCs,individual,-0.103,-0.152,-0.143
+26,Serbia,individual,-0.02,-0.061,-0.071
+26,Serbia           SIDS and LDCs,individual,-0.002,0.005,0.011
+26,Singapore,individual,-0.059,-0.212,-0.247
+26,Singapore        SIDS and LDCs,individual,-0.075,-0.094,-0.086
+26,Slovenia,individual,-0.035,-0.125,-0.14
+26,Slovenia         SIDS and LDCs,individual,-0.111,-0.172,-0.184
+26,South Africa,individual,-0.07,-0.243,-0.275
+26,South Africa    SIDS and LDCs,individual,-0.101,-0.148,-0.151
+26,Spain,individual,-0.035,-0.115,-0.136
+26,Spain           SIDS and LDCs,individual,-0.059,-0.088,-0.091
+26,Sri Lanka,individual,-0.048,-0.16,-0.188
+26,Sri Lanka         SIDS and LDCs,individual,-0.096,-0.141,-0.141
+26,State of)        All economies,individual,-0.006,-0.007,-0.005
+26,Sweden,individual,-0.023,-0.076,-0.093
+26,Sweden          SIDS and LDCs,individual,-0.042,-0.061,-0.066
+26,Syrian Arab     SIDS and LDCs,individual,-0.054,-0.097,-0.088
+26,Syrian Arab Republic,individual,-0.061,-0.19,-0.207
+26,Tanzania        All economies,individual,-0.002,0.006,0.018
+26,Thailand,individual,-0.066,-0.229,-0.275
+26,Thailand        SIDS and LDCs,individual,-0.079,-0.103,-0.101
+26,"Tobago          Developing economies, LDCs and SIDS",individual,-0.235,-0.342,-0.338
+26,Trinidad and    SIDS and LDCs,individual,-0.209,-0.305,-0.299
+26,Trinidad and Tobago,individual,-0.107,-0.388,-0.426
+26,Tunisia,individual,-0.084,-0.275,-0.319
+26,Tunisia         SIDS and LDCs,individual,-0.106,-0.161,-0.156
+26,Türkiye,individual,-0.063,-0.212,-0.256
+26,Türkiye         SIDS and LDCs,individual,-0.09,-0.134,-0.139
+26,Ukraine,individual,-0.07,-0.203,-0.254
+26,Ukraine         SIDS and LDCs,individual,-0.139,-0.205,-0.226
+26,United          SIDS and LDCs,individual,0.538,0.801,0.84
+26,United Arab      SIDS and LDCs,individual,-0.044,-0.051,-0.027
+26,United Arab Emirates,individual,-0.075,-0.28,-0.319
+26,United Kingdom of Great Britain and Northern Ireland,individual,-0.026,-0.088,-0.104
+26,United Republic of Tanzania,individual,-0.093,-0.348,-0.371
+26,United States   SIDS and LDCs,individual,-0.022,-0.031,-0.031
+26,United States of America,individual,-0.014,-0.048,-0.057
+26,Uruguay,individual,-0.066,-0.217,-0.251
+26,Uruguay         SIDS and LDCs,individual,-0.139,-0.204,-0.219
+26,Uzbekistan,individual,-0.014,-0.053,-0.06
+26,Uzbekistan      SIDS and LDCs,individual,-0.01,-0.012,-0.004
+26,Venezuela       SIDS and LDCs,individual,-0.04,-0.057,-0.057
+26,Venezuela (Bolivarian Republic of),individual,-0.022,-0.073,-0.085
+26,Viet Nam,individual,-0.202,-0.782,-0.975
+26,Viet Nam        SIDS and LDCs,individual,-0.255,-0.321,-0.302
+26,"Western        Developing economies, LDCs and SIDS",individual,0.721,1.226,1.491
+26,Zimbabwe,individual,-0.049,-0.171,-0.182
+26,Zimbabwe        SIDS and LDCs,individual,-0.053,-0.071,-0.061
+26,and North       All economies,individual,-0.069,-0.112,-0.108
+26,"developing      Developing economies, LDCs and SIDS",individual,-0.031,-0.049,-0.048
+26,economies in    All economies,individual,0.064,0.1,0.114
+26,"in Africa      Developing economies, LDCs and SIDS",individual,-0.062,-0.103,-0.099
+26,"landlocked      Developing economies, LDCs and SIDS",individual,0.075,0.116,0.131
+26,"of America      Developing economies, LDCs and SIDS",individual,-0.022,-0.031,-0.032
+26,the)           All economies,individual,-0.064,-0.095,-0.1
+31,"(Bolivarian     Developing economies, LDCs and SIDS",individual,-0.021,-0.059,-0.076
+31,"(Kingdom of      Developing economies, LDCs and SIDS",individual,-0.028,-0.075,-0.096
+31,"(Plurinational   Developing economies, LDCs and SIDS",individual,-0.009,-0.034,-0.046
+31,Africa         All economies,individual,-0.013,-0.399,-0.596
+31,Albania,individual,-0.047,-0.143,-0.155
+31,Albania          SIDS and LDCs,individual,-0.044,-0.14,-0.152
+31,Algeria,individual,-0.101,-0.265,-0.34
+31,Algeria           SIDS and LDCs,individual,-0.091,-0.253,-0.325
+31,"American        Developing economies, LDCs and SIDS",individual,-0.101,-0.343,-0.44
+31,Argentina,individual,-0.031,-0.082,-0.11
+31,Argentina        SIDS and LDCs,individual,-0.028,-0.078,-0.105
+31,Armenia,individual,-0.036,-0.089,-0.123
+31,Armenia          SIDS and LDCs,individual,-0.028,-0.08,-0.112
+31,Australia,individual,-0.065,-0.201,-0.284
+31,Australia        SIDS and LDCs,individual,-0.059,-0.192,-0.274
+31,Bahrain,individual,-0.086,-0.261,-0.346
+31,Bahrain          SIDS and LDCs,individual,-0.07,-0.241,-0.323
+31,Bangladesh,individual,-0.069,-0.219,-0.287
+31,Bangladesh       SIDS and LDCs,individual,-0.061,-0.208,-0.274
+31,Belgium,individual,-0.055,-0.145,-0.188
+31,Belgium          SIDS and LDCs,individual,-0.059,-0.15,-0.194
+31,Bolivia          SIDS and LDCs,individual,-0.011,-0.036,-0.048
+31,Bolivia (Plurinational State of),individual,-0.014,-0.04,-0.053
+31,Botswana,individual,-0.012,-0.043,-0.05
+31,Botswana         SIDS and LDCs,individual,-0.007,-0.036,-0.041
+31,Brazil,individual,-0.043,-0.101,-0.133
+31,Brazil           SIDS and LDCs,individual,-0.04,-0.098,-0.13
+31,Brunei           SIDS and LDCs,individual,-0.048,-0.176,-0.215
+31,Brunei Darussalam,individual,-0.06,-0.191,-0.233
+31,Bulgaria,individual,-0.081,-0.214,-0.275
+31,Bulgaria         SIDS and LDCs,individual,-0.072,-0.202,-0.261
+31,Cameroon,individual,-0.057,-0.174,-0.223
+31,Cameroon          SIDS and LDCs,individual,-0.05,-0.166,-0.213
+31,Canada,individual,-0.032,-0.084,-0.114
+31,Canada           SIDS and LDCs,individual,-0.034,-0.086,-0.116
+31,"Caribbean       Developing economies, LDCs and SIDS",individual,-0.052,-0.158,-0.207
+31,Central Asia,individual,-0.021,-0.068,-0.086
+31,Chile,individual,-0.14,-0.359,-0.479
+31,Chile             SIDS and LDCs,individual,-0.13,-0.346,-0.464
+31,China,individual,-0.047,-0.13,-0.173
+31,China             SIDS and LDCs,individual,-0.043,-0.124,-0.166
+31,Colombia,individual,-0.069,-0.184,-0.24
+31,Colombia          SIDS and LDCs,individual,-0.065,-0.179,-0.233
+31,Costa Rica,individual,-0.119,-0.321,-0.403
+31,Costa Rica        SIDS and LDCs,individual,-0.112,-0.312,-0.392
+31,Croatia,individual,-0.024,-0.07,-0.085
+31,Croatia           SIDS and LDCs,individual,-0.027,-0.074,-0.09
+31,Cyprus,individual,-0.062,-0.177,-0.218
+31,Cyprus            SIDS and LDCs,individual,-0.057,-0.17,-0.209
+31,Côte d'Ivoire,individual,-0.078,-0.242,-0.307
+31,Côte d'Ivoire     SIDS and LDCs,individual,-0.065,-0.226,-0.287
+31,"Darussalam       Developing economies, LDCs and SIDS",individual,-0.049,-0.176,-0.216
+31,Denmark,individual,-0.025,-0.072,-0.092
+31,Denmark           SIDS and LDCs,individual,-0.031,-0.079,-0.1
+31,Dominican         SIDS and LDCs,individual,-0.054,-0.186,-0.239
+31,Dominican Republic,individual,-0.066,-0.202,-0.258
+31,Ecuador,individual,-0.092,-0.239,-0.299
+31,Ecuador           SIDS and LDCs,individual,-0.086,-0.231,-0.29
+31,Egypt,individual,-0.096,-0.297,-0.397
+31,Egypt             SIDS and LDCs,individual,-0.084,-0.28,-0.375
+31,El Salvador,individual,-0.085,-0.232,-0.29
+31,El Salvador    SIDS and LDCs,individual,-0.078,-0.223,-0.28
+31,"Emirates         Developing economies, LDCs and SIDS",individual,-0.057,-0.206,-0.263
+31,Equatorial      SIDS and LDCs,individual,0.009,0.015,0.03
+31,Equatorial Guinea,individual,0.002,0.007,0.02
+31,Estonia,individual,-0.042,-0.115,-0.146
+31,Estonia           SIDS and LDCs,individual,-0.047,-0.122,-0.154
+31,Eswatini,individual,-0.015,-0.042,-0.052
+31,Eswatini        SIDS and LDCs,individual,-0.009,-0.035,-0.043
+31,"Europe          Developing economies, LDCs and SIDS",individual,-0.003,-0.033,-0.042
+31,"Federation     Developing economies, LDCs and SIDS",individual,-0.022,-0.069,-0.092
+31,Finland,individual,-0.04,-0.108,-0.141
+31,Finland           SIDS and LDCs,individual,-0.039,-0.107,-0.139
+31,France,individual,-0.014,-0.038,-0.048
+31,France            SIDS and LDCs,individual,-0.015,-0.039,-0.049
+31,Gabon,individual,-0.103,-0.285,-0.399
+31,Gabon             SIDS and LDCs,individual,-0.088,-0.265,-0.376
+31,Georgia,individual,-0.056,-0.164,-0.209
+31,Georgia           SIDS and LDCs,individual,-0.044,-0.148,-0.19
+31,Germany,individual,-0.022,-0.058,-0.078
+31,Germany           SIDS and LDCs,individual,-0.019,-0.054,-0.073
+31,Ghana,individual,-0.072,-0.224,-0.297
+31,Ghana             SIDS and LDCs,individual,-0.059,-0.206,-0.276
+31,Greece,individual,-0.039,-0.101,-0.126
+31,Greece            SIDS and LDCs,individual,-0.04,-0.101,-0.127
+31,Guatemala,individual,-0.101,-0.255,-0.319
+31,Guatemala         SIDS and LDCs,individual,-0.094,-0.246,-0.308
+31,"Guinea          Developing economies, LDCs and SIDS",individual,0.002,0.007,0.02
+31,Honduras,individual,-0.141,-0.389,-0.491
+31,Honduras          SIDS and LDCs,individual,-0.125,-0.369,-0.467
+31,India,individual,-0.034,-0.105,-0.147
+31,India             SIDS and LDCs,individual,-0.027,-0.095,-0.135
+31,Indonesia,individual,-0.07,-0.196,-0.278
+31,Indonesia         SIDS and LDCs,individual,-0.063,-0.187,-0.267
+31,Iran (Islamic     SIDS and LDCs,individual,-0.018,-0.062,-0.079
+31,Iran (Islamic Republic of),individual,-0.023,-0.068,-0.087
+31,Iraq,individual,-0.036,-0.119,-0.176
+31,Iraq              SIDS and LDCs,individual,-0.027,-0.107,-0.157
+31,Ireland,individual,-0.025,-0.073,-0.095
+31,Ireland           SIDS and LDCs,individual,-0.01,-0.053,-0.066
+31,Israel,individual,-0.045,-0.128,-0.16
+31,Israel            SIDS and LDCs,individual,-0.041,-0.122,-0.153
+31,Italy,individual,-0.025,-0.069,-0.084
+31,Italy             SIDS and LDCs,individual,-0.022,-0.066,-0.081
+31,Japan,individual,-0.036,-0.096,-0.129
+31,Japan             SIDS and LDCs,individual,-0.032,-0.09,-0.122
+31,Jordan,individual,-0.022,-0.063,-0.081
+31,Jordan            SIDS and LDCs,individual,-0.01,-0.047,-0.061
+31,Kenya,individual,-0.139,-0.373,-0.476
+31,Kenya             SIDS and LDCs,individual,-0.115,-0.343,-0.441
+31,"Kingdom of        Developing economies, LDCs and SIDS",individual,-0.025,-0.074,-0.095
+31,"Korea          Developing economies, LDCs and SIDS",individual,-0.064,-0.196,-0.261
+31,Kuwait,individual,-0.042,-0.126,-0.155
+31,Kuwait            SIDS and LDCs,individual,-0.028,-0.108,-0.133
+31,LDCs            All economies,individual,-0.06,-0.252,-0.346
+31,Latvia,individual,-0.048,-0.132,-0.167
+31,Latvia            SIDS and LDCs,individual,-0.058,-0.144,-0.181
+31,Lithuania,individual,-0.047,-0.125,-0.152
+31,Lithuania         SIDS and LDCs,individual,-0.048,-0.126,-0.153
+31,Madagascar,individual,-0.1,-0.305,-0.407
+31,Madagascar        SIDS and LDCs,individual,-0.029,-0.216,-0.31
+31,Malaysia,individual,-0.089,-0.263,-0.347
+31,Malaysia         SIDS and LDCs,individual,-0.065,-0.232,-0.31
+31,Malta,individual,-0.171,-0.51,-0.598
+31,Malta            SIDS and LDCs,individual,-0.176,-0.518,-0.607
+31,Mauritius,individual,-0.073,-0.197,-0.246
+31,Mauritius        SIDS and LDCs,individual,-0.056,-0.176,-0.223
+31,Mexico,individual,-0.029,-0.081,-0.115
+31,Mexico           SIDS and LDCs,individual,-0.029,-0.081,-0.115
+31,"Middle East     Developing economies, LDCs and SIDS",individual,-0.055,-0.166,-0.191
+31,Morocco,individual,-0.09,-0.249,-0.314
+31,Morocco           SIDS and LDCs,individual,-0.076,-0.232,-0.294
+31,Namibia,individual,-0.019,-0.055,-0.067
+31,Namibia          SIDS and LDCs,individual,-0.001,-0.032,-0.041
+31,Netherlands      SIDS and LDCs,individual,-0.028,-0.075,-0.097
+31,Netherlands (Kingdom of the),individual,-0.027,-0.074,-0.095
+31,New Zealand,individual,-0.085,-0.234,-0.295
+31,New Zealand      SIDS and LDCs,individual,-0.08,-0.227,-0.287
+31,Nicaragua,individual,-0.122,-0.338,-0.426
+31,Nicaragua        SIDS and LDCs,individual,-0.105,-0.316,-0.4
+31,Nigeria,individual,-0.044,-0.139,-0.182
+31,Nigeria          SIDS and LDCs,individual,-0.039,-0.132,-0.174
+31,Norway,individual,-0.018,-0.055,-0.074
+31,Norway           SIDS and LDCs,individual,-0.014,-0.05,-0.068
+31,"Oceania         Developing economies, LDCs and SIDS",individual,-0.093,-0.335,-0.445
+31,Oman,individual,-0.11,-0.323,-0.445
+31,Oman             SIDS and LDCs,individual,-0.092,-0.3,-0.417
+31,Pakistan,individual,-0.044,-0.132,-0.178
+31,Pakistan         SIDS and LDCs,individual,-0.037,-0.123,-0.168
+31,Panama,individual,-0.068,-0.204,-0.261
+31,Panama           SIDS and LDCs,individual,-0.066,-0.202,-0.259
+31,Paraguay,individual,-0.058,-0.163,-0.215
+31,Paraguay       SIDS and LDCs,individual,-0.052,-0.155,-0.206
+31,Peru,individual,-0.12,-0.305,-0.41
+31,Peru             SIDS and LDCs,individual,-0.112,-0.295,-0.398
+31,Philippines,individual,-0.069,-0.206,-0.275
+31,Philippines    SIDS and LDCs,individual,-0.056,-0.189,-0.254
+31,Poland,individual,-0.021,-0.061,-0.078
+31,Poland         SIDS and LDCs,individual,-0.017,-0.056,-0.072
+31,Portugal,individual,-0.045,-0.124,-0.156
+31,Portugal       SIDS and LDCs,individual,-0.04,-0.118,-0.149
+31,Qatar,individual,-0.112,-0.337,-0.418
+31,Qatar          SIDS and LDCs,individual,-0.099,-0.321,-0.399
+31,"Republic          Developing economies, LDCs and SIDS",individual,-0.059,-0.193,-0.246
+31,"Republic        Developing economies, LDCs and SIDS",individual,-0.139,-0.269,-0.293
+31,"Republic of     Developing economies, LDCs and SIDS",individual,-0.056,-0.223,-0.289
+31,Republic of    SIDS and LDCs,individual,-0.064,-0.197,-0.262
+31,Republic of Korea,individual,-0.077,-0.212,-0.28
+31,"Republic of)      Developing economies, LDCs and SIDS",individual,-0.019,-0.062,-0.08
+31,Republic of)    All economies,individual,-0.021,-0.06,-0.077
+31,Rest of         SIDS and LDCs,aggregate,0.052,0.002,-0.018
+31,Rest of        SIDS and LDCs,aggregate,0.565,0.31,0.303
+31,Rest of American SIDS,aggregate,-0.114,-0.36,-0.459
+31,Rest of Asia,aggregate,-0.029,-0.083,-0.105
+31,Rest of Asia    SIDS and LDCs,aggregate,-0.02,-0.072,-0.092
+31,Rest of Asian   SIDS and LDCs,aggregate,0.044,-0.125,-0.195
+31,Rest of Asian SIDS and LDCs,aggregate,-0.105,-0.308,-0.411
+31,Rest of Caribbean,aggregate,-0.061,-0.17,-0.22
+31,Rest of Europe,aggregate,-0.018,-0.051,-0.064
+31,Rest of LDC in Africa,aggregate,-0.086,-0.248,-0.332
+31,Rest of LDCs    SIDS and LDCs,aggregate,-0.016,-0.164,-0.238
+31,Rest of Middle East and North Africa,aggregate,-0.067,-0.181,-0.207
+31,Rest of Oceania,aggregate,-0.135,-0.388,-0.506
+31,Rest of Western Africa,aggregate,-0.22,-0.658,-0.91
+31,Rest of developing economies in Europe and Central Asia,aggregate,-0.025,-0.073,-0.092
+31,Rest of landlocked economies in Africa,aggregate,-0.037,-0.103,-0.131
+31,Rest of the     SIDS and LDCs,aggregate,-0.021,-0.058,-0.075
+31,Rest of the world,aggregate,-0.02,-0.057,-0.073
+31,Romania,individual,-0.021,-0.054,-0.07
+31,Romania        SIDS and LDCs,individual,-0.011,-0.042,-0.055
+31,Russian        SIDS and LDCs,individual,-0.022,-0.069,-0.093
+31,Russian Federation,individual,-0.029,-0.077,-0.102
+31,SIDS            All economies,individual,-0.102,-0.344,-0.44
+31,"SIDS and        Developing economies, LDCs and SIDS",individual,-0.057,-0.248,-0.341
+31,Saudi Arabia,individual,-0.077,-0.211,-0.268
+31,Saudi Arabia   SIDS and LDCs,individual,-0.065,-0.195,-0.249
+31,Serbia,individual,-0.022,-0.057,-0.07
+31,Serbia         SIDS and LDCs,individual,-0.014,-0.047,-0.058
+31,Singapore,individual,-0.066,-0.189,-0.237
+31,Singapore      SIDS and LDCs,individual,-0.049,-0.168,-0.213
+31,Slovenia,individual,-0.037,-0.109,-0.134
+31,Slovenia       SIDS and LDCs,individual,-0.041,-0.114,-0.141
+31,South Africa,individual,-0.075,-0.194,-0.259
+31,South Africa    SIDS and LDCs,individual,-0.065,-0.181,-0.244
+31,Spain,individual,-0.038,-0.103,-0.132
+31,Spain             SIDS and LDCs,individual,-0.034,-0.098,-0.125
+31,Sri Lanka,individual,-0.048,-0.14,-0.181
+31,Sri Lanka         SIDS and LDCs,individual,-0.045,-0.135,-0.175
+31,State of)        All economies,individual,-0.01,-0.034,-0.046
+31,Sweden,individual,-0.025,-0.069,-0.091
+31,Sweden         SIDS and LDCs,individual,-0.023,-0.066,-0.088
+31,Syrian Arab     SIDS and LDCs,individual,-0.052,-0.163,-0.185
+31,Syrian Arab Republic,individual,-0.064,-0.178,-0.202
+31,Tanzania        All economies,individual,-0.059,-0.227,-0.294
+31,Thailand,individual,-0.072,-0.202,-0.267
+31,Thailand        SIDS and LDCs,individual,-0.054,-0.181,-0.242
+31,"Tobago          Developing economies, LDCs and SIDS",individual,-0.1,-0.31,-0.381
+31,Trinidad and    SIDS and LDCs,individual,-0.096,-0.305,-0.375
+31,Trinidad and Tobago,individual,-0.11,-0.322,-0.394
+31,Tunisia,individual,-0.089,-0.253,-0.312
+31,Tunisia         SIDS and LDCs,individual,-0.074,-0.233,-0.288
+31,Türkiye,individual,-0.07,-0.191,-0.25
+31,Türkiye         SIDS and LDCs,individual,-0.059,-0.177,-0.234
+31,Ukraine,individual,-0.078,-0.188,-0.25
+31,Ukraine         SIDS and LDCs,individual,-0.075,-0.184,-0.246
+31,United            SIDS and LDCs,individual,-0.025,-0.074,-0.095
+31,United          SIDS and LDCs,individual,0.043,-0.106,-0.168
+31,United Arab      SIDS and LDCs,individual,-0.054,-0.202,-0.259
+31,United Arab Emirates,individual,-0.081,-0.236,-0.299
+31,United Kingdom of Great Britain and Northern Ireland,individual,-0.028,-0.078,-0.1
+31,United Republic of Tanzania,individual,-0.098,-0.275,-0.345
+31,United States   SIDS and LDCs,individual,-0.013,-0.04,-0.052
+31,United States of America,individual,-0.016,-0.043,-0.056
+31,Uruguay,individual,-0.076,-0.186,-0.242
+31,Uruguay         SIDS and LDCs,individual,-0.073,-0.182,-0.238
+31,Uzbekistan,individual,-0.015,-0.045,-0.055
+31,Uzbekistan      SIDS and LDCs,individual,-0.01,-0.039,-0.048
+31,Venezuela       SIDS and LDCs,individual,-0.022,-0.061,-0.078
+31,Venezuela (Bolivarian Republic of),individual,-0.024,-0.063,-0.081
+31,Viet Nam,individual,-0.212,-0.703,-0.958
+31,Viet Nam        SIDS and LDCs,individual,-0.163,-0.638,-0.876
+31,"Western        Developing economies, LDCs and SIDS",individual,0.006,-0.375,-0.568
+31,Zimbabwe,individual,-0.052,-0.135,-0.167
+31,Zimbabwe        SIDS and LDCs,individual,-0.04,-0.121,-0.151
+31,"developing      Developing economies, LDCs and SIDS",individual,-0.021,-0.067,-0.086
+31,"in Africa       Developing economies, LDCs and SIDS",individual,-0.063,-0.22,-0.3
+31,"landlocked      Developing economies, LDCs and SIDS",individual,-0.009,-0.069,-0.093
+31,"of America      Developing economies, LDCs and SIDS",individual,-0.013,-0.04,-0.052
+31,the)             All economies,individual,-0.028,-0.074,-0.095
+32,"(Bolivarian     Developing economies, LDCs and SIDS",individual,-0.024,-0.057,-0.073
+32,"(Kingdom of      Developing economies, LDCs and SIDS",individual,-0.032,-0.076,-0.096
+32,"(Plurinational   Developing economies, LDCs and SIDS",individual,-0.012,-0.031,-0.041
+32,Africa         All economies,individual,-0.075,-0.28,-0.373
+32,Albania,individual,-0.053,-0.151,-0.166
+32,Albania          SIDS and LDCs,individual,-0.05,-0.147,-0.16
+32,Algeria,individual,-0.112,-0.272,-0.346
+32,Algeria           SIDS and LDCs,individual,-0.104,-0.252,-0.32
+32,"American        Developing economies, LDCs and SIDS",individual,-0.119,-0.333,-0.42
+32,Argentina,individual,-0.034,-0.083,-0.109
+32,Argentina        SIDS and LDCs,individual,-0.031,-0.077,-0.101
+32,Armenia,individual,-0.038,-0.092,-0.124
+32,Armenia          SIDS and LDCs,individual,-0.032,-0.077,-0.105
+32,Australia,individual,-0.073,-0.205,-0.282
+32,Australia        SIDS and LDCs,individual,-0.067,-0.191,-0.264
+32,Bahrain,individual,-0.101,-0.267,-0.344
+32,Bahrain          SIDS and LDCs,individual,-0.088,-0.237,-0.305
+32,Bangladesh,individual,-0.081,-0.219,-0.284
+32,Bangladesh       SIDS and LDCs,individual,-0.073,-0.202,-0.261
+32,Belgium,individual,-0.062,-0.148,-0.188
+32,Belgium          SIDS and LDCs,individual,-0.065,-0.155,-0.197
+32,Bolivia          SIDS and LDCs,individual,-0.013,-0.033,-0.044
+32,Bolivia (Plurinational State of),individual,-0.016,-0.04,-0.053
+32,Botswana,individual,-0.014,-0.044,-0.049
+32,Botswana         SIDS and LDCs,individual,-0.01,-0.033,-0.034
+32,Brazil,individual,-0.046,-0.104,-0.133
+32,Brazil           SIDS and LDCs,individual,-0.044,-0.099,-0.127
+32,Brunei           SIDS and LDCs,individual,-0.065,-0.172,-0.202
+32,Brunei Darussalam,individual,-0.075,-0.195,-0.233
+32,Bulgaria,individual,-0.091,-0.219,-0.279
+32,Bulgaria         SIDS and LDCs,individual,-0.083,-0.201,-0.254
+32,Cameroon,individual,-0.065,-0.178,-0.221
+32,Cameroon          SIDS and LDCs,individual,-0.06,-0.164,-0.203
+32,Canada,individual,-0.034,-0.085,-0.113
+32,Canada           SIDS and LDCs,individual,-0.036,-0.087,-0.117
+32,"Caribbean       Developing economies, LDCs and SIDS",individual,-0.06,-0.154,-0.198
+32,Central Asia,individual,-0.026,-0.067,-0.083
+32,Chile,individual,-0.151,-0.362,-0.476
+32,Chile             SIDS and LDCs,individual,-0.142,-0.343,-0.451
+32,China,individual,-0.053,-0.132,-0.173
+32,China             SIDS and LDCs,individual,-0.049,-0.123,-0.16
+32,Colombia,individual,-0.075,-0.184,-0.238
+32,Colombia          SIDS and LDCs,individual,-0.071,-0.175,-0.226
+32,Costa Rica,individual,-0.132,-0.321,-0.398
+32,Costa Rica        SIDS and LDCs,individual,-0.126,-0.308,-0.381
+32,Croatia,individual,-0.028,-0.072,-0.086
+32,Croatia           SIDS and LDCs,individual,-0.031,-0.078,-0.094
+32,Cyprus,individual,-0.07,-0.183,-0.222
+32,Cyprus            SIDS and LDCs,individual,-0.065,-0.173,-0.208
+32,Côte d'Ivoire,individual,-0.089,-0.247,-0.305
+32,Côte d'Ivoire     SIDS and LDCs,individual,-0.079,-0.222,-0.27
+32,"Darussalam       Developing economies, LDCs and SIDS",individual,-0.065,-0.172,-0.203
+32,Denmark,individual,-0.029,-0.074,-0.092
+32,Denmark           SIDS and LDCs,individual,-0.034,-0.084,-0.106
+32,Dominican         SIDS and LDCs,individual,-0.065,-0.178,-0.224
+32,Dominican Republic,individual,-0.076,-0.203,-0.255
+32,Ecuador,individual,-0.101,-0.241,-0.296
+32,Ecuador           SIDS and LDCs,individual,-0.096,-0.229,-0.281
+32,Egypt,individual,-0.11,-0.302,-0.396
+32,Egypt             SIDS and LDCs,individual,-0.1,-0.275,-0.355
+32,El Salvador,individual,-0.096,-0.233,-0.288
+32,El Salvador    SIDS and LDCs,individual,-0.09,-0.221,-0.272
+32,"Emirates         Developing economies, LDCs and SIDS",individual,-0.076,-0.196,-0.238
+32,Equatorial      SIDS and LDCs,individual,0.005,0.017,0.034
+32,Equatorial Guinea,individual,-0.001,0.005,0.018
+32,Estonia,individual,-0.046,-0.118,-0.148
+32,Estonia           SIDS and LDCs,individual,-0.051,-0.128,-0.162
+32,Eswatini,individual,-0.017,-0.042,-0.051
+32,Eswatini        SIDS and LDCs,individual,-0.012,-0.031,-0.037
+32,"Europe          Developing economies, LDCs and SIDS",individual,-0.008,-0.024,-0.028
+32,"Federation     Developing economies, LDCs and SIDS",individual,-0.027,-0.066,-0.086
+32,Finland,individual,-0.046,-0.111,-0.142
+32,Finland           SIDS and LDCs,individual,-0.045,-0.108,-0.139
+32,France,individual,-0.016,-0.038,-0.048
+32,France            SIDS and LDCs,individual,-0.017,-0.04,-0.05
+32,Gabon,individual,-0.113,-0.291,-0.396
+32,Gabon             SIDS and LDCs,individual,-0.1,-0.261,-0.356
+32,Georgia,individual,-0.064,-0.168,-0.212
+32,Georgia           SIDS and LDCs,individual,-0.054,-0.144,-0.18
+32,Germany,individual,-0.025,-0.06,-0.078
+32,Germany           SIDS and LDCs,individual,-0.022,-0.053,-0.07
+32,Ghana,individual,-0.082,-0.228,-0.294
+32,Ghana             SIDS and LDCs,individual,-0.071,-0.201,-0.257
+32,Greece,individual,-0.045,-0.104,-0.127
+32,Greece            SIDS and LDCs,individual,-0.045,-0.104,-0.129
+32,Guatemala,individual,-0.111,-0.255,-0.317
+32,Guatemala         SIDS and LDCs,individual,-0.105,-0.242,-0.299
+32,"Guinea          Developing economies, LDCs and SIDS",individual,-0.001,0.005,0.019
+32,Honduras,individual,-0.158,-0.389,-0.487
+32,Honduras          SIDS and LDCs,individual,-0.145,-0.358,-0.445
+32,India,individual,-0.038,-0.106,-0.145
+32,India             SIDS and LDCs,individual,-0.032,-0.09,-0.125
+32,Indonesia,individual,-0.078,-0.2,-0.277
+32,Indonesia         SIDS and LDCs,individual,-0.072,-0.185,-0.257
+32,Iran (Islamic     SIDS and LDCs,individual,-0.024,-0.06,-0.073
+32,Iran (Islamic Republic of),individual,-0.029,-0.071,-0.087
+32,Iraq,individual,-0.041,-0.118,-0.171
+32,Iraq              SIDS and LDCs,individual,-0.034,-0.098,-0.135
+32,Ireland,individual,-0.029,-0.072,-0.091
+32,Ireland           SIDS and LDCs,individual,-0.016,-0.046,-0.054
+32,Israel,individual,-0.052,-0.131,-0.161
+32,Israel            SIDS and LDCs,individual,-0.048,-0.123,-0.15
+32,Italy,individual,-0.029,-0.071,-0.085
+32,Italy             SIDS and LDCs,individual,-0.027,-0.067,-0.079
+32,Japan,individual,-0.041,-0.099,-0.129
+32,Japan             SIDS and LDCs,individual,-0.037,-0.09,-0.117
+32,Jordan,individual,-0.025,-0.065,-0.082
+32,Jordan            SIDS and LDCs,individual,-0.015,-0.04,-0.049
+32,Kenya,individual,-0.15,-0.375,-0.469
+32,Kenya             SIDS and LDCs,individual,-0.13,-0.33,-0.414
+32,"Kingdom of        Developing economies, LDCs and SIDS",individual,-0.03,-0.073,-0.092
+32,"Korea          Developing economies, LDCs and SIDS",individual,-0.079,-0.195,-0.249
+32,Kuwait,individual,-0.052,-0.13,-0.155
+32,Kuwait            SIDS and LDCs,individual,-0.039,-0.101,-0.117
+32,LDCs            All economies,individual,-0.086,-0.229,-0.302
+32,Latvia,individual,-0.054,-0.134,-0.171
+32,Latvia            SIDS and LDCs,individual,-0.062,-0.152,-0.193
+32,Lithuania,individual,-0.052,-0.128,-0.155
+32,Lithuania         SIDS and LDCs,individual,-0.053,-0.13,-0.157
+32,Madagascar,individual,-0.112,-0.307,-0.4
+32,Madagascar        SIDS and LDCs,individual,-0.052,-0.176,-0.249
+32,Malaysia,individual,-0.104,-0.269,-0.346
+32,Malaysia         SIDS and LDCs,individual,-0.084,-0.22,-0.282
+32,Malta,individual,-0.198,-0.529,-0.612
+32,Malta            SIDS and LDCs,individual,-0.202,-0.543,-0.63
+32,Mauritius,individual,-0.08,-0.197,-0.244
+32,Mauritius        SIDS and LDCs,individual,-0.066,-0.167,-0.207
+32,Mexico,individual,-0.031,-0.082,-0.115
+32,Mexico           SIDS and LDCs,individual,-0.031,-0.082,-0.114
+32,"Middle East     Developing economies, LDCs and SIDS",individual,-0.066,-0.165,-0.187
+32,Morocco,individual,-0.101,-0.256,-0.318
+32,Morocco           SIDS and LDCs,individual,-0.09,-0.23,-0.283
+32,Namibia,individual,-0.021,-0.055,-0.066
+32,Namibia          SIDS and LDCs,individual,-0.007,-0.021,-0.021
+32,Netherlands      SIDS and LDCs,individual,-0.032,-0.077,-0.097
+32,Netherlands (Kingdom of the),individual,-0.031,-0.075,-0.095
+32,New Zealand,individual,-0.095,-0.236,-0.293
+32,New Zealand      SIDS and LDCs,individual,-0.09,-0.225,-0.279
+32,Nicaragua,individual,-0.136,-0.338,-0.422
+32,Nicaragua        SIDS and LDCs,individual,-0.122,-0.304,-0.376
+32,Nigeria,individual,-0.049,-0.14,-0.179
+32,Nigeria          SIDS and LDCs,individual,-0.045,-0.13,-0.164
+32,Norway,individual,-0.021,-0.055,-0.074
+32,Norway           SIDS and LDCs,individual,-0.017,-0.047,-0.065
+32,"Oceania         Developing economies, LDCs and SIDS",individual,-0.117,-0.312,-0.402
+32,Oman,individual,-0.127,-0.332,-0.443
+32,Oman             SIDS and LDCs,individual,-0.112,-0.296,-0.395
+32,Pakistan,individual,-0.051,-0.134,-0.177
+32,Pakistan         SIDS and LDCs,individual,-0.045,-0.12,-0.159
+32,Panama,individual,-0.076,-0.206,-0.257
+32,Panama           SIDS and LDCs,individual,-0.074,-0.204,-0.255
+32,Paraguay,individual,-0.063,-0.163,-0.212
+32,Paraguay       SIDS and LDCs,individual,-0.058,-0.152,-0.197
+32,Peru,individual,-0.129,-0.309,-0.409
+32,Peru             SIDS and LDCs,individual,-0.123,-0.294,-0.388
+32,Philippines,individual,-0.081,-0.21,-0.274
+32,Philippines    SIDS and LDCs,individual,-0.07,-0.183,-0.237
+32,Poland,individual,-0.024,-0.062,-0.079
+32,Poland         SIDS and LDCs,individual,-0.021,-0.054,-0.069
+32,Portugal,individual,-0.052,-0.126,-0.156
+32,Portugal       SIDS and LDCs,individual,-0.048,-0.117,-0.145
+32,Qatar,individual,-0.137,-0.346,-0.417
+32,Qatar          SIDS and LDCs,individual,-0.127,-0.321,-0.384
+32,"Republic          Developing economies, LDCs and SIDS",individual,-0.069,-0.187,-0.235
+32,"Republic        Developing economies, LDCs and SIDS",individual,-0.134,-0.313,-0.338
+32,"Republic of     Developing economies, LDCs and SIDS",individual,-0.073,-0.201,-0.257
+32,Republic of    SIDS and LDCs,individual,-0.079,-0.195,-0.25
+32,Republic of Korea,individual,-0.089,-0.218,-0.28
+32,"Republic of)      Developing economies, LDCs and SIDS",individual,-0.025,-0.062,-0.075
+32,Republic of)    All economies,individual,-0.024,-0.058,-0.073
+32,Rest of         SIDS and LDCs,aggregate,0.032,0.04,0.033
+32,Rest of        SIDS and LDCs,aggregate,0.404,0.744,1.127
+32,Rest of American SIDS,aggregate,-0.129,-0.359,-0.452
+32,Rest of Asia,aggregate,-0.035,-0.085,-0.104
+32,Rest of Asia    SIDS and LDCs,aggregate,-0.028,-0.069,-0.082
+32,Rest of Asian   SIDS and LDCs,aggregate,0.002,-0.051,-0.064
+32,Rest of Asian SIDS and LDCs,aggregate,-0.123,-0.312,-0.409
+32,Rest of Caribbean,aggregate,-0.069,-0.172,-0.218
+32,Rest of Europe,aggregate,-0.021,-0.053,-0.065
+32,Rest of LDC in Africa,aggregate,-0.097,-0.252,-0.328
+32,Rest of LDCs    SIDS and LDCs,aggregate,-0.039,-0.136,-0.189
+32,Rest of Middle East and North Africa,aggregate,-0.075,-0.188,-0.215
+32,Rest of Oceania,aggregate,-0.152,-0.393,-0.501
+32,Rest of Western Africa,aggregate,-0.246,-0.675,-0.903
+32,Rest of developing economies in Europe and Central Asia,aggregate,-0.029,-0.075,-0.093
+32,Rest of landlocked economies in Africa,aggregate,-0.041,-0.104,-0.13
+32,Rest of the     SIDS and LDCs,aggregate,-0.024,-0.059,-0.076
+32,Rest of the world,aggregate,-0.023,-0.056,-0.073
+32,Romania,individual,-0.023,-0.056,-0.071
+32,Romania        SIDS and LDCs,individual,-0.015,-0.037,-0.045
+32,Russian        SIDS and LDCs,individual,-0.027,-0.066,-0.087
+32,Russian Federation,individual,-0.032,-0.079,-0.103
+32,SIDS            All economies,individual,-0.119,-0.333,-0.42
+32,"SIDS and        Developing economies, LDCs and SIDS",individual,-0.083,-0.223,-0.295
+32,Saudi Arabia,individual,-0.089,-0.215,-0.268
+32,Saudi Arabia   SIDS and LDCs,individual,-0.079,-0.19,-0.235
+32,Serbia,individual,-0.024,-0.059,-0.072
+32,Serbia         SIDS and LDCs,individual,-0.018,-0.043,-0.051
+32,Singapore,individual,-0.078,-0.194,-0.237
+32,Singapore      SIDS and LDCs,individual,-0.064,-0.163,-0.199
+32,Slovenia,individual,-0.043,-0.112,-0.135
+32,Slovenia       SIDS and LDCs,individual,-0.047,-0.12,-0.146
+32,South Africa,individual,-0.082,-0.198,-0.258
+32,South Africa    SIDS and LDCs,individual,-0.073,-0.178,-0.232
+32,Spain,individual,-0.043,-0.106,-0.133
+32,Spain             SIDS and LDCs,individual,-0.04,-0.098,-0.122
+32,Sri Lanka,individual,-0.056,-0.141,-0.18
+32,Sri Lanka         SIDS and LDCs,individual,-0.053,-0.133,-0.17
+32,State of)        All economies,individual,-0.012,-0.031,-0.041
+32,Sweden,individual,-0.028,-0.07,-0.091
+32,Sweden         SIDS and LDCs,individual,-0.027,-0.066,-0.085
+32,Syrian Arab     SIDS and LDCs,individual,-0.063,-0.162,-0.18
+32,Syrian Arab Republic,individual,-0.072,-0.184,-0.209
+32,Tanzania        All economies,individual,-0.076,-0.207,-0.263
+32,Thailand,individual,-0.082,-0.207,-0.267
+32,Thailand        SIDS and LDCs,individual,-0.068,-0.174,-0.225
+32,"Tobago          Developing economies, LDCs and SIDS",individual,-0.121,-0.309,-0.372
+32,Trinidad and    SIDS and LDCs,individual,-0.118,-0.302,-0.364
+32,Trinidad and Tobago,individual,-0.129,-0.326,-0.394
+32,Tunisia,individual,-0.102,-0.261,-0.317
+32,Tunisia         SIDS and LDCs,individual,-0.089,-0.23,-0.277
+32,Türkiye,individual,-0.078,-0.196,-0.252
+32,Türkiye         SIDS and LDCs,individual,-0.069,-0.175,-0.225
+32,Ukraine,individual,-0.085,-0.191,-0.251
+32,Ukraine         SIDS and LDCs,individual,-0.083,-0.186,-0.244
+32,United            SIDS and LDCs,individual,-0.029,-0.073,-0.092
+32,United          SIDS and LDCs,individual,0.008,-0.043,-0.087
+32,United Arab      SIDS and LDCs,individual,-0.074,-0.191,-0.231
+32,United Arab Emirates,individual,-0.096,-0.243,-0.299
+32,United Kingdom of Great Britain and Northern Ireland,individual,-0.032,-0.08,-0.101
+32,United Republic of Tanzania,individual,-0.108,-0.277,-0.341
+32,United States   SIDS and LDCs,individual,-0.015,-0.039,-0.049
+32,United States of America,individual,-0.017,-0.043,-0.056
+32,Uruguay,individual,-0.082,-0.189,-0.241
+32,Uruguay         SIDS and LDCs,individual,-0.079,-0.184,-0.235
+32,Uzbekistan,individual,-0.019,-0.047,-0.055
+32,Uzbekistan      SIDS and LDCs,individual,-0.015,-0.037,-0.042
+32,Venezuela       SIDS and LDCs,individual,-0.025,-0.059,-0.074
+32,Venezuela (Bolivarian Republic of),individual,-0.026,-0.063,-0.08
+32,Viet Nam,individual,-0.25,-0.709,-0.945
+32,Viet Nam        SIDS and LDCs,individual,-0.209,-0.601,-0.795
+32,"Western        Developing economies, LDCs and SIDS",individual,-0.059,-0.246,-0.328
+32,Zimbabwe,individual,-0.057,-0.137,-0.166
+32,Zimbabwe        SIDS and LDCs,individual,-0.048,-0.116,-0.139
+32,"developing      Developing economies, LDCs and SIDS",individual,-0.026,-0.067,-0.082
+32,"in Africa       Developing economies, LDCs and SIDS",individual,-0.078,-0.211,-0.278
+32,"landlocked      Developing economies, LDCs and SIDS",individual,-0.018,-0.055,-0.072
+32,"of America      Developing economies, LDCs and SIDS",individual,-0.015,-0.039,-0.05
+32,the)             All economies,individual,-0.031,-0.075,-0.095
+36,Albania,individual,-0.051,-0.152,-0.168
+36,Algeria,individual,-0.106,-0.274,-0.353
+36,Argentina,individual,-0.035,-0.089,-0.114
+36,Armenia,individual,-0.039,-0.094,-0.126
+36,Australia,individual,-0.075,-0.225,-0.293
+36,Bahrain,individual,-0.107,-0.291,-0.364
+36,Bangladesh,individual,-0.082,-0.234,-0.298
+36,Belgium,individual,-0.063,-0.156,-0.196
+36,Bolivia (Plurinational State of),individual,-0.017,-0.043,-0.056
+36,Botswana,individual,-0.018,-0.053,-0.053
+36,Brazil,individual,-0.046,-0.111,-0.138
+36,Brunei Darussalam,individual,-0.074,-0.206,-0.247
+36,Bulgaria,individual,-0.086,-0.223,-0.285
+36,Cameroon,individual,-0.068,-0.198,-0.234
+36,Canada,individual,-0.034,-0.088,-0.117
+36,Chile,individual,-0.158,-0.39,-0.497
+36,China,individual,-0.053,-0.139,-0.179
+36,Colombia,individual,-0.08,-0.202,-0.251
+36,Costa Rica,individual,-0.141,-0.359,-0.423
+36,Croatia,individual,-0.028,-0.074,-0.089
+36,Cyprus,individual,-0.071,-0.191,-0.23
+36,Côte d'Ivoire,individual,-0.091,-0.276,-0.323
+36,Denmark,individual,-0.029,-0.077,-0.096
+36,Dominican Republic,individual,-0.079,-0.225,-0.269
+36,Ecuador,individual,-0.112,-0.269,-0.316
+36,Egypt,individual,-0.114,-0.312,-0.411
+36,El Salvador,individual,-0.098,-0.257,-0.304
+36,Equatorial Guinea,individual,-0.002,0.002,0.017
+36,Estonia,individual,-0.045,-0.12,-0.151
+36,Eswatini,individual,-0.018,-0.049,-0.055
+36,Finland,individual,-0.045,-0.114,-0.146
+36,France,individual,-0.016,-0.04,-0.05
+36,Gabon,individual,-0.111,-0.311,-0.41
+36,Georgia,individual,-0.063,-0.174,-0.218
+36,Germany,individual,-0.026,-0.063,-0.081
+36,Ghana,individual,-0.084,-0.252,-0.31
+36,Greece,individual,-0.045,-0.109,-0.133
+36,Guatemala,individual,-0.118,-0.281,-0.336
+36,Honduras,individual,-0.164,-0.428,-0.515
+36,India,individual,-0.038,-0.115,-0.152
+36,Indonesia,individual,-0.076,-0.206,-0.285
+36,Iran (Islamic Republic of),individual,-0.035,-0.076,-0.093
+36,Iraq,individual,-0.05,-0.131,-0.184
+36,Ireland,individual,-0.025,-0.072,-0.089
+36,Israel,individual,-0.052,-0.138,-0.168
+36,Italy,individual,-0.03,-0.074,-0.089
+36,Japan,individual,-0.043,-0.105,-0.133
+36,Jordan,individual,-0.025,-0.067,-0.085
+36,Kenya,individual,-0.167,-0.419,-0.501
+36,Kuwait,individual,-0.062,-0.14,-0.168
+36,Latvia,individual,-0.051,-0.136,-0.173
+36,Lithuania,individual,-0.051,-0.132,-0.159
+36,Madagascar,individual,-0.12,-0.347,-0.424
+36,Malaysia,individual,-0.1,-0.281,-0.36
+36,Malta,individual,-0.209,-0.55,-0.639
+36,Mauritius,individual,-0.089,-0.22,-0.262
+36,Mexico,individual,-0.031,-0.087,-0.119
+36,Morocco,individual,-0.099,-0.266,-0.33
+36,Namibia,individual,-0.024,-0.065,-0.071
+36,Netherlands (Kingdom of the),individual,-0.031,-0.079,-0.099
+36,New Zealand,individual,-0.103,-0.261,-0.313
+36,Nicaragua,individual,-0.142,-0.376,-0.448
+36,Nigeria,individual,-0.051,-0.158,-0.189
+36,Norway,individual,-0.019,-0.056,-0.076
+36,Oman,individual,-0.14,-0.354,-0.463
+36,Pakistan,individual,-0.053,-0.145,-0.186
+36,Panama,individual,-0.077,-0.228,-0.275
+36,Paraguay,individual,-0.067,-0.179,-0.224
+36,Peru,individual,-0.134,-0.332,-0.425
+36,Philippines,individual,-0.077,-0.219,-0.284
+36,Poland,individual,-0.023,-0.064,-0.081
+36,Portugal,individual,-0.052,-0.133,-0.163
+36,Qatar,individual,-0.17,-0.373,-0.449
+36,Republic of Korea,individual,-0.095,-0.229,-0.291
+36,Rest of American SIDS,aggregate,-0.132,-0.401,-0.482
+36,Rest of Asia,aggregate,-0.04,-0.09,-0.111
+36,Rest of Asian SIDS and LDCs,aggregate,-0.125,-0.331,-0.43
+36,Rest of Caribbean,aggregate,-0.07,-0.19,-0.23
+36,Rest of Europe,aggregate,-0.021,-0.055,-0.067
+36,Rest of LDC in Africa,aggregate,-0.106,-0.275,-0.345
+36,Rest of Middle East and North Africa,aggregate,-0.073,-0.192,-0.222
+36,Rest of Oceania,aggregate,-0.16,-0.432,-0.532
+36,Rest of Western Africa,aggregate,-0.257,-0.732,-0.939
+36,Rest of developing economies in Europe and Central Asia,aggregate,-0.031,-0.078,-0.097
+36,Rest of landlocked economies in Africa,aggregate,-0.047,-0.116,-0.139
+36,Rest of the world,aggregate,-0.022,-0.06,-0.076
+36,Romania,individual,-0.022,-0.057,-0.073
+36,Russian Federation,individual,-0.032,-0.081,-0.106
+36,Saudi Arabia,individual,-0.099,-0.229,-0.284
+36,Serbia,individual,-0.023,-0.06,-0.073
+36,Singapore,individual,-0.077,-0.205,-0.25
+36,Slovenia,individual,-0.045,-0.119,-0.141
+36,South Africa,individual,-0.088,-0.221,-0.27
+36,Spain,individual,-0.044,-0.111,-0.138
+36,Sri Lanka,individual,-0.056,-0.151,-0.19
+36,Sweden,individual,-0.028,-0.073,-0.094
+36,Syrian Arab Republic,individual,-0.073,-0.187,-0.216
+36,Thailand,individual,-0.083,-0.218,-0.278
+36,Trinidad and Tobago,individual,-0.14,-0.361,-0.422
+36,Tunisia,individual,-0.1,-0.268,-0.327
+36,Türkiye,individual,-0.077,-0.203,-0.26
+36,Ukraine,individual,-0.082,-0.196,-0.257
+36,United Arab Emirates,individual,-0.112,-0.264,-0.319
+36,United Kingdom of Great Britain and Northern Ireland,individual,-0.033,-0.084,-0.105
+36,United Republic of Tanzania,individual,-0.118,-0.31,-0.363
+36,United States of America,individual,-0.017,-0.046,-0.058
+36,Uruguay,individual,-0.082,-0.202,-0.251
+36,Uzbekistan,individual,-0.024,-0.049,-0.059
+36,Venezuela (Bolivarian Republic of),individual,-0.027,-0.068,-0.085
+36,Viet Nam,individual,-0.239,-0.742,-0.986
+36,Zimbabwe,individual,-0.061,-0.155,-0.177
+43,Albania,individual,-0.059,-0.171,-0.165
+43,Algeria,individual,-0.134,-0.331,-0.342
+43,Argentina,individual,-0.045,-0.111,-0.113
+43,Armenia,individual,-0.048,-0.111,-0.119
+43,Australia,individual,-0.112,-0.274,-0.284
+43,Bahrain,individual,-0.126,-0.36,-0.359
+43,Bangladesh,individual,-0.101,-0.286,-0.285
+43,Belgium,individual,-0.079,-0.191,-0.194
+43,Bolivia (Plurinational State of),individual,-0.019,-0.05,-0.051
+43,Botswana,individual,-0.016,-0.072,-0.067
+43,Brazil,individual,-0.062,-0.138,-0.141
+43,Brunei Darussalam,individual,-0.09,-0.248,-0.243
+43,Bulgaria,individual,-0.11,-0.271,-0.279
+43,Cameroon,individual,-0.082,-0.253,-0.246
+43,Canada,individual,-0.043,-0.107,-0.111
+43,Chile,individual,-0.197,-0.482,-0.489
+43,China,individual,-0.068,-0.167,-0.172
+43,Colombia,individual,-0.097,-0.251,-0.248
+43,Costa Rica,individual,-0.165,-0.449,-0.436
+43,Croatia,individual,-0.034,-0.088,-0.088
+43,Cyprus,individual,-0.083,-0.227,-0.226
+43,Côte d'Ivoire,individual,-0.11,-0.355,-0.346
+43,Denmark,individual,-0.035,-0.091,-0.092
+43,Dominican Republic,individual,-0.096,-0.284,-0.275
+43,Ecuador,individual,-0.13,-0.338,-0.329
+43,Egypt,individual,-0.131,-0.376,-0.381
+43,El Salvador,individual,-0.122,-0.323,-0.316
+43,Equatorial Guinea,individual,-0.008,-0.005,0.007
+43,Estonia,individual,-0.055,-0.145,-0.148
+43,Eswatini,individual,-0.021,-0.062,-0.059
+43,Finland,individual,-0.056,-0.138,-0.142
+43,France,individual,-0.02,-0.049,-0.049
+43,Gabon,individual,-0.145,-0.388,-0.4
+43,Georgia,individual,-0.074,-0.21,-0.214
+43,Germany,individual,-0.029,-0.076,-0.079
+43,Ghana,individual,-0.105,-0.322,-0.316
+43,Greece,individual,-0.056,-0.134,-0.135
+43,Guatemala,individual,-0.142,-0.35,-0.343
+43,Honduras,individual,-0.2,-0.533,-0.518
+43,India,individual,-0.05,-0.142,-0.144
+43,Indonesia,individual,-0.104,-0.254,-0.269
+43,Iran (Islamic Republic of),individual,-0.031,-0.091,-0.09
+43,Iraq,individual,-0.048,-0.16,-0.15
+43,Ireland,individual,-0.032,-0.086,-0.086
+43,Israel,individual,-0.061,-0.164,-0.164
+43,Italy,individual,-0.033,-0.088,-0.088
+43,Japan,individual,-0.053,-0.127,-0.131
+43,Jordan,individual,-0.029,-0.079,-0.08
+43,Kenya,individual,-0.195,-0.53,-0.515
+43,Kuwait,individual,-0.057,-0.169,-0.165
+43,Latvia,individual,-0.065,-0.166,-0.17
+43,Lithuania,individual,-0.067,-0.161,-0.16
+43,Madagascar,individual,-0.146,-0.438,-0.421
+43,Malaysia,individual,-0.142,-0.348,-0.352
+43,Malta,individual,-0.22,-0.633,-0.628
+43,Mauritius,individual,-0.105,-0.275,-0.267
+43,Mexico,individual,-0.039,-0.106,-0.111
+43,Morocco,individual,-0.122,-0.318,-0.319
+43,Namibia,individual,-0.025,-0.084,-0.079
+43,Netherlands (Kingdom of the),individual,-0.039,-0.097,-0.098
+43,New Zealand,individual,-0.121,-0.324,-0.319
+43,Nicaragua,individual,-0.169,-0.469,-0.457
+43,Nigeria,individual,-0.061,-0.202,-0.194
+43,Norway,individual,-0.027,-0.072,-0.074
+43,Oman,individual,-0.156,-0.437,-0.446
+43,Pakistan,individual,-0.065,-0.179,-0.177
+43,Panama,individual,-0.114,-0.29,-0.278
+43,Paraguay,individual,-0.085,-0.22,-0.219
+43,Peru,individual,-0.17,-0.409,-0.418
+43,Philippines,individual,-0.104,-0.266,-0.272
+43,Poland,individual,-0.029,-0.078,-0.079
+43,Portugal,individual,-0.064,-0.16,-0.161
+43,Qatar,individual,-0.154,-0.451,-0.441
+43,Republic of Korea,individual,-0.114,-0.281,-0.287
+43,Rest of American SIDS,aggregate,-0.166,-0.502,-0.487
+43,Rest of Asia,aggregate,-0.037,-0.107,-0.107
+43,Rest of Asian SIDS and LDCs,aggregate,-0.149,-0.404,-0.409
+43,Rest of Caribbean,aggregate,-0.088,-0.24,-0.236
+43,Rest of Europe,aggregate,-0.024,-0.065,-0.066
+43,Rest of LDC in Africa,aggregate,-0.12,-0.343,-0.342
+43,Rest of Middle East and North Africa,aggregate,-0.084,-0.223,-0.219
+43,Rest of Oceania,aggregate,-0.203,-0.541,-0.537
+43,Rest of Western Africa,aggregate,-0.342,-0.924,-0.928
+43,Rest of developing economies in Europe and Central Asia,aggregate,-0.033,-0.093,-0.094
+43,Rest of landlocked economies in Africa,aggregate,-0.051,-0.145,-0.143
+43,Rest of the world,aggregate,-0.029,-0.076,-0.075
+43,Romania,individual,-0.028,-0.069,-0.071
+43,Russian Federation,individual,-0.041,-0.1,-0.103
+43,Saudi Arabia,individual,-0.103,-0.279,-0.279
+43,Serbia,individual,-0.029,-0.07,-0.071
+43,Singapore,individual,-0.101,-0.252,-0.251
+43,Slovenia,individual,-0.05,-0.14,-0.14
+43,South Africa,individual,-0.102,-0.277,-0.277
+43,Spain,individual,-0.052,-0.134,-0.135
+43,Sri Lanka,individual,-0.07,-0.185,-0.185
+43,Sweden,individual,-0.035,-0.088,-0.091
+43,Syrian Arab Republic,individual,-0.077,-0.213,-0.21
+43,Thailand,individual,-0.102,-0.266,-0.271
+43,Trinidad and Tobago,individual,-0.181,-0.461,-0.448
+43,Tunisia,individual,-0.122,-0.319,-0.319
+43,Türkiye,individual,-0.097,-0.248,-0.253
+43,Ukraine,individual,-0.105,-0.241,-0.252
+43,United Arab Emirates,individual,-0.113,-0.323,-0.321
+43,United Kingdom of Great Britain and Northern Ireland,individual,-0.039,-0.101,-0.102
+43,United Republic of Tanzania,individual,-0.136,-0.392,-0.38
+43,United States of America,individual,-0.023,-0.056,-0.057
+43,Uruguay,individual,-0.104,-0.248,-0.252
+43,Uzbekistan,individual,-0.017,-0.058,-0.057
+43,Venezuela (Bolivarian Republic of),individual,-0.035,-0.084,-0.083
+43,Viet Nam,individual,-0.319,-0.89,-0.912
+43,Zimbabwe,individual,-0.073,-0.195,-0.189
+46,"(Bolivarian     Developing economies, LDCs and SIDS",individual,-0.048,-0.064,-0.059
+46,"(Kingdom of      Developing economies, LDCs and SIDS",individual,-0.077,-0.105,-0.105
+46,"(Plurinational   Developing economies, LDCs and SIDS",individual,-0.015,-0.02,-0.017
+46,Africa         All economies,individual,0.329,0.541,0.739
+46,Albania,individual,-0.095,-0.175,-0.166
+46,Albania          SIDS and LDCs,individual,-0.082,-0.157,-0.147
+46,Algeria,individual,-0.239,-0.345,-0.351
+46,Algeria           SIDS and LDCs,individual,-0.193,-0.277,-0.273
+46,"American        Developing economies, LDCs and SIDS",individual,-0.274,-0.377,-0.346
+46,Argentina,individual,-0.079,-0.109,-0.111
+46,Argentina        SIDS and LDCs,individual,-0.064,-0.087,-0.087
+46,Armenia,individual,-0.074,-0.109,-0.116
+46,Armenia          SIDS and LDCs,individual,-0.04,-0.057,-0.058
+46,Australia,individual,-0.191,-0.271,-0.278
+46,Australia        SIDS and LDCs,individual,-0.159,-0.223,-0.223
+46,Bahrain,individual,-0.26,-0.361,-0.357
+46,Bahrain          SIDS and LDCs,individual,-0.188,-0.253,-0.236
+46,Bangladesh,individual,-0.196,-0.281,-0.272
+46,Bangladesh       SIDS and LDCs,individual,-0.153,-0.218,-0.201
+46,Belgium,individual,-0.145,-0.198,-0.199
+46,Belgium          SIDS and LDCs,individual,-0.165,-0.226,-0.23
+46,Bolivia          SIDS and LDCs,individual,-0.02,-0.027,-0.024
+46,Bolivia (Plurinational State of),individual,-0.036,-0.052,-0.053
+46,Botswana,individual,-0.038,-0.053,-0.048
+46,Botswana         SIDS and LDCs,individual,-0.013,-0.014,-0.004
+46,Brazil,individual,-0.106,-0.141,-0.143
+46,Brazil           SIDS and LDCs,individual,-0.094,-0.124,-0.124
+46,Brunei           SIDS and LDCs,individual,-0.14,-0.174,-0.154
+46,Brunei Darussalam,individual,-0.194,-0.256,-0.247
+46,Bulgaria,individual,-0.2,-0.282,-0.287
+46,Bulgaria         SIDS and LDCs,individual,-0.157,-0.217,-0.213
+46,Cameroon,individual,-0.166,-0.228,-0.221
+46,Cameroon          SIDS and LDCs,individual,-0.137,-0.181,-0.167
+46,Canada,individual,-0.076,-0.106,-0.109
+46,Canada           SIDS and LDCs,individual,-0.085,-0.117,-0.121
+46,"Caribbean       Developing economies, LDCs and SIDS",individual,-0.126,-0.168,-0.158
+46,Central Asia,individual,-0.044,-0.065,-0.06
+46,Chile,individual,-0.338,-0.475,-0.479
+46,Chile             SIDS and LDCs,individual,-0.292,-0.406,-0.4
+46,China,individual,-0.124,-0.169,-0.173
+46,China             SIDS and LDCs,individual,-0.102,-0.135,-0.134
+46,Colombia,individual,-0.175,-0.246,-0.239
+46,Colombia          SIDS and LDCs,individual,-0.154,-0.213,-0.202
+46,Costa Rica,individual,-0.316,-0.434,-0.417
+46,Costa Rica        SIDS and LDCs,individual,-0.286,-0.388,-0.365
+46,Croatia,individual,-0.064,-0.091,-0.09
+46,Croatia           SIDS and LDCs,individual,-0.079,-0.112,-0.114
+46,Cyprus,individual,-0.154,-0.23,-0.227
+46,Cyprus            SIDS and LDCs,individual,-0.128,-0.191,-0.183
+46,Côte d'Ivoire,individual,-0.235,-0.319,-0.311
+46,Côte d'Ivoire     SIDS and LDCs,individual,-0.175,-0.228,-0.206
+46,"Darussalam       Developing economies, LDCs and SIDS",individual,-0.141,-0.176,-0.157
+46,Denmark,individual,-0.066,-0.092,-0.092
+46,Denmark           SIDS and LDCs,individual,-0.091,-0.128,-0.133
+46,Dominican         SIDS and LDCs,individual,-0.132,-0.18,-0.16
+46,Dominican Republic,individual,-0.191,-0.268,-0.258
+46,Ecuador,individual,-0.241,-0.328,-0.316
+46,Ecuador           SIDS and LDCs,individual,-0.214,-0.287,-0.27
+46,Egypt,individual,-0.241,-0.365,-0.363
+46,Egypt             SIDS and LDCs,individual,-0.183,-0.27,-0.25
+46,El Salvador,individual,-0.237,-0.321,-0.312
+46,El Salvador    SIDS and LDCs,individual,-0.205,-0.275,-0.26
+46,"Emirates         Developing economies, LDCs and SIDS",individual,-0.12,-0.158,-0.131
+46,Equatorial      SIDS and LDCs,individual,0.013,0.035,0.052
+46,Equatorial Guinea,individual,-0.018,-0.008,0.002
+46,Estonia,individual,-0.103,-0.151,-0.151
+46,Estonia           SIDS and LDCs,individual,-0.131,-0.191,-0.196
+46,Eswatini,individual,-0.043,-0.058,-0.055
+46,Eswatini        SIDS and LDCs,individual,-0.016,-0.019,-0.011
+46,"Europe          Developing economies, LDCs and SIDS",individual,0.022,0.036,0.049
+46,"Federation     Developing economies, LDCs and SIDS",individual,-0.043,-0.058,-0.054
+46,Finland,individual,-0.103,-0.144,-0.146
+46,Finland           SIDS and LDCs,individual,-0.099,-0.136,-0.137
+46,France,individual,-0.037,-0.05,-0.05
+46,France            SIDS and LDCs,individual,-0.042,-0.057,-0.057
+46,Gabon,individual,-0.259,-0.367,-0.38
+46,Gabon             SIDS and LDCs,individual,-0.19,-0.262,-0.26
+46,Georgia,individual,-0.138,-0.21,-0.21
+46,Georgia           SIDS and LDCs,individual,-0.084,-0.126,-0.116
+46,Germany,individual,-0.055,-0.076,-0.078
+46,Germany           SIDS and LDCs,individual,-0.04,-0.053,-0.052
+46,Ghana,individual,-0.21,-0.292,-0.288
+46,Ghana             SIDS and LDCs,individual,-0.147,-0.196,-0.177
+46,Greece,individual,-0.105,-0.141,-0.14
+46,Greece            SIDS and LDCs,individual,-0.108,-0.145,-0.145
+46,Guatemala,individual,-0.261,-0.354,-0.343
+46,Guatemala         SIDS and LDCs,individual,-0.228,-0.306,-0.289
+46,"Guinea          Developing economies, LDCs and SIDS",individual,-0.018,-0.007,0.004
+46,Honduras,individual,-0.384,-0.526,-0.506
+46,Honduras          SIDS and LDCs,individual,-0.311,-0.416,-0.381
+46,India,individual,-0.093,-0.135,-0.136
+46,India             SIDS and LDCs,individual,-0.061,-0.084,-0.077
+46,Indonesia,individual,-0.179,-0.253,-0.266
+46,Indonesia         SIDS and LDCs,individual,-0.145,-0.202,-0.206
+46,Iran (Islamic     SIDS and LDCs,individual,-0.038,-0.053,-0.045
+46,Iran (Islamic Republic of),individual,-0.064,-0.093,-0.091
+46,Iraq,individual,-0.102,-0.152,-0.139
+46,Iraq              SIDS and LDCs,individual,-0.06,-0.084,-0.047
+46,Ireland,individual,-0.056,-0.076,-0.073
+46,Ireland           SIDS and LDCs,individual,-0.006,-0.005,0.009
+46,Israel,individual,-0.117,-0.165,-0.163
+46,Israel            SIDS and LDCs,individual,-0.099,-0.136,-0.13
+46,Italy,individual,-0.063,-0.091,-0.089
+46,Italy             SIDS and LDCs,individual,-0.053,-0.075,-0.072
+46,Japan,individual,-0.097,-0.132,-0.135
+46,Japan             SIDS and LDCs,individual,-0.075,-0.1,-0.099
+46,Jordan,individual,-0.052,-0.08,-0.08
+46,Jordan            SIDS and LDCs,individual,0.006,0.008,0.02
+46,Kenya,individual,-0.361,-0.497,-0.479
+46,Kenya             SIDS and LDCs,individual,-0.249,-0.335,-0.302
+46,"Kingdom of        Developing economies, LDCs and SIDS",individual,-0.059,-0.079,-0.077
+46,"Korea,         SIDS and LDCs",individual,-0.155,-0.208,-0.201
+46,Kuwait,individual,-0.122,-0.176,-0.167
+46,Kuwait            SIDS and LDCs,individual,-0.053,-0.073,-0.05
+46,LDCs            All economies,individual,-0.084,-0.108,-0.067
+46,Latvia,individual,-0.123,-0.176,-0.177
+46,Latvia            SIDS and LDCs,individual,-0.167,-0.24,-0.249
+46,Lithuania,individual,-0.122,-0.171,-0.168
+46,Lithuania         SIDS and LDCs,individual,-0.128,-0.179,-0.178
+46,Madagascar,individual,-0.283,-0.401,-0.384
+46,Madagascar        SIDS and LDCs,individual,0.048,0.071,0.116
+46,Malaysia,individual,-0.266,-0.356,-0.358
+46,Malaysia         SIDS and LDCs,individual,-0.152,-0.185,-0.164
+46,Malta,individual,-0.421,-0.642,-0.627
+46,Malta            SIDS and LDCs,individual,-0.445,-0.684,-0.676
+46,Mauritius,individual,-0.196,-0.268,-0.258
+46,Mauritius        SIDS and LDCs,individual,-0.116,-0.154,-0.134
+46,Mexico,individual,-0.071,-0.103,-0.107
+46,Mexico           SIDS and LDCs,individual,-0.072,-0.103,-0.106
+46,"Middle East     Developing economies, LDCs and SIDS",individual,-0.098,-0.151,-0.138
+46,Morocco,individual,-0.219,-0.32,-0.319
+46,Morocco           SIDS and LDCs,individual,-0.157,-0.228,-0.214
+46,Namibia,individual,-0.054,-0.073,-0.068
+46,Namibia          SIDS and LDCs,individual,0.029,0.049,0.07
+46,Netherlands      SIDS and LDCs,individual,-0.079,-0.108,-0.109
+46,Netherlands (Kingdom of the),individual,-0.073,-0.1,-0.1
+46,New Zealand,individual,-0.232,-0.317,-0.308
+46,New Zealand      SIDS and LDCs,individual,-0.207,-0.279,-0.266
+46,Nicaragua,individual,-0.332,-0.457,-0.44
+46,Nicaragua        SIDS and LDCs,individual,-0.255,-0.339,-0.305
+46,Nigeria,individual,-0.125,-0.176,-0.169
+46,Nigeria          SIDS and LDCs,individual,-0.101,-0.138,-0.125
+46,Norway,individual,-0.053,-0.074,-0.075
+46,Norway           SIDS and LDCs,individual,-0.035,-0.047,-0.045
+46,"Oceania         Developing economies, LDCs and SIDS",individual,-0.188,-0.238,-0.202
+46,Oman,individual,-0.3,-0.435,-0.438
+46,Oman             SIDS and LDCs,individual,-0.217,-0.31,-0.295
+46,Pakistan,individual,-0.125,-0.177,-0.173
+46,Pakistan         SIDS and LDCs,individual,-0.092,-0.128,-0.117
+46,Panama,individual,-0.205,-0.279,-0.265
+46,Panama           SIDS and LDCs,individual,-0.197,-0.271,-0.256
+46,Paraguay,individual,-0.15,-0.211,-0.208
+46,Paraguay       SIDS and LDCs,individual,-0.123,-0.171,-0.163
+46,Peru,individual,-0.288,-0.404,-0.411
+46,Peru             SIDS and LDCs,individual,-0.251,-0.349,-0.349
+46,Philippines,individual,-0.198,-0.267,-0.271
+46,Philippines    SIDS and LDCs,individual,-0.136,-0.173,-0.163
+46,Poland,individual,-0.056,-0.08,-0.08
+46,Poland         SIDS and LDCs,individual,-0.04,-0.054,-0.05
+46,Portugal,individual,-0.121,-0.164,-0.163
+46,Portugal       SIDS and LDCs,individual,-0.098,-0.131,-0.126
+46,Qatar,individual,-0.321,-0.462,-0.443
+46,Qatar          SIDS and LDCs,individual,-0.262,-0.375,-0.344
+46,"Republic          Developing economies, LDCs and SIDS",individual,-0.156,-0.214,-0.197
+46,"Republic        Developing economies, LDCs and SIDS",individual,-0.528,-0.751,-0.746
+46,"Republic of     Developing economies, LDCs and SIDS",individual,-0.066,-0.083,-0.058
+46,"Republic of    Developing economies, LDCs and SIDS",individual,-0.153,-0.206,-0.198
+46,Republic of Korea,individual,-0.211,-0.291,-0.294
+46,"Republic of)      Developing economies, LDCs and SIDS",individual,-0.043,-0.06,-0.053
+46,Republic of)    All economies,individual,-0.049,-0.064,-0.06
+46,Rest of         SIDS and LDCs,aggregate,0.31,0.414,0.446
+46,Rest of        SIDS and LDCs,aggregate,2.813,4.15,5.065
+46,Rest of American SIDS,aggregate,-0.332,-0.467,-0.446
+46,Rest of Asia,aggregate,-0.074,-0.107,-0.105
+46,Rest of Asia    SIDS and LDCs,aggregate,-0.034,-0.047,-0.036
+46,Rest of Asian   SIDS and LDCs,aggregate,0.384,0.543,0.67
+46,Rest of Asian SIDS and LDCs,aggregate,-0.292,-0.41,-0.404
+46,Rest of Caribbean,aggregate,-0.171,-0.233,-0.227
+46,Rest of Europe,aggregate,-0.047,-0.066,-0.065
+46,Rest of LDC in Africa,aggregate,-0.224,-0.323,-0.318
+46,Rest of LDCs    SIDS and LDCs,aggregate,0.088,0.102,0.144
+46,Rest of Middle East and North Africa,aggregate,-0.151,-0.232,-0.226
+46,Rest of Oceania,aggregate,-0.384,-0.528,-0.52
+46,Rest of Western Africa,aggregate,-0.616,-0.861,-0.863
+46,Rest of developing economies in Europe and Central Asia,aggregate,-0.063,-0.094,-0.092
+46,Rest of landlocked economies in Africa,aggregate,-0.098,-0.138,-0.133
+46,Rest of the     SIDS and LDCs,aggregate,-0.064,-0.09,-0.089
+46,Rest of the world,aggregate,-0.058,-0.08,-0.078
+46,Romania,individual,-0.05,-0.071,-0.072
+46,Romania        SIDS and LDCs,individual,-0.005,-0.003,0.005
+46,Russian        SIDS and LDCs,individual,-0.044,-0.059,-0.055
+46,Russian Federation,individual,-0.074,-0.104,-0.105
+46,SIDS            All economies,individual,-0.276,-0.379,-0.349
+46,"SIDS and        Developing economies, LDCs and SIDS",individual,-0.07,-0.088,-0.045
+46,Saudi Arabia,individual,-0.205,-0.291,-0.282
+46,Saudi Arabia   SIDS and LDCs,individual,-0.148,-0.205,-0.184
+46,Serbia,individual,-0.052,-0.072,-0.073
+46,Serbia         SIDS and LDCs,individual,-0.016,-0.018,-0.011
+46,Singapore,individual,-0.201,-0.264,-0.261
+46,Singapore      SIDS and LDCs,individual,-0.123,-0.151,-0.136
+46,Slovenia,individual,-0.097,-0.139,-0.137
+46,Slovenia       SIDS and LDCs,individual,-0.118,-0.17,-0.172
+46,South Africa,individual,-0.19,-0.264,-0.265
+46,South Africa    SIDS and LDCs,individual,-0.142,-0.193,-0.186
+46,Spain,individual,-0.096,-0.136,-0.136
+46,Spain             SIDS and LDCs,individual,-0.077,-0.108,-0.104
+46,Sri Lanka,individual,-0.137,-0.191,-0.186
+46,Sri Lanka         SIDS and LDCs,individual,-0.121,-0.164,-0.155
+46,State of)        All economies,individual,-0.016,-0.021,-0.017
+46,Sweden,individual,-0.063,-0.089,-0.09
+46,Sweden         SIDS and LDCs,individual,-0.053,-0.073,-0.072
+46,Syrian Arab     SIDS and LDCs,individual,-0.084,-0.139,-0.123
+46,Syrian Arab Republic,individual,-0.139,-0.221,-0.214
+46,Tanzania        All economies,individual,-0.081,-0.104,-0.079
+46,Thailand,individual,-0.2,-0.272,-0.274
+46,Thailand        SIDS and LDCs,individual,-0.124,-0.159,-0.147
+46,"Tobago          Developing economies, LDCs and SIDS",individual,-0.304,-0.403,-0.38
+46,Trinidad and    SIDS and LDCs,individual,-0.282,-0.374,-0.35
+46,Trinidad and Tobago,individual,-0.348,-0.467,-0.451
+46,Tunisia,individual,-0.225,-0.327,-0.324
+46,Tunisia         SIDS and LDCs,individual,-0.153,-0.219,-0.202
+46,Türkiye,individual,-0.176,-0.249,-0.252
+46,Türkiye         SIDS and LDCs,individual,-0.127,-0.176,-0.169
+46,Ukraine,individual,-0.183,-0.25,-0.259
+46,Ukraine         SIDS and LDCs,individual,-0.17,-0.231,-0.238
+46,United            SIDS and LDCs,individual,-0.058,-0.078,-0.075
+46,United          SIDS and LDCs,individual,0.372,0.512,0.554
+46,United Arab      SIDS and LDCs,individual,-0.106,-0.139,-0.108
+46,United Arab Emirates,individual,-0.23,-0.325,-0.318
+46,United Kingdom of Great Britain and Northern Ireland,individual,-0.074,-0.102,-0.102
+46,United Republic of Tanzania,individual,-0.261,-0.361,-0.348
+46,United States   SIDS and LDCs,individual,-0.031,-0.041,-0.039
+46,United States of America,individual,-0.043,-0.058,-0.058
+46,Uruguay,individual,-0.182,-0.246,-0.249
+46,Uruguay         SIDS and LDCs,individual,-0.17,-0.228,-0.23
+46,Uzbekistan,individual,-0.039,-0.059,-0.055
+46,Uzbekistan      SIDS and LDCs,individual,-0.019,-0.027,-0.017
+46,Venezuela       SIDS and LDCs,individual,-0.052,-0.069,-0.065
+46,Venezuela (Bolivarian Republic of),individual,-0.063,-0.085,-0.083
+46,Viet Nam,individual,-0.618,-0.862,-0.869
+46,Viet Nam        SIDS and LDCs,individual,-0.392,-0.498,-0.443
+46,"Western        Developing economies, LDCs and SIDS",individual,0.416,0.665,0.88
+46,Zimbabwe,individual,-0.141,-0.189,-0.183
+46,Zimbabwe        SIDS and LDCs,individual,-0.089,-0.112,-0.098
+46,"developing      Developing economies, LDCs and SIDS",individual,-0.044,-0.065,-0.06
+46,"in Africa       Developing economies, LDCs and SIDS",individual,-0.118,-0.173,-0.153
+46,"landlocked      Developing economies, LDCs and SIDS",individual,0.033,0.047,0.063
+46,"of America      Developing economies, LDCs and SIDS",individual,-0.031,-0.041,-0.039
+46,the)             All economies,individual,-0.075,-0.102,-0.102

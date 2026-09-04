@@ -1,0 +1,161 @@
+gtap_code,gtap_name,kind
+AUS,Australia,individual
+NZL,New Zealand,individual
+XOC,Rest of Oceania,composite
+CHN,China,individual
+HKG,"Hong Kong, SAR of China",individual
+JPN,Japan,individual
+KOR,"Korea, Republic of",individual
+MNG,Mongolia,individual
+TWN,Chinese Taipei,individual
+XEA,Rest of East Asia,composite
+BRN,Brunei Darussalam,individual
+KHM,Cambodia,individual
+IDN,Indonesia,individual
+LAO,Lao PDR,individual
+MYS,Malaysia,individual
+PHL,Philippines,individual
+SGP,Singapore,individual
+THA,Thailand,individual
+VNM,Viet Nam,individual
+XSE,Rest of Southeast Asia,composite
+AFG,Afghanistan,individual
+BGD,Bangladesh,individual
+IND,India,individual
+NPL,Nepal,individual
+PAK,Pakistan,individual
+LKA,Sri Lanka,individual
+XSA,Rest of South Asia,composite
+CAN,Canada,individual
+USA,United States of America,individual
+MEX,Mexico,individual
+XNA,Rest of North America,composite
+ARG,Argentina,individual
+BOL,Bolivia,individual
+BRA,Brazil,individual
+CHL,Chile,individual
+COL,Colombia,individual
+ECU,Ecuador,individual
+PRY,Paraguay,individual
+PER,Peru,individual
+URY,Uruguay,individual
+VEN,Venezuela (Bolivarian Republic of),individual
+XSM,Rest of South America,composite
+CRI,Costa Rica,individual
+GTM,Guatemala,individual
+HND,Honduras,individual
+NIC,Nicaragua,individual
+PAN,Panama,individual
+SLV,El Salvador,individual
+XCA,Rest of Central America,composite
+DOM,Dominican Republic,individual
+HTI,Haiti,individual
+JAM,Jamaica,individual
+PRI,Puerto Rico,individual
+TTO,Trinidad and Tobago,individual
+XCB,Rest of Caribbean,composite
+AUT,Austria,individual
+BEL,Belgium,individual
+BGR,Bulgaria,individual
+HRV,Croatia,individual
+CYP,Cyprus,individual
+CZE,Czech Republic,individual
+DNK,Denmark,individual
+EST,Estonia,individual
+FIN,Finland,individual
+FRA,France,individual
+DEU,Germany,individual
+GRC,Greece,individual
+HUN,Hungary,individual
+IRL,Ireland,individual
+ITA,Italy,individual
+LVA,Latvia,individual
+LTU,Lithuania,individual
+LUX,Luxembourg,individual
+MLT,Malta,individual
+NLD,Netherlands,individual
+POL,Poland,individual
+PRT,Portugal,individual
+ROU,Romania,individual
+SVK,Slovakia,individual
+SVN,Slovenia,individual
+ESP,Spain,individual
+SWE,Sweden,individual
+GBR,United Kingdom,individual
+CHE,Switzerland,individual
+NOR,Norway,individual
+XEF,Rest of European Free Trade Association,composite
+ALB,Albania,individual
+SRB,Serbia,individual
+BLR,Belarus,individual
+RUS,Russian Federation,individual
+UKR,Ukraine,individual
+XEE,Rest of Eastern Europe,composite
+XER,Rest of Europe,composite
+KAZ,Kazakhstan,individual
+KGZ,Kyrgyzstan,individual
+TJK,Tajikistan,individual
+UZB,Uzbekistan,individual
+XSU,Rest of Former Soviet Union,composite
+ARM,Armenia,individual
+AZE,Azerbaijan,individual
+GEO,Georgia,individual
+BHR,Bahrain,individual
+IRN,"Iran, Islamic Republic of",individual
+IRQ,Iraq,individual
+ISR,Israel,individual
+JOR,Jordan,individual
+KWT,Kuwait,individual
+LBN,Lebanon,individual
+OMN,Oman,individual
+PSE,"Palestinian Territory, Occupied",individual
+QAT,Qatar,individual
+SAU,Saudi Arabia,individual
+SYR,Syrian Arab Republic,individual
+TUR,Turkey,individual
+ARE,United Arab Emirates,individual
+XWS,Rest of Western Asia,composite
+DZA,Algeria,individual
+EGY,Egypt,individual
+MAR,Morocco,individual
+TUN,Tunisia,individual
+XNF,Rest of North Africa,composite
+BEN,Benin,individual
+BFA,Burkina Faso,individual
+CMR,Cameroon,individual
+CIV,Cote d'Ivoire,individual
+GHA,Ghana,individual
+GIN,Guinea,individual
+MLI,Mali,individual
+NER,Niger,individual
+NGA,Nigeria,individual
+SEN,Senegal,individual
+TGO,Togo,individual
+XWF,Rest of Western Africa,composite
+CAF,Central African Republic,individual
+TCD,Chad,individual
+COG,Congo,individual
+COD,Democratic Republic of the Congo,individual
+GNQ,Equatorial Guinea,individual
+GAB,Gabon,individual
+XAC,Rest of South and Central Africa,composite
+COM,Comoros,individual
+ETH,Ethiopia,individual
+KEN,Kenya,individual
+MDG,Madagascar,individual
+MWI,Malawi,individual
+MUS,Mauritius,individual
+MOZ,Mozambique,individual
+RWA,Rwanda,individual
+SDN,Sudan,individual
+TZA,"Tanzania, United Republic of",individual
+UGA,Uganda,individual
+ZMB,Zambia,individual
+ZWE,Zimbabwe,individual
+XEC,Rest of Eastern Africa,composite
+BWA,Botswana,individual
+SWZ,Eswatini,individual
+NAM,Namibia,individual
+ZAF,South Africa,individual
+XSC,Rest of South African Customs Union,composite
+XTW,Rest of the World,composite

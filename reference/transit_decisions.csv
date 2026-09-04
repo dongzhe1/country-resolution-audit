@@ -1,0 +1,11 @@
+name,country,decision,reason
+NIPAH ANCHORAGE,IDN,drop,"Bunkering and STS anchorage in the Singapore Strait. The calls serve vessels transiting the strait, not trade with Indonesia: 23% of next calls are in Indonesia against a 49% baseline, and the median next call is 697 nm away. Retaining it credits Indonesia with through traffic. Counter-evidence recorded: the 52 h median dwell is long for bunkering and consistent with some ship-to-ship cargo transfer."
+RECALADA ANCHORAGE,URY,drop,"Rio de la Plata pilot boarding ground in Uruguayan waters serving the Argentine river ports. The 0.28 same-country share is low precisely because the next call is across the border (Rosario and San Lorenzo lie ~250 nm upriver), which is why the same-country test alone did not catch it. Retaining it credits Uruguay with Argentina-bound traffic."
+MONGLA ANCHORAGE,BGD,keep,"Bangladesh's second seaport. Draught limits mean ships work cargo at anchor via lighters; the 75 h median dwell is consistent with discharge, not waiting."
+TOKUYAMAKUDAMATSU ANCHORAGE,JPN,keep,"Japanese industrial port anchorage; no positive evidence of through traffic. Retained by default."
+TRIOS-PISTOLES ANCHORAGE,CAN,keep,"St Lawrence anchorage; 88% of next calls are in Canada, but the median next call at 121 nm is outside the 100 nm waiting test. Retained by default."
+BANCO DEL HOYO ANCHORAGE,ESP,keep,"Anchorage off the Spanish south coast; 59% of next calls within 100 nm suggests waiting, but the same-country share of 0.46 is below the threshold. Retained by default; borderline."
+TRAMANDAI ANCHORAGE,BRA,keep,"Offshore monobuoy crude terminal. Cargo is loaded here; the 79 h median dwell is consistent with loading."
+SYROS ANCHORAGE,GRC,keep,"Greek island anchorage; no positive evidence either way. Retained by default."
+SHARJAH ANCHORAGE,ARE,keep,"UAE anchorage; mixed signals (55% of next calls within 100 nm). Retained by default."
+WAKAYAMA ANCHORAGE,JPN,keep,"Japanese port anchorage; no positive evidence either way. Retained by default."

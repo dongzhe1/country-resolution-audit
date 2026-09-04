@@ -1,0 +1,17 @@
+{
+  "equiv_margin_pp": 5,
+  "gappy_equivalent_ldc": true,
+  "gappy_equivalent_sids": false,
+  "gappy_equivalent_unresolved": true,
+  "gappy_median": 0.169,
+  "gappy_p_ldc": 0.581,
+  "gappy_p_sids": 0.118,
+  "gappy_p_unresolved": 0.414,
+  "ratio_early": 2.13,
+  "ratio_late": 2.0,
+  "ratio_mid": 2.58,
+  "rho_12": 0.9939,
+  "rho_13": 0.9867,
+  "rho_23": 0.9913,
+  "states": 157
+}

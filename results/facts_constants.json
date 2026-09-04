@@ -1,0 +1,9 @@
+{
+  "attribution_split_pct": 50,
+  "aux_fraction_pct": 5,
+  "co2_per_fuel_t": 3.114,
+  "default_service_kn": 14.0,
+  "load_max_pct": 90,
+  "load_min_pct": 5,
+  "sfoc_g_per_kwh": 190.0
+}

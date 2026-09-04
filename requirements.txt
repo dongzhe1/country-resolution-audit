@@ -1,0 +1,8 @@
+# The analysis stage needs only these two beyond the standard library.
+pandas>=2.0
+numpy>=1.24
+
+# The pipeline stage additionally needs a sea-route distance package for
+# route_distances.py. Everything else in pipeline/ runs without it, falling
+# back to great-circle distance and saying so.
+searoute>=1.2 ; python_version >= "3.10"

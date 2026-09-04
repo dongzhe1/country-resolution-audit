@@ -1,0 +1,19 @@
+{
+  "ci_unresolved_hi": 0.237,
+  "ci_unresolved_lo": -0.289,
+  "diff_unresolved": -0.026,
+  "equiv_margin": 0.5,
+  "equivalent_ldc": true,
+  "equivalent_sids": true,
+  "equivalent_unresolved": true,
+  "p_ldc": 0.645,
+  "p_sids": 0.617,
+  "p_unresolved": 0.869,
+  "r2": 0.835,
+  "slope": 0.942,
+  "states": 149,
+  "throughput_all_pct": 95,
+  "throughput_ldc_pct": 100,
+  "throughput_sids_pct": 100,
+  "throughput_unresolved_pct": 88
+}

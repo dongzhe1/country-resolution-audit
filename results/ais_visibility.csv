@@ -1,0 +1,150 @@
+iso3,name,income_group,resolved,sids,ldc,co2_t,container_teu,log_residual
+PRY,Paraguay,Upper middle income,True,False,False,3110,37901,-4.2468
+MDA,Moldova,Upper middle income,False,False,False,143,818,-3.7114
+SYR,Syrian Arab Republic,Low income,True,False,False,166188,243348,-2.0196
+STP,Sao Tome and Principe,Lower middle income,False,True,True,48205,49553,-1.7583
+KHM,Cambodia,Lower middle income,False,False,True,1012396,1030000,-1.5715
+GEO,Georgia,Upper middle income,True,False,False,686242,636497,-1.5070
+ALB,Albania,Upper middle income,True,False,False,282463,184017,-1.2259
+VNM,Viet Nam,Upper middle income,True,False,False,32883893,24423183,-1.0727
+SVN,Slovenia,High income,True,False,False,1824853,1133340,-1.0724
+IRN,"Iran, Islamic Rep.",Upper middle income,True,False,False,4465751,2921359,-1.0693
+POL,Poland,High income,True,False,False,5174388,3270784,-1.0284
+ROU,Romania,High income,True,False,False,1734836,989795,-0.9954
+YEM,"Yemen, Rep.",Low income,False,False,True,736869,380000,-0.9500
+TON,Tonga,Upper middle income,False,True,False,175499,76854,-0.8795
+LTU,Lithuania,High income,True,False,False,2131363,1068771,-0.8619
+PAN,Panama,High income,True,False,False,17243307,9570767,-0.8359
+ISR,Israel,High income,True,False,False,5989393,3059136,-0.8191
+DEU,Germany,High income,True,False,False,23968413,13294081,-0.8161
+LBN,Lebanon,Lower middle income,False,False,False,1638742,762062,-0.8062
+TLS,Timor-Leste,Lower middle income,False,True,True,136624,53289,-0.7850
+UKR,Ukraine,Upper middle income,True,False,False,2217466,1022376,-0.7805
+MAR,Morocco,Lower middle income,True,False,False,22212287,11789130,-0.7791
+CHN,China,Upper middle income,True,False,False,469793302,299703800,-0.7748
+VCT,St. Vincent and the Grenadines,Upper middle income,False,True,False,68391,24416,-0.7419
+MMR,Myanmar,Lower middle income,False,False,True,1794786,782951,-0.7407
+HND,Honduras,Lower middle income,True,False,False,2168060,905497,-0.6887
+IRL,Ireland,High income,True,False,False,2924877,1209552,-0.6619
+KEN,Kenya,Lower middle income,True,False,False,4886634,2005076,-0.6247
+SGP,Singapore,High income,True,True,False,84196546,41124100,-0.6233
+BGR,Bulgaria,High income,True,False,False,811642,296350,-0.6192
+PHL,Philippines,Upper middle income,True,False,False,21627899,9216842,-0.5739
+HRV,Croatia,High income,True,False,False,1485989,532451,-0.5663
+SUR,Suriname,Upper middle income,False,True,False,335210,105949,-0.5348
+TUN,Tunisia,Lower middle income,True,False,False,1492337,491955,-0.4876
+WSM,Samoa,Upper middle income,False,True,False,185221,53017,-0.4759
+PAK,Pakistan,Lower middle income,True,False,False,9193947,3338000,-0.4727
+GNB,Guinea-Bissau,Low income,False,True,True,104400,28700,-0.4712
+JOR,Jordan,Upper middle income,True,False,False,2485742,824199,-0.4633
+BEN,Benin,Lower middle income,False,False,True,1587386,510896,-0.4614
+THA,Thailand,Upper middle income,True,False,False,30310492,11432626,-0.4393
+DJI,Djibouti,Lower middle income,False,False,True,3905411,1293000,-0.4357
+CRI,Costa Rica,High income,True,False,False,5108193,1717439,-0.4345
+ITA,Italy,High income,True,False,False,31731994,11927016,-0.4333
+GTM,Guatemala,Upper middle income,True,False,False,5963005,2010490,-0.4282
+FIN,Finland,High income,True,False,False,4041771,1317452,-0.4190
+HTI,Haiti,Lower middle income,False,True,True,689869,201514,-0.4185
+LVA,Latvia,High income,True,False,False,1601325,490971,-0.4152
+SYC,Seychelles,High income,False,True,False,539495,154423,-0.4137
+JAM,Jamaica,Upper middle income,False,True,False,7076431,2349405,-0.4037
+ISL,Iceland,High income,False,False,False,1446025,425000,-0.3813
+BEL,Belgium,High income,True,False,False,35581378,12395047,-0.3551
+KIR,Kiribati,Lower middle income,False,True,True,206276,52100,-0.3518
+GRC,Greece,High income,True,False,False,17291584,5691448,-0.3436
+GRD,Grenada,Upper middle income,False,True,False,85624,20299,-0.3433
+SDN,Sudan,Low income,False,False,True,1192075,320274,-0.3080
+CIV,Cote d'Ivoire,Lower middle income,True,False,False,6190108,1802000,-0.2877
+TUR,Turkiye,Upper middle income,True,False,False,42501025,13507070,-0.2583
+ERI,Eritrea,Low income,False,False,True,124403,27453,-0.2541
+LKA,Sri Lanka,Upper middle income,True,False,False,25505810,7782776,-0.2497
+TZA,Tanzania,Lower middle income,True,False,True,3649308,985000,-0.2472
+BGD,Bangladesh,Lower middle income,True,False,True,11725421,3353732,-0.2340
+ECU,Ecuador,Upper middle income,True,False,False,9160289,2567040,-0.2291
+BRB,Barbados,High income,False,True,False,439940,101300,-0.2206
+NLD,Netherlands,High income,True,False,False,47728612,14517179,-0.2102
+KNA,St. Kitts and Nevis,High income,False,True,False,67818,13560,-0.1964
+NRU,Naoero,High income,False,True,False,29356,5327,-0.1538
+GMB,"Gambia, The",Low income,False,False,True,338806,71470,-0.1533
+NIC,Nicaragua,Lower middle income,True,False,False,767620,167682,-0.1386
+TGO,Togo,Lower middle income,False,False,True,7961562,2006435,-0.1372
+DZA,Algeria,Upper middle income,True,False,False,7303253,1827788,-0.1357
+VUT,Vanuatu,Lower middle income,False,True,False,375677,77436,-0.1255
+CYP,Cyprus,High income,True,False,False,1714529,386498,-0.1215
+SLV,El Salvador,Upper middle income,True,False,False,1160413,255017,-0.1203
+TUV,Tuvalu,Upper middle income,False,True,True,29428,5150,-0.1195
+CUB,Cuba,Upper middle income,False,True,False,1308742,281140,-0.0918
+PRT,Portugal,High income,True,False,False,14313343,3541777,-0.0859
+GBR,United Kingdom,High income,True,False,False,37022861,9621469,-0.0768
+PLW,Palau,High income,False,True,False,93198,16399,-0.0576
+GHA,Ghana,Lower middle income,True,False,False,7446142,1701246,-0.0488
+SLB,Solomon Islands,Lower middle income,False,True,True,655475,128036,-0.0425
+ARE,United Arab Emirates,High income,True,False,False,90421276,23466906,-0.0236
+DOM,Dominican Republic,Upper middle income,True,True,False,9544121,2110608,-0.0036
+SEN,Senegal,Lower middle income,False,False,True,4242960,881239,0.0083
+DMA,Dominica,Upper middle income,False,True,False,47655,7401,0.0210
+BHS,"Bahamas, The",High income,False,True,False,7286020,1540740,0.0228
+COG,"Congo, Rep.",Lower middle income,False,False,False,5125843,1046064,0.0359
+MLT,Malta,High income,True,False,False,14324347,2967924,0.0814
+BHR,Bahrain,High income,True,False,False,2239887,409382,0.0916
+IND,India,Lower middle income,True,False,False,103954484,23898000,0.0987
+SWE,Sweden,High income,True,False,False,8445508,1640487,0.1114
+URY,Uruguay,High income,True,False,False,5892064,1115000,0.1151
+MEX,Mexico,Upper middle income,True,False,False,43696788,9284170,0.1225
+ATG,Antigua and Barbuda,High income,False,True,False,184885,28000,0.1236
+IDN,Indonesia,Upper middle income,True,False,False,69075220,14709550,0.1470
+KOR,"Korea, Rep.",High income,True,False,False,143020451,31850924,0.1472
+OMN,Oman,High income,True,False,False,22028995,4246786,0.1743
+MDG,Madagascar,Low income,True,False,True,1255408,199712,0.1886
+FRA,France,High income,True,False,False,28070395,5371045,0.1954
+NZL,New Zealand,High income,True,False,False,18198025,3371175,0.2007
+LBY,Libya,Upper middle income,False,False,False,2869972,465168,0.2191
+ESP,Spain,High income,True,False,False,92012114,18114517,0.2377
+CHL,Chile,High income,True,False,False,25241711,4474125,0.2613
+MDV,Maldives,Upper middle income,False,True,False,754930,107728,0.2614
+COL,Colombia,Upper middle income,True,False,False,29407127,5188127,0.2746
+PER,Peru,Upper middle income,True,False,False,20956292,3477011,0.3127
+SOM,"Somalia, Fed. Rep.",Low income,False,False,True,687670,92238,0.3143
+USA,United States,High income,True,False,False,310398634,59707490,0.3302
+EST,Estonia,High income,True,False,False,1904678,261822,0.3504
+COM,Comoros,Lower middle income,False,True,True,433393,54359,0.3507
+SAU,Saudi Arabia,High income,True,False,False,50395673,8029571,0.4019
+FJI,Fiji,Upper middle income,False,True,False,1200502,145782,0.4404
+MNE,Montenegro,Upper middle income,False,False,False,178901,17263,0.5462
+LBR,Liberia,Low income,False,False,True,872771,91454,0.5607
+CAN,Canada,High income,True,False,False,48462420,6394038,0.5773
+LCA,St. Lucia,Upper middle income,False,True,False,379945,37054,0.5800
+BLZ,Belize,Upper middle income,False,True,False,229452,21279,0.5980
+JPN,Japan,High income,True,False,False,160227509,21886683,0.6142
+GUY,Guyana,High income,False,True,False,625903,58377,0.6510
+FSM,"Micronesia, Fed. Sts.",Upper middle income,False,True,False,287791,25234,0.6640
+MHL,Marshall Islands,Upper middle income,False,True,False,356693,30711,0.6937
+NOR,Norway,High income,True,False,False,8285762,862983,0.6973
+RUS,Russian Federation,High income,True,False,False,45125152,5187096,0.7030
+CPV,Cabo Verde,Upper middle income,False,True,False,1000836,89382,0.7192
+DNK,Denmark,High income,True,False,False,9680175,935848,0.7765
+EGY,"Egypt, Arab Rep.",Lower middle income,True,False,False,83709247,8581339,0.8468
+IRQ,Iraq,Upper middle income,True,False,False,10874562,932729,0.8960
+CMR,Cameroon,Lower middle income,True,False,False,4470242,350000,0.9302
+ZAF,South Africa,Upper middle income,True,False,False,47938026,4303682,0.9393
+KWT,Kuwait,High income,True,False,False,10654150,863618,0.9480
+MYS,Malaysia,Upper middle income,True,False,False,314397808,30659850,0.9708
+GAB,Gabon,Upper middle income,True,False,False,2674525,180878,1.0382
+BRA,Brazil,Upper middle income,True,False,False,163824255,13893906,1.0644
+MOZ,Mozambique,Low income,False,False,True,7423365,489000,1.1224
+NGA,Nigeria,Lower middle income,True,False,False,22695350,1566109,1.1436
+AGO,Angola,Lower middle income,False,False,True,10871833,709221,1.1538
+SLE,Sierra Leone,Low income,False,False,True,1461691,78413,1.2213
+ARG,Argentina,Upper middle income,True,False,False,23595404,1471434,1.2413
+TTO,Trinidad and Tobago,High income,True,True,False,9686906,545177,1.2861
+MRT,Mauritania,Lower middle income,False,False,True,1772580,84458,1.3442
+VEN,"Venezuela, RB",Lower middle income,True,False,False,4593712,221801,1.3871
+AUS,Australia,High income,True,False,False,174342622,9579396,1.4768
+NAM,Namibia,Lower middle income,True,False,False,4682873,171151,1.6504
+PNG,Papua New Guinea,Lower middle income,False,True,False,5821256,200000,1.7213
+MUS,Mauritius,Upper middle income,True,True,False,14631076,468254,1.8417
+QAT,Qatar,High income,True,False,False,42802838,1421000,1.8697
+BRN,Brunei Darussalam,High income,True,False,False,3539442,99000,1.8861
+GIN,Guinea,Lower middle income,False,False,True,10542529,286286,1.9774
+COD,"Congo, Dem. Rep.",Low income,False,False,True,2217375,42211,2.2213
+GNQ,Equatorial Guinea,Upper middle income,True,False,False,3483903,13851,3.7226

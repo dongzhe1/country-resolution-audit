@@ -1,0 +1,20 @@
+{
+  "ratio_absolute": 0.057,
+  "ratio_market": 1.99,
+  "ratio_market_gdp_2024": 2.28,
+  "ratio_market_gdp_2025": 2.31,
+  "ratio_market_same_states": 2.31,
+  "ratio_per_capita": 0.93,
+  "ratio_per_teu": 1.11,
+  "ratio_ppp": 2.33,
+  "res_market": 5.0,
+  "rho_market_ppp": 0.9427,
+  "sids_p90p10_market": 10.4,
+  "sids_p90p10_ppp": 18.2,
+  "span_years": 8.49,
+  "span_years_exact": 8.492266,
+  "states": 147,
+  "states_base": 152,
+  "states_ppp": 147,
+  "unres_market": 9.9
+}

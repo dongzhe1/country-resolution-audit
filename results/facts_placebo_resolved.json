@@ -1,0 +1,17 @@
+{
+  "groups_sign_split": 1,
+  "n_economies": 91,
+  "n_groups": 7,
+  "scenario": 21,
+  "spread_between_pp": 0.21,
+  "spread_max_pp": 0.41,
+  "spread_median_pp": "0.20",
+  "spread_min_pp": 0.09,
+  "widest_group": "Rest of the world",
+  "widest_mildest_iso": "GNQ",
+  "widest_mildest_pct": 0.02,
+  "widest_worst_iso": "HND",
+  "widest_worst_pct": -0.52,
+  "within_over_between": 0.98,
+  "within_over_between_no_residual": 0.72
+}

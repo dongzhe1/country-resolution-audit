@@ -1,0 +1,112 @@
+gtap_region,iso3,resolution
+Albania,ALB,individual
+Algeria,DZA,individual
+Argentina,ARG,individual
+Armenia,ARM,individual
+Australia,AUS,individual
+Bahrain,BHR,individual
+Bangladesh,BGD,individual
+Belgium,BEL,individual
+Bolivia (Plurinational State of),BOL,individual
+Botswana,BWA,individual
+Brazil,BRA,individual
+Brunei Darussalam,BRN,individual
+Bulgaria,BGR,individual
+Cameroon,CMR,individual
+Canada,CAN,individual
+Chile,CHL,individual
+China,CHN,individual
+Colombia,COL,individual
+Costa Rica,CRI,individual
+Croatia,HRV,individual
+Cyprus,CYP,individual
+Côte d'Ivoire,CIV,individual
+Denmark,DNK,individual
+Dominican Republic,DOM,individual
+Ecuador,ECU,individual
+Egypt,EGY,individual
+El Salvador,SLV,individual
+Equatorial Guinea,GNQ,individual
+Estonia,EST,individual
+Eswatini,SWZ,individual
+Finland,FIN,individual
+France,FRA,individual
+Gabon,GAB,individual
+Georgia,GEO,individual
+Germany,DEU,individual
+Ghana,GHA,individual
+Greece,GRC,individual
+Guatemala,GTM,individual
+Honduras,HND,individual
+India,IND,individual
+Indonesia,IDN,individual
+Iran (Islamic Republic of),IRN,individual
+Iraq,IRQ,individual
+Ireland,IRL,individual
+Israel,ISR,individual
+Italy,ITA,individual
+Japan,JPN,individual
+Jordan,JOR,individual
+Kenya,KEN,individual
+Kuwait,KWT,individual
+Latvia,LVA,individual
+Lithuania,LTU,individual
+Madagascar,MDG,individual
+Malaysia,MYS,individual
+Malta,MLT,individual
+Mauritius,MUS,individual
+Mexico,MEX,individual
+Morocco,MAR,individual
+Namibia,NAM,individual
+Netherlands (Kingdom of the),NLD,individual
+New Zealand,NZL,individual
+Nicaragua,NIC,individual
+Nigeria,NGA,individual
+Norway,NOR,individual
+Oman,OMN,individual
+Pakistan,PAK,individual
+Panama,PAN,individual
+Paraguay,PRY,individual
+Peru,PER,individual
+Philippines,PHL,individual
+Poland,POL,individual
+Portugal,PRT,individual
+Qatar,QAT,individual
+Republic of Korea,KOR,individual
+Romania,ROU,individual
+Russian Federation,RUS,individual
+Saudi Arabia,SAU,individual
+Serbia,SRB,individual
+Singapore,SGP,individual
+Slovenia,SVN,individual
+South Africa,ZAF,individual
+Spain,ESP,individual
+Sri Lanka,LKA,individual
+Sweden,SWE,individual
+Syrian Arab Republic,SYR,individual
+Thailand,THA,individual
+Trinidad and Tobago,TTO,individual
+Tunisia,TUN,individual
+Türkiye,TUR,individual
+Ukraine,UKR,individual
+United Arab Emirates,ARE,individual
+United Kingdom of Great Britain and Northern Ireland,GBR,individual
+United Republic of Tanzania,TZA,individual
+United States of America,USA,individual
+Uruguay,URY,individual
+Uzbekistan,UZB,individual
+Venezuela (Bolivarian Republic of),VEN,individual
+Viet Nam,VNM,individual
+Zimbabwe,ZWE,individual
+Rest of American SIDS,,aggregate
+Rest of Asia,,aggregate
+Rest of Asian SIDS and LDCs,,aggregate
+Rest of Caribbean,,aggregate
+Rest of Europe,,aggregate
+Rest of LDC in Africa,,aggregate
+Rest of Middle East and North Africa,,aggregate
+Rest of Oceania,,aggregate
+Rest of Western Africa,,aggregate
+Rest of developing economies in Europe and Central Asia,,aggregate
+Rest of landlocked economies in Africa,,aggregate
+Rest of the world,,aggregate

@@ -1,0 +1,61 @@
+iso3,name,row,own_t_per_musd,row_t_per_musd,in_country_top_quarter,in_group_top_quarter
+MHL,Marshall Islands,Rest of Oceania,1158.094,206.933,True,True
+DJI,Djibouti,Rest of the world,844.498,131.878,True,False
+TGO,Togo,Rest of LDC in Africa,669.604,128.450,True,False
+KIR,Kiribati,Rest of Oceania,590.664,206.933,True,True
+FSM,"Micronesia, Fed. Sts.",Rest of Oceania,573.520,206.933,True,True
+TUV,Tuvalu,Rest of Oceania,513.171,206.933,True,True
+BHS,"Bahamas, The",Rest of Caribbean,460.185,90.178,True,False
+SLB,Solomon Islands,Rest of Oceania,374.649,206.933,True,True
+GIN,Guinea,Rest of LDC in Africa,371.923,128.450,True,False
+MOZ,Mozambique,Rest of LDC in Africa,332.320,128.450,True,False
+CPV,Cabo Verde,Rest of Western Africa,327.431,170.445,True,True
+COG,"Congo, Rep.",Rest of the world,314.341,131.878,True,False
+JAM,Jamaica,Rest of Caribbean,311.670,90.178,True,False
+VUT,Vanuatu,Rest of Oceania,277.527,206.933,True,True
+PLW,Palau,Rest of Oceania,270.139,206.933,True,True
+TON,Tonga,Rest of Oceania,258.384,206.933,False,True
+COM,Comoros,Rest of LDC in Africa,238.794,128.450,False,False
+SYC,Seychelles,Rest of the world,226.012,131.878,False,False
+SLE,Sierra Leone,Rest of Western Africa,195.828,170.445,False,True
+FJI,Fiji,Rest of Oceania,193.691,206.933,False,True
+PNG,Papua New Guinea,Rest of Oceania,179.123,206.933,False,True
+NRU,Naoero,Rest of Oceania,166.758,206.933,False,True
+LBR,Liberia,Rest of Western Africa,166.371,170.445,False,True
+MRT,Mauritania,Rest of Western Africa,151.763,170.445,False,True
+WSM,Samoa,Rest of Oceania,143.812,206.933,False,True
+LCA,St. Lucia,Rest of Caribbean,143.028,90.178,False,False
+GMB,"Gambia, The",Rest of Western Africa,130.628,170.445,False,True
+SEN,Senegal,Rest of LDC in Africa,114.654,128.450,False,False
+MDV,Maldives,Rest of Asia,97.523,29.420,False,False
+AGO,Angola,Rest of the world,88.986,131.878,False,False
+ATG,Antigua and Barbuda,Rest of Caribbean,79.072,90.178,False,False
+SUR,Suriname,Rest of American SIDS,74.102,34.067,False,False
+TLS,Timor-Leste,Rest of Asia,71.825,29.420,False,False
+BLZ,Belize,Rest of American SIDS,68.977,34.067,False,False
+DMA,Dominica,Rest of Caribbean,65.835,90.178,False,False
+BEN,Benin,Rest of LDC in Africa,64.616,128.450,False,False
+LBN,Lebanon,Rest of Middle East and North Africa,63.097,30.356,False,False
+GRD,Grenada,Rest of Caribbean,60.291,90.178,False,False
+ERI,Eritrea,Rest of the world,60.244,131.878,False,False
+LBY,Libya,Rest of Middle East and North Africa,59.668,30.356,False,False
+KNA,St. Kitts and Nevis,Rest of Caribbean,57.302,90.178,False,False
+BRB,Barbados,Rest of Caribbean,54.879,90.178,False,False
+VCT,St. Vincent and the Grenadines,Rest of Caribbean,54.485,90.178,False,False
+SOM,"Somalia, Fed. Rep.",Rest of the world,52.917,131.878,False,False
+STP,Sao Tome and Principe,Rest of the world,49.124,131.878,False,False
+GNB,Guinea-Bissau,Rest of Western Africa,41.299,170.445,False,True
+ISL,Iceland,Rest of Europe,37.479,33.983,False,False
+YEM,"Yemen, Rep.",Rest of Asian SIDS and LDCs,34.105,24.004,False,False
+COD,"Congo, Dem. Rep.",Rest of LDC in Africa,24.359,128.450,False,False
+GUY,Guyana,Rest of American SIDS,23.098,34.067,False,False
+MMR,Myanmar,Rest of Asia,21.977,29.420,False,False
+HTI,Haiti,Rest of Caribbean,21.506,90.178,False,False
+SDN,Sudan,Rest of LDC in Africa,19.814,128.450,False,False
+KHM,Cambodia,Rest of Asian SIDS and LDCs,19.747,24.004,False,False
+MNE,Montenegro,Rest of Europe,19.377,33.983,False,False
+CUB,Cuba,Rest of Caribbean,12.191,90.178,False,False
+TKM,Turkmenistan,Rest of developing economies in Europe and Central Asia,0.969,0.165,False,False
+AZE,Azerbaijan,Rest of Middle East and North Africa,0.592,30.356,False,False
+KAZ,Kazakhstan,Rest of developing economies in Europe and Central Asia,0.045,0.165,False,False
+MDA,Moldova,Rest of developing economies in Europe and Central Asia,0.007,0.165,False,False

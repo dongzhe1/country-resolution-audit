@@ -1,0 +1,102 @@
+gtap_code,gtap_name,member_name,iso3
+XOC,Rest of Oceania,American Samoa,ASM
+XOC,Rest of Oceania,Cook Islands,COK
+XOC,Rest of Oceania,Fiji,FJI
+XOC,Rest of Oceania,French Polynesia,PYF
+XOC,Rest of Oceania,Guam,GUM
+XOC,Rest of Oceania,Kiribati,KIR
+XOC,Rest of Oceania,Marshall Islands,MHL
+XOC,Rest of Oceania,Micronesia,FSM
+XOC,Rest of Oceania,Nauru,NRU
+XOC,Rest of Oceania,New Caledonia,NCL
+XOC,Rest of Oceania,Niue,NIU
+XOC,Rest of Oceania,Northern Mariana Islands,MNP
+XOC,Rest of Oceania,Palau,PLW
+XOC,Rest of Oceania,Papua New Guinea,PNG
+XOC,Rest of Oceania,Pitcairn,PCN
+XOC,Rest of Oceania,Samoa,WSM
+XOC,Rest of Oceania,Solomon Islands,SLB
+XOC,Rest of Oceania,Tokelau,TKL
+XOC,Rest of Oceania,Tonga,TON
+XOC,Rest of Oceania,Tuvalu,TUV
+XOC,Rest of Oceania,US Minor Outlying Islands,UMI
+XOC,Rest of Oceania,Vanuatu,VUT
+XOC,Rest of Oceania,Wallis and Futuna,WLF
+XEA,Rest of East Asia,China Macao SAR,MAC
+XEA,Rest of East Asia,Democratic People's Republic of Korea,PRK
+XSE,Rest of Southeast Asia,Myanmar,MMR
+XSE,Rest of Southeast Asia,Timor-Leste,TLS
+XSA,Rest of South Asia,Bhutan,BTN
+XSA,Rest of South Asia,Maldives,MDV
+XNA,Rest of North America,Bermuda,BMU
+XNA,Rest of North America,Greenland,GRL
+XNA,Rest of North America,Saint Pierre and Miquelon,SPM
+XSM,Rest of South America,Falkland Islands,FLK
+XSM,Rest of South America,French Guiana,GUF
+XSM,Rest of South America,Guyana,GUY
+XSM,Rest of South America,South Georgia and South Sandwich Islands,SGS
+XSM,Rest of South America,Suriname,SUR
+XCA,Rest of Central America,Belize,BLZ
+XCB,Rest of Caribbean,Anguilla,AIA
+XCB,Rest of Caribbean,Antigua and Barbuda,ATG
+XCB,Rest of Caribbean,Aruba,ABW
+XCB,Rest of Caribbean,Bahamas,BHS
+XCB,Rest of Caribbean,Barbados,BRB
+XCB,Rest of Caribbean,Bonaire Sint Eustatius and Saba,BES
+XCB,Rest of Caribbean,British Virgin Islands,VGB
+XCB,Rest of Caribbean,Cayman Islands,CYM
+XCB,Rest of Caribbean,Cuba,CUB
+XCB,Rest of Caribbean,Curacao,CUW
+XCB,Rest of Caribbean,Dominica,DMA
+XCB,Rest of Caribbean,Grenada,GRD
+XCB,Rest of Caribbean,Montserrat,MSR
+XCB,Rest of Caribbean,Saint Barthelemy,BLM
+XCB,Rest of Caribbean,Saint Kitts and Nevis,KNA
+XCB,Rest of Caribbean,Saint Lucia,LCA
+XCB,Rest of Caribbean,Saint Martin,MAF
+XCB,Rest of Caribbean,Saint Vincent and the Grenadines,VCT
+XCB,Rest of Caribbean,Sint Maarten,SXM
+XCB,Rest of Caribbean,Turks and Caicos Islands,TCA
+XCB,Rest of Caribbean,United States Virgin Islands,VIR
+XEF,Rest of European Free Trade Association,Iceland,ISL
+XEF,Rest of European Free Trade Association,Liechtenstein,LIE
+XEE,Rest of Eastern Europe,Republic of Moldova,MDA
+XER,Rest of Europe,Andorra,AND
+XER,Rest of Europe,Bosnia and Herzegovina,BIH
+XER,Rest of Europe,Faroe Islands,FRO
+XER,Rest of Europe,Gibraltar,GIB
+XER,Rest of Europe,Guernsey,GGY
+XER,Rest of Europe,Holy See,VAT
+XER,Rest of Europe,Isle of Man,IMN
+XER,Rest of Europe,Jersey,JEY
+XER,Rest of Europe,Kosovo,XKX
+XER,Rest of Europe,Monaco,MCO
+XER,Rest of Europe,Montenegro,MNE
+XER,Rest of Europe,North Macedonia,MKD
+XER,Rest of Europe,San Marino,SMR
+XER,Rest of Europe,Sark,XSK
+XSU,Rest of Former Soviet Union,Turkmenistan,TKM
+XWS,Rest of Western Asia,Yemen,YEM
+XNF,Rest of North Africa,Libya,LBY
+XNF,Rest of North Africa,Western Sahara,ESH
+XWF,Rest of Western Africa,Cabo Verde,CPV
+XWF,Rest of Western Africa,Gambia,GMB
+XWF,Rest of Western Africa,Guinea-Bissau,GNB
+XWF,Rest of Western Africa,Liberia,LBR
+XWF,Rest of Western Africa,Mauritania,MRT
+XWF,Rest of Western Africa,Saint Helena,SHN
+XWF,Rest of Western Africa,Sierra Leone,SLE
+XAC,Rest of South and Central Africa,Angola,AGO
+XAC,Rest of South and Central Africa,Sao Tome and Principe,STP
+XEC,Rest of Eastern Africa,Burundi,BDI
+XEC,Rest of Eastern Africa,Djibouti,DJI
+XEC,Rest of Eastern Africa,Eritrea,ERI
+XEC,Rest of Eastern Africa,Mayotte,MYT
+XEC,Rest of Eastern Africa,Seychelles,SYC
+XEC,Rest of Eastern Africa,Somalia,SOM
+XEC,Rest of Eastern Africa,South Sudan,SSD
+XSC,Rest of South African Customs Union,Lesotho,LSO
+XTW,Rest of the World,Antarctica,ATA
+XTW,Rest of the World,Bouvet Island,BVT
+XTW,Rest of the World,British Indian Ocean Territory,IOT
+XTW,Rest of the World,French Southern Territories,ATF

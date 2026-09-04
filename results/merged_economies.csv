@@ -1,0 +1,43 @@
+gtap_code,name,sovereign_m49,ldc,sids,landlocked
+AFG,Afghanistan,True,True,False,True
+AUT,Austria,True,False,False,False
+AZE,Azerbaijan,True,False,False,True
+BEN,Benin,True,True,False,False
+BFA,Burkina Faso,True,True,False,True
+BLR,Belarus,True,False,False,False
+CAF,Central African Republic,True,True,False,True
+CHE,Switzerland,True,False,False,False
+COD,Democratic Republic of the Congo,True,True,False,False
+COG,Congo,True,False,False,False
+COM,Comoros,True,True,True,False
+CZE,Czech Republic,True,False,False,False
+ETH,Ethiopia,True,True,False,True
+GIN,Guinea,True,True,False,False
+HKG,"Hong Kong, SAR of China",False,False,False,False
+HTI,Haiti,True,True,True,False
+HUN,Hungary,True,False,False,False
+JAM,Jamaica,True,False,True,False
+KAZ,Kazakhstan,True,False,False,True
+KGZ,Kyrgyzstan,True,False,False,True
+KHM,Cambodia,True,True,False,False
+LAO,Lao PDR,True,True,False,True
+LBN,Lebanon,True,False,False,False
+LUX,Luxembourg,True,False,False,False
+MLI,Mali,True,True,False,True
+MNG,Mongolia,True,False,False,True
+MOZ,Mozambique,True,True,False,False
+MWI,Malawi,True,True,False,True
+NER,Niger,True,True,False,True
+NPL,Nepal,True,True,False,True
+PRI,Puerto Rico,False,False,True,False
+PSE,"Palestinian Territory, Occupied",True,False,False,False
+RWA,Rwanda,True,True,False,True
+SDN,Sudan,True,True,False,False
+SEN,Senegal,True,True,False,False
+SVK,Slovakia,True,False,False,False
+TCD,Chad,True,True,False,True
+TGO,Togo,True,True,False,False
+TJK,Tajikistan,True,False,False,True
+TWN,Chinese Taipei,False,False,False,False
+UGA,Uganda,True,True,False,True
+ZMB,Zambia,True,True,False,True
