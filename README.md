@@ -479,7 +479,8 @@ run R's `logistf` on the same design.
 ## Licence
 
 Code: MIT (see `LICENSE`).
-Derived data in `results/` and `reference/`: CC BY-NC 4.0.
+Derived data in `results/` and `reference/`: CC BY-NC 4.0 (see `LICENSE-DATA`),
+inherited from the Global Fishing Watch source data and not a choice.
 
 Vessel particulars are licensed from a commercial provider and are not included.
 Every quantity derived from them is.

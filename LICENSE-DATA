@@ -1,0 +1,24 @@
+Licence for the derived data in results/ and reference/
+
+Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+
+  Deed:       https://creativecommons.org/licenses/by-nc/4.0/
+  Legal code: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+You may share and adapt these tables, including for research and teaching,
+provided you give attribution and do not use them for commercial purposes.
+
+This is not a choice. The tables are derived from Global Fishing Watch data,
+which is licensed CC BY-NC 4.0, and that restriction carries into anything
+computed from it. The source code in this repository is MIT licensed and is not
+affected; see LICENSE.
+
+Attribution, as required by the data provider:
+
+  This work uses data from Global Fishing Watch, Copyright 2026,
+  Global Fishing Watch, Inc. https://globalfishingwatch.org
+
+Two further inputs carry their own terms. Vessel particulars are licensed from
+a commercial provider and are not redistributed here; every quantity derived
+from them is. The assessment documents the audit is about are public IMO
+documents and are not redistributed here either.

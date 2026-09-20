@@ -1,3 +1,10 @@
+This licence covers the source code in this repository.
+
+The derived data tables in results/ and reference/ are NOT covered by it. They
+are licensed CC BY-NC 4.0 -- see LICENSE-DATA.
+
+---
+
 MIT License
 
 Copyright (c) 2026 the authors
@@ -19,5 +26,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-Derived data in results/ and reference/ is licensed CC BY-NC 4.0.
