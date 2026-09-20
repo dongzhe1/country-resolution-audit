@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""Synthesise a small dataset with the shape of the real inputs.
-
-    python generate_fake_data.py [--out data] [--vessels 400] [--shards 2]
-"""
+"""Synthesise a small dataset with the shape of the real inputs."""
 
 from __future__ import annotations
 

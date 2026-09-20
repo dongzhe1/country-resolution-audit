@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""Which economies did this study merge that its own database keeps separate?
-
-    python merged_economies.py <results_dir>
-"""
+"""Which economies did this study merge that its own database keeps separate?"""
 
 from __future__ import annotations
 
@@ -13,9 +10,7 @@ from pathlib import Path
 from facts import emit
 from sample import m49_codes, territories
 
-
 def _find_reference():
-    """The reference tables, wherever this file sits relative to them."""
     here = Path(__file__).resolve()
     for d in [here.parent] + list(here.parents):
         cand = d / "reference"
@@ -71,6 +66,7 @@ def main():
     if other:
         print(f"  not sovereign states on that list, reported separately: "
               f"{' '.join(other)}")
+
 
     kept_sov = {c for c in kept if c in m49 and c not in terr}
     for lab, key in (("least developed", "ldc"), ("small island", "sids")):

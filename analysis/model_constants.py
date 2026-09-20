@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""The emission model's constants, recorded from the source that uses them.
-
-    python model_constants.py /path/to/results_dir
-"""
+"""The emission model's constants, recorded from the source that uses them."""
 
 from __future__ import annotations
 
@@ -10,9 +7,6 @@ import sys
 from pathlib import Path
 
 from facts import emit
-import sys as _sys
-_sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "pipeline"))
-
 from state_exposure import (ATTRIBUTION_SPLIT, AUX_FRACTION_AT_SEA,
                             CO2_PER_FUEL_T, DEFAULT_SERVICE_SPEED_KN,
                             MAX_LOAD, MIN_LOAD, SFOC_G_PER_KWH)

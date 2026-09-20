@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""Bundle every derived table the analysis needs into one small directory.
-
-    python export_derived_tables.py <work_dir> [--out DIR] [--jobs N]
-"""
+"""Bundle every derived table the analysis needs into one small directory."""
 
 from __future__ import annotations
 
@@ -77,7 +74,6 @@ def parse_args(argv, name):
 
 
 def summarise_voyages(work: Path, out: Path, name: str, tag: str) -> dict:
-    """Distributions and per-year counts, from the table that stays behind."""
     path = work / name
     if not path.exists():
         print(f"  !! {path.name} missing; voyage summaries skipped")
@@ -280,7 +276,6 @@ def main():
 
     tar_path = out.parent / "derived_tables.tar.gz"
     def anonymise(ti: tarfile.TarInfo) -> tarfile.TarInfo:
-        """tar records the owner's name and uid by default, so an archive published from a shared cluster says who ran it"""
         ti.uid = ti.gid = 0
         ti.uname = ti.gname = ""
         ti.mtime = int(ti.mtime)

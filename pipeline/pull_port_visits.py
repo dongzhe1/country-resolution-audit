@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""Pull global AIS port-visit events from Global Fishing Watch, vessel by vessel.
-
-    python pull_port_visits.py /path/to/work_dir
-"""
+"""Pull global AIS port-visit events from Global Fishing Watch, vessel by vessel."""
 
 from __future__ import annotations
 

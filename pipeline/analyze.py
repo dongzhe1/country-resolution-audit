@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""Headline analysis: is the IMO impact assessment's case-study set representative?
-
-    python analyze.py /path/to/gfw_port_visits
-"""
+"""Headline analysis: is the IMO impact assessment's case-study set representative?"""
 
 from __future__ import annotations
 
@@ -35,7 +32,6 @@ SEAWEB_COLS = ["lrnoimo_ship_no", "gross_tonnage", "deadweight", "shiptype_group
 
 
 def env_path(var: str):
-    """An explicit path beats guessing: the GFW data and the reference data do not live under a common parent on this"""
     v = os.environ.get(var, "").strip()
     if not v:
         return None
@@ -81,7 +77,6 @@ def load_inputs(work: Path, voy_name: str = "voyages.csv.gz"):
 
 def exposure(df: pd.DataFrame, split, sfoc, aux, maxload,
              calibrated=True) -> pd.Series:
-    """Attributed CO2 (tonnes) per country under one assumption setting."""
     load = df["speed_ratio_cubed"].clip(0.05, maxload)
     co2 = ((df["me_kw"] * load + df["me_kw"] * aux)
            * df["sea_hours"] * sfoc / 1e6 * CO2_PER_FUEL_T)
@@ -97,8 +92,6 @@ _DF = None
 
 
 def _set_df(df):
-    # spawn (Windows, macOS) re-imports this module, so the
-    # frame has to be handed to each worker explicitly
     global _DF
     _DF = df
 
@@ -109,7 +102,6 @@ def _grid_worker(combo):
 
 
 def spearman(a: pd.Series, b: pd.Series) -> float:
-    """Pearson on the ranks."""
     return float(a.rank().corr(b.rank()))
 
 
@@ -140,7 +132,6 @@ def gini(x: np.ndarray) -> float:
 
 
 def permutation_coverage(shares: pd.Series, k: int, draws: int = 20000, seed=0):
-    """Coverage a random k-country pick would achieve, for comparison."""
     rng = np.random.default_rng(seed)
     v = shares.to_numpy()
     return np.array([rng.choice(v, size=k, replace=False).sum()
@@ -148,7 +139,6 @@ def permutation_coverage(shares: pd.Series, k: int, draws: int = 20000, seed=0):
 
 
 def parse_args(argv, name):
-    """<work_dir> [--jobs N] [--voyages NAME]."""
     jobs, voy, rest, i = DEFAULT_JOBS, "voyages.csv.gz", [], 0
     while i < len(argv):
         a = argv[i]

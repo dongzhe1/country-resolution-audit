@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""Calibrate the bottom-up emission model per ship type against reported MRV.
-
-    python calibrate_types.py <work_dir>
-"""
+"""Calibrate the bottom-up emission model per ship type against reported MRV."""
 
 from __future__ import annotations
 

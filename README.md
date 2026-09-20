@@ -243,6 +243,7 @@ python resolution_model.py        ../results
 python validate_firth.py          ../results
 python aggregate_rows.py          ../results
 python placebo_resolved.py        ../results
+python disbursement_resolution.py ../results
 python exposure_denominators.py   ../results
 python exposure_vs_model.py       ../results
 python ais_visibility.py          ../results
@@ -266,6 +267,7 @@ produced cannot be printed.
 | `validate_firth.py` | Checks that estimator against an independent optimiser — Nelder–Mead on the penalised log-likelihood written from its definition. |
 | `aggregate_rows.py` | Reconstructs group membership under the constraint that aggregation can only combine the database's regions, never split them, and enumerates every structurally possible mapping. |
 | `placebo_resolved.py` | Sorts the economies the study *did* resolve into the categories its group rows are named after, and compares within-group spread with between-group spread. Uses no external measurement. |
+| `disbursement_resolution.py` | The same comparison weighted by output and taken over every scenario and every admissible assignment, together with the modelled redistribution outcome by reported row. Uses no external measurement. |
 | `exposure_denominators.py` | The resolved/unresolved intensity contrast under four denominators, with sensitivity to the vintage of the output figures. |
 | `exposure_vs_model.py` | How much of the study's own country-level result is recoverable from the external measure, by paired bootstrap over countries. |
 | `ais_visibility.py` | Equivalence tests against an independent yardstick, to test whether the record sees some states less well than others. |
@@ -278,11 +280,8 @@ produced cannot be printed.
 python -c "import json; print(json.load(open('../results/facts_merged.json')))"
 ```
 
-Two further scripts need something the repository does not carry.
-`model_constants.py` imports the emission model's constants from `pipeline/` and
-runs anywhere. `source_document_facts.py` counts occurrences in the assessment's
-own text and needs that document; it is public but large, and the script prints
-where to get it and how to convert it. Nothing else depends on either.
+`model_constants.py` imports the emission model's constants from `pipeline/`
+rather than restating them, and runs anywhere.
 
 ---
 
@@ -305,6 +304,45 @@ Fetches the public inputs and prints where the rest comes from.
 | Country and status lists | Public, UN M49. Already in `reference/country_status.csv`. |
 | Database region lists | Public GTAP documentation. Already in `reference/gtap11_regions.csv` and `gtap11_composite_members.csv`. |
 | Vessel particulars | **Commercial licence; cannot be redistributed.** Schema below. |
+| The impact assessment itself | Public IMO documents, not redistributed here. See below. |
+
+### The assessment documents
+
+Two IMO documents are the subject of the audit. They are public but large, and
+are not carried here. Everything derived from them is already in `reference/`
+and `results/`, so nothing in `analysis/` needs them; they are listed so the
+derived tables can be checked against the source.
+
+| Document | Used for |
+|---|---|
+| `MEPC 82/INF.8/Add.2` — Task 3, impacts on States | the 111 reported rows, their simulated GDP effects, the revenue-disbursement scenarios, and the reviewer exchange quoted in the paper |
+| `MEPC 82/7/4` — report of the Steering Committee | the modelling limits the Committee recorded |
+
+Three counts the paper quotes are taken from Add.2 directly and are not
+reproduced by anything here, because they are properties of the document rather
+than of the data: it runs to 305 pages; 14 of the states inside its group rows
+were searched for by name; none of the 14 appears. Any text search of the
+converted document repeats them.
+
+Both are on the IMO's public document site under those numbers. Convert the PDF
+to text before use:
+
+```bash
+mkdir -p docs/sources
+pdftotext -layout MEPC82-INF8-Add2.pdf docs/sources/MEPC82-INF8-Add2.txt
+```
+
+`extract_gdp_impact.py` rebuilds the GDP table from that text:
+
+```bash
+python extract_gdp_impact.py docs/sources/MEPC82-INF8-Add2.txt reference/
+```
+
+It writes `reference/gtap_gdp_impact.csv` with one row per economy per scenario
+and columns `scenario, gtap_region, resolution, disbursement, gdp_2030,
+gdp_2040, gdp_2050`, and exits non-zero if any scenario does not come back with
+the expected 111 rows. The copy already in `reference/` was produced this way,
+so a rebuild should reproduce it byte for byte.
 
 ### Vessel register schema
 
@@ -336,7 +374,7 @@ statistics do not move when an upstream source is revised.
 | `country_indicators.csv`, `country_indicators_wdi.csv` | World Bank WDI: GDP, population |
 | `gdp_ppp.csv` | World Bank WDI: GDP at purchasing power parity |
 | `gtap_regions_mepc82.csv` | the assessment's reported regions |
-| `gtap_gdp_impact.csv` | the assessment's published 2050 GDP effects |
+| `gtap_gdp_impact.csv` | the assessment's published GDP effects for 2030, 2040 and 2050: ten scenarios without revenue disbursement, and the four of those that also model disbursement under three eligibility schemes. Rebuilt by `extract_gdp_impact.py` |
 | `gtap11_regions.csv` | GTAP 11: 141 individual economies, 19 composite regions |
 | `gtap11_composite_members.csv` | which countries each composite region comprises |
 | `port_throughput_teu.csv` | World Bank container port throughput |
@@ -392,6 +430,7 @@ analysis/                   needs only results/
   merged_economies.py       which economies the study merged
   aggregate_rows.py         reconstruct group membership under the constraint
   placebo_resolved.py       the same question, in the study's own output
+  disbursement_resolution.py  within against between, over all scenarios
   exposure_denominators.py  the contrast under four denominators
   exposure_vs_model.py      external measure against the study's own effects
   ais_visibility.py         equivalence tests on record completeness
@@ -399,7 +438,6 @@ analysis/                   needs only results/
   decision_consequence.py   what resolution costs a selection rule
   development_gradient.py   exposure across income groups
   disbursement.py           how a group figure spreads over its members
-  source_document_facts.py  counts taken from the assessment's own text
   model_constants.py        the emission model's constants, imported not retyped
 
 reference/                  published lookup tables

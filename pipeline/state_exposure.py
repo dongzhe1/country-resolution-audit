@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""State-level exposure to a per-tonne-CO2 maritime measure.
-
-    python state_exposure.py /path/to/gfw_port_visits
-"""
+"""State-level exposure to a per-tonne-CO2 maritime measure."""
 
 from __future__ import annotations
 
@@ -30,8 +27,6 @@ SEAWEB_COLS = ["lrnoimo_ship_no", "gross_tonnage", "deadweight",
 
 
 def env_path(var: str):
-    """An explicit path beats a guess -- these files rarely live under
-    the working directory."""
     v = os.environ.get(var, "").strip()
     if not v:
         return None
@@ -43,7 +38,6 @@ def env_path(var: str):
 
 def load_calibration(work: Path, sw_types: pd.Series,
                      voy_name: str, strict: bool = True) -> pd.Series:
-    """Per-ship-type MRV correction factors, or all-ones when absent."""
     path = work / "type_calibration.csv"
     if not path.exists():
         print("no type_calibration.csv -- running UNCALIBRATED")
@@ -91,7 +85,6 @@ def find_seaweb(work: Path, explicit: Path | None = None) -> Path:
 
 
 def parse_args(argv, name):
-    """<work_dir> [--voyages NAME] [--out NAME] [--seaweb PATH]."""
     voy, out, seaweb, rest, i = "voyages.csv.gz", "state_exposure.csv", None, [], 0
     while i < len(argv):
         a = argv[i]
@@ -116,7 +109,6 @@ def parse_args(argv, name):
 
 
 def estimate_co2(voy, sw, work, voy_name):
-    """Merge particulars onto voyages and estimate CO2 for each one."""
     df = voy.merge(sw, on="imo", how="left")
     matched = df["me_kw"].notna().sum()
     print(f"matched to particulars: {matched:,}/{len(df):,} voyages "
@@ -141,7 +133,6 @@ def estimate_co2(voy, sw, work, voy_name):
 
 
 def read_particulars(sw_path):
-    """Sea-web particulars, typed."""
     sw = pd.read_csv(sw_path, usecols=SEAWEB_COLS,
                      dtype={"lrnoimo_ship_no": str}, low_memory=False)
     sw = sw.rename(columns={"lrnoimo_ship_no": "imo",

@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
-"""Who is in the country-level sample."""
+"""Who is in the country-level sample. One definition, used everywhere."""
 
 from __future__ import annotations
 
 import csv
 from pathlib import Path
 
-
 def _find_reference():
-    """The reference tables, wherever this file sits relative to them."""
     here = Path(__file__).resolve()
     for d in [here.parent] + list(here.parents):
         cand = d / "reference"
@@ -19,6 +17,7 @@ def _find_reference():
 
 REF = _find_reference()
 
+
 EXTRA_TERRITORIES = {"ASM"}
 
 
@@ -28,7 +27,6 @@ def m49_codes() -> set[str]:
 
 
 def territories(results) -> set[str]:
-    """Codes to exclude: flagged dependencies plus the audited additions."""
     out = set(EXTRA_TERRITORIES)
     for r in csv.DictReader(open(Path(results) / "resolution_gap.csv")):
         if r.get("dependency") == "True":
@@ -37,14 +35,12 @@ def territories(results) -> set[str]:
 
 
 def universe(results, m49: set[str] | None = None) -> set[str]:
-    """The resolution universe: every state the assessment could have resolved."""
     if m49 is None:
         m49 = m49_codes()
     return m49 - territories(results)
 
 
 def in_sample(row, m49: set[str] | None = None, terr: set[str] | None = None) -> bool:
-    """True if this row of resolution_gap.csv belongs in the exposure sample."""
     if m49 is None:
         m49 = m49_codes()
     iso = row.get("iso3") or row.get("country")

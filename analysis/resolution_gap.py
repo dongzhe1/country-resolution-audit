@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""Which states does the IMO impact assessment not resolve, and what do they carry?
-
-    python resolution_gap.py <work_dir>
-"""
+"""Which states does the IMO impact assessment not resolve, and what do they carry?"""
 
 from __future__ import annotations
 
@@ -10,16 +7,6 @@ import sys
 from pathlib import Path
 
 import pandas as pd
-
-
-def _find_reference():
-    """The reference tables, wherever this file sits relative to them."""
-    here = Path(__file__).resolve()
-    for d in [here.parent] + list(here.parents):
-        cand = d / "reference"
-        if cand.is_dir():
-            return cand
-    raise SystemExit("cannot find reference/ above " + str(here.parent))
 
 
 SIDS = {
@@ -49,6 +36,15 @@ def main():
         sys.exit(f"usage: {Path(sys.argv[0]).name} <work_dir>")
     work = Path(sys.argv[1]).expanduser().resolve()
 
+def _find_reference():
+    here = Path(__file__).resolve()
+    for d in [here.parent] + list(here.parents):
+        cand = d / "reference"
+        if cand.is_dir():
+            return cand
+    raise SystemExit("cannot find reference/ above " + str(here.parent))
+
+
     ref_path = _find_reference() / "gtap_regions_mepc82.csv"
     if not ref_path.exists():
         sys.exit(f"missing {ref_path}")
@@ -77,6 +73,8 @@ def main():
     if ind_path.exists():
         ind = pd.read_csv(ind_path)
         ind["country"] = ind["country"].astype(str)
+
+
         e = e.drop(columns=[c for c in ("population", "gdp_usd", "country")
                             if c in e.columns], errors="ignore")
         e = e.merge(ind[["country", "population", "gdp_usd"]],
@@ -128,6 +126,7 @@ def main():
         gr = int(e.index.get_indexer([r.name])[0]) + 1
         print(f"  {r['iso3']:<6}{gr:>6}{r['share_pct']:>10.3f}  {st}")
 
+
     if e["t_per_capita"].notna().any():
         d = e[e["t_per_capita"].notna() & ~e["dependency"]].copy()
         world_med = d["t_per_capita"].median()
@@ -143,6 +142,8 @@ def main():
             print(f"  {lab:<12} n={len(x):>3}  median {x.median():>9,.2f}  "
                   f"({x.median()/world_med:>5.1f}x world)  "
                   f"p90 {x.quantile(0.9):>10,.2f}")
+
+
         g = d[d["t_per_musd"].notna()]
         gmed = g["t_per_musd"].median()
         print(f"\nnormalised exposure (tonnes CO2 per million USD of GDP), "
@@ -165,6 +166,7 @@ def main():
             print(f"    {'[*]' if not r['resolved'] else '   '} {r['iso3']:<5}"
                   f"{r['t_per_capita']:>12,.1f} t/cap  {r['share_pct']:>7.3f}% "
                   f"of total  {st}")
+
 
         sids = d[d["sids"]].nlargest(20, "t_per_capita")
         if len(sids):

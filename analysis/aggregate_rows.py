@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""Which states sit inside each of the twelve regional rows -- reconstructed.
-
-    python aggregate_rows.py /path/to/results_dir [--order alt]
-"""
+"""Which states sit inside each of the twelve regional rows -- reconstructed."""
 
 from __future__ import annotations
 
@@ -14,17 +11,6 @@ import sys
 from pathlib import Path
 
 from facts import emit
-
-
-def _find_reference():
-    """The reference tables, wherever this file sits relative to them."""
-    here = Path(__file__).resolve()
-    for d in [here.parent] + list(here.parents):
-        cand = d / "reference"
-        if cand.is_dir():
-            return cand
-    raise SystemExit("cannot find reference/ above " + str(here.parent))
-
 
 ROWS = [
     "Rest of American SIDS",
@@ -48,16 +34,19 @@ MIN_MEMBERS = 3
 EECA_SUB = {"Central Asia", "Eastern Europe"}
 
 
+def _find_reference():
+    here = Path(__file__).resolve()
+    for d in [here.parent] + list(here.parents):
+        cand = d / "reference"
+        if cand.is_dir():
+            return cand
+    raise SystemExit("cannot find reference/ above " + str(here.parent))
+
+
 REF = _find_reference()
 
 
 def gtap_units():
-    """Map each state to the GTAP 11 region it enters the aggregation as.
-
-    An aggregation can combine GTAP regions but never split one, so the
-    members of a composite all land in the same row.  That is what makes
-    the set of admissible mappings small enough to enumerate.
-    """
     import csv as _csv
     unit = {}
     for r in _csv.DictReader(open(REF / "gtap11_composite_members.csv")):
@@ -67,7 +56,6 @@ def gtap_units():
 
 
 def composite_names():
-    """gtap_code -> the composite's own name, for the rows that pass through."""
     import csv as _csv
     return {r["gtap_code"]: r["gtap_name"]
             for r in _csv.DictReader(open(REF / "gtap11_regions.csv"))
@@ -75,12 +63,13 @@ def composite_names():
 
 
 def admissible(r) -> list[str]:
-    """Every row whose NAME the state satisfies, not one chosen by priority."""
     reg, sub, inter = r["region"], r["subregion"], r["intermediate_region"]
     sids, ldc, land = r["sids"], r["ldc"], r["landlocked"]
     out = []
     if reg == "Oceania":
         out.append("Rest of Oceania")
+
+
     if inter == "Caribbean":
         out.append("Rest of Caribbean")
     if reg == "Americas" and sids:
@@ -105,7 +94,6 @@ def admissible(r) -> list[str]:
 
 
 def dispersion(values):
-    """Spread within a row: the ratio of its ninetieth to its tenth percentile."""
     v = sorted(values)
     if v[0] <= 0:
         return float("inf"), "p90/p10"
@@ -126,13 +114,17 @@ def load(results: Path):
     ind = {r["country"]: r for r in csv.DictReader(open(results / "country_indicators.csv"))}
     out, nogeo = [], []
     from sample import in_sample, m49_codes
+
+
+    from exposure_denominators import coverage_years
+    span, _ = coverage_years(results)
     m49 = m49_codes()
     for r in csv.DictReader(open(results / "resolution_gap.csv")):
         if r["resolved"] == "True" or not in_sample(r, m49):
             continue
         iso = r["iso3"]
         try:
-            tpm = float(r["t_per_musd"])
+            tpm = float(r["t_per_musd"]) / span
         except (TypeError, ValueError):
             continue
         g = geo.get(iso)
@@ -177,6 +169,8 @@ def main():
     members, nogeo = load(results)
     if nogeo:
         print(f"no M49 record, dropped: {nogeo}")
+
+
     unit_of = gtap_units()
     comp_name = composite_names()
     for m in members:
@@ -213,9 +207,11 @@ def main():
     print(f"admissible mappings: {total:,g}"
           + ("  -- enumerated" if total <= DRAWS else f"  -- sampling {DRAWS:,}"))
 
+
     for m in members:
         m["row"] = m["adm"][0]
     ref_spreads = summarise(members, "ONE ADMISSIBLE MAPPING (first-listed row)")
+
 
     import itertools
     free = [(u, ms) for u, ms in units.items() if len(ms[0]["adm"]) > 1]
@@ -257,11 +253,13 @@ def main():
                     ("narrowest within-row spread", mn)):
         lo, m_, hi = band(v)
         print(f"  {name:<38} {lo:>8.1f} {m_:>8.1f} {hi:>8.1f}")
-    print("\n  The claim the write-up can make is the one that holds across this\n"
+    print("\n  The claim the paper can make is the one that holds across this\n"
           "  whole set, not the one a chosen priority order happens to give.")
 
     n_comp = sum(1 for u in units if u in comp_name)
     n_pub = sum(1 for u in units if u in comp_name and comp_name[u] in ROWS)
+
+
     ref_by = {}
     for m in members:
         ref_by.setdefault(m["adm"][0], []).append(m)
@@ -280,6 +278,7 @@ def main():
         "blocks_published": n_pub,
         "states": len(members),
         "ambiguous": len(amb),
+
         "admissible_mappings": (f"${total/10**int(math.log10(total)):.1f}"
                                 rf"\times10^{{{int(math.log10(total))}}}$"),
         "draws": len(med),

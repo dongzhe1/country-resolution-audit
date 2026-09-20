@@ -1,0 +1,92 @@
+row,iso3,economy,gdp_effect_2050,row_figure,members
+Rest of the world,HND,Honduras,-0.518,-0.087,26
+Rest of the world,CHL,Chile,-0.499,-0.087,26
+Rest of the world,KEN,Kenya,-0.494,-0.087,26
+Rest of the world,NIC,Nicaragua,-0.448,-0.087,26
+Rest of the world,PER,Peru,-0.427,-0.087,26
+Rest of the world,CRI,Costa Rica,-0.424,-0.087,26
+Rest of the world,GAB,Gabon,-0.406,-0.087,26
+Rest of the world,GTM,Guatemala,-0.341,-0.087,26
+Rest of the world,ECU,Ecuador,-0.317,-0.087,26
+Rest of the world,SLV,El Salvador,-0.307,-0.087,26
+Rest of the world,PAN,Panama,-0.279,-0.087,26
+Rest of the world,ZAF,South Africa,-0.268,-0.087,26
+Rest of the world,MUS,Mauritius,-0.260,-0.087,26
+Rest of the world,COL,Colombia,-0.251,-0.087,26
+Rest of the world,URY,Uruguay,-0.251,-0.087,26
+Rest of the world,CMR,Cameroon,-0.229,-0.087,26
+Rest of the world,PRY,Paraguay,-0.223,-0.087,26
+Rest of the world,BRA,Brazil,-0.139,-0.087,26
+Rest of the world,CAN,Canada,-0.117,-0.087,26
+Rest of the world,MEX,Mexico,-0.117,-0.087,26
+Rest of the world,ARG,Argentina,-0.114,-0.087,26
+Rest of the world,VEN,Venezuela (Bolivarian Republic of),-0.086,-0.087,26
+Rest of the world,NAM,Namibia,-0.069,-0.087,26
+Rest of the world,USA,United States of America,-0.058,-0.087,26
+Rest of the world,BOL,Bolivia (Plurinational State of),-0.056,-0.087,26
+Rest of the world,GNQ,Equatorial Guinea,0.023,-0.087,26
+Rest of Europe,MLT,Malta,-0.629,-0.096,22
+Rest of Europe,BEL,Belgium,-0.198,-0.096,22
+Rest of Europe,LVA,Latvia,-0.172,-0.096,22
+Rest of Europe,PRT,Portugal,-0.163,-0.096,22
+Rest of Europe,ALB,Albania,-0.160,-0.096,22
+Rest of Europe,LTU,Lithuania,-0.160,-0.096,22
+Rest of Europe,EST,Estonia,-0.150,-0.096,22
+Rest of Europe,FIN,Finland,-0.146,-0.096,22
+Rest of Europe,SVN,Slovenia,-0.139,-0.096,22
+Rest of Europe,ESP,Spain,-0.137,-0.096,22
+Rest of Europe,GRC,Greece,-0.135,-0.096,22
+Rest of Europe,GBR,United Kingdom of Great Britain and Northern Ireland,-0.104,-0.096,22
+Rest of Europe,NLD,Netherlands (Kingdom of the),-0.100,-0.096,22
+Rest of Europe,DNK,Denmark,-0.095,-0.096,22
+Rest of Europe,SWE,Sweden,-0.094,-0.096,22
+Rest of Europe,HRV,Croatia,-0.089,-0.096,22
+Rest of Europe,ITA,Italy,-0.088,-0.096,22
+Rest of Europe,IRL,Ireland,-0.087,-0.096,22
+Rest of Europe,DEU,Germany,-0.081,-0.096,22
+Rest of Europe,NOR,Norway,-0.076,-0.096,22
+Rest of Europe,SRB,Serbia,-0.072,-0.096,22
+Rest of Europe,FRA,France,-0.050,-0.096,22
+Rest of Middle East and North Africa,OMN,Oman,-0.465,-0.281,18
+Rest of Middle East and North Africa,QAT,Qatar,-0.454,-0.281,18
+Rest of Middle East and North Africa,EGY,Egypt,-0.408,-0.281,18
+Rest of Middle East and North Africa,BHR,Bahrain,-0.365,-0.281,18
+Rest of Middle East and North Africa,DZA,Algeria,-0.351,-0.281,18
+Rest of Middle East and North Africa,MAR,Morocco,-0.325,-0.281,18
+Rest of Middle East and North Africa,TUN,Tunisia,-0.324,-0.281,18
+Rest of Middle East and North Africa,ARE,United Arab Emirates,-0.321,-0.281,18
+Rest of Middle East and North Africa,SAU,Saudi Arabia,-0.290,-0.281,18
+Rest of Middle East and North Africa,TUR,Türkiye,-0.259,-0.281,18
+Rest of Middle East and North Africa,CYP,Cyprus,-0.226,-0.281,18
+Rest of Middle East and North Africa,GEO,Georgia,-0.216,-0.281,18
+Rest of Middle East and North Africa,SYR,Syrian Arab Republic,-0.210,-0.281,18
+Rest of Middle East and North Africa,IRQ,Iraq,-0.173,-0.281,18
+Rest of Middle East and North Africa,KWT,Kuwait,-0.170,-0.281,18
+Rest of Middle East and North Africa,ISR,Israel,-0.166,-0.281,18
+Rest of Middle East and North Africa,ARM,Armenia,-0.126,-0.281,18
+Rest of Middle East and North Africa,JOR,Jordan,-0.083,-0.281,18
+Rest of Asia,VNM,Viet Nam,-0.981,-0.198,13
+Rest of Asia,MYS,Malaysia,-0.363,-0.198,13
+Rest of Asia,KOR,Republic of Korea,-0.295,-0.198,13
+Rest of Asia,IDN,Indonesia,-0.285,-0.198,13
+Rest of Asia,PHL,Philippines,-0.285,-0.198,13
+Rest of Asia,THA,Thailand,-0.279,-0.198,13
+Rest of Asia,BRN,Brunei Darussalam,-0.249,-0.198,13
+Rest of Asia,LKA,Sri Lanka,-0.192,-0.198,13
+Rest of Asia,PAK,Pakistan,-0.185,-0.198,13
+Rest of Asia,CHN,China,-0.179,-0.198,13
+Rest of Asia,IND,India,-0.151,-0.198,13
+Rest of Asia,JPN,Japan,-0.135,-0.198,13
+Rest of Asia,IRN,Iran (Islamic Republic of),-0.094,-0.198,13
+Rest of developing economies in Europe and Central Asia,BGR,Bulgaria,-0.284,-0.108,6
+Rest of developing economies in Europe and Central Asia,UKR,Ukraine,-0.258,-0.108,6
+Rest of developing economies in Europe and Central Asia,RUS,Russian Federation,-0.106,-0.108,6
+Rest of developing economies in Europe and Central Asia,POL,Poland,-0.081,-0.108,6
+Rest of developing economies in Europe and Central Asia,ROU,Romania,-0.072,-0.108,6
+Rest of developing economies in Europe and Central Asia,UZB,Uzbekistan,-0.061,-0.108,6
+Rest of landlocked economies in Africa,ZWE,Zimbabwe,-0.177,-0.136,3
+Rest of landlocked economies in Africa,SWZ,Eswatini,-0.054,-0.136,3
+Rest of landlocked economies in Africa,BWA,Botswana,-0.050,-0.136,3
+Rest of Western Africa,CIV,Côte d'Ivoire,-0.316,-0.237,3
+Rest of Western Africa,GHA,Ghana,-0.304,-0.237,3
+Rest of Western Africa,NGA,Nigeria,-0.184,-0.237,3

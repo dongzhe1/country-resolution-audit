@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""Does a port visit start and end in the same place, and does it matter?
-
-    python diagnose_endpoints.py <work_dir> [--jobs N]
-"""
+"""Does a port visit start and end in the same place, and does it matter?"""
 
 from __future__ import annotations
 
@@ -15,7 +12,6 @@ import pandas as pd
 
 
 def _find_reference():
-    """The reference tables, wherever this file sits relative to them."""
     here = Path(__file__).resolve()
     for d in [here.parent] + list(here.parents):
         cand = d / "reference"
@@ -54,7 +50,6 @@ def parse_args(argv, name):
 
 
 def resolution_status():
-    """iso3 -> True if the assessment gave the state a row of its own."""
     import csv
     gtap, m49 = REF / "gtap_regions_mepc82.csv", REF / "country_status.csv"
     if not (gtap.exists() and m49.exists()):
@@ -66,7 +61,6 @@ def resolution_status():
 
 
 def record(work, visits, mismatch, crossing, to_res, to_unres):
-    """Write the figures Methods quotes, so nobody retypes them from a log."""
     from facts import emit
     emit(work, "endpoints", {
         "visits": int(visits),

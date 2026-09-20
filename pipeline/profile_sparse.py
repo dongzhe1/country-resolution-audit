@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""Characterise the vessels GFW reports almost no port visits for.
-
-    python profile_sparse.py <work_dir>
-"""
+"""Characterise the vessels GFW reports almost no port visits for."""
 
 from __future__ import annotations
 
@@ -23,7 +20,6 @@ MIN_GROUP = 30
 
 
 def env_path(var: str):
-    """An explicit path beats guessing: the GFW data and the reference data do not live under a common parent on this"""
     v = os.environ.get(var, "").strip()
     if not v:
         return None
@@ -67,7 +63,6 @@ def rate_table(df: pd.DataFrame, by: str, overall: float) -> pd.DataFrame:
 
 
 def parse_args(argv, name):
-    """<work_dir> [--jobs N]."""
     jobs, rest, i = DEFAULT_JOBS, [], 0
     while i < len(argv):
         if argv[i] == "--jobs":

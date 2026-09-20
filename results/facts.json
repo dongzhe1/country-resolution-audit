@@ -1,0 +1,62 @@
+{
+  "mrv_routed": {
+    "ship_years": 22261,
+    "ships": 10740,
+    "median_ratio": 0.7393056332823579,
+    "geometric_mean_ratio": 0.714260756832443,
+    "total_est_mt": 156.38546401116875,
+    "total_reported_mt": 214.68630477985002
+  },
+  "voyages_routed": {
+    "voyages": 6735937,
+    "vessels": 26765,
+    "median_distance_nm": 520.7930377693422,
+    "median_speed_kn": 11.726319774004304,
+    "countries": 195
+  },
+  "mrv_gc": {
+    "ship_years": 22231,
+    "ships": 10738,
+    "median_ratio": 0.4694292841256451,
+    "geometric_mean_ratio": 0.45284892568523905,
+    "total_est_mt": 101.54433814856681,
+    "total_reported_mt": 214.69420035187
+  },
+  "voyages_gc": {
+    "voyages": 6830772,
+    "vessels": 26768,
+    "median_distance_nm": 413.1426410166903,
+    "median_speed_kn": 9.70290343912746,
+    "countries": 195
+  },
+  "mrv": {
+    "ship_years": 22261,
+    "ships": 10740,
+    "median_ratio": 0.7393056332823579,
+    "geometric_mean_ratio": 0.714260756832443,
+    "total_est_mt": 156.38546401116875,
+    "total_reported_mt": 214.68630477985002
+  },
+  "voyages": {
+    "voyages": 6735937,
+    "vessels": 26765,
+    "median_distance_nm": 520.7930377693422,
+    "median_speed_kn": 11.726319774004304,
+    "countries": 195
+  },
+  "routing": {
+    "pairs": 320019,
+    "routed": 306422,
+    "median_ratio": 1.1752039978676527,
+    "p95_ratio": 2.3181722699703964,
+    "shorter_than_gc": 11718
+  },
+  "extraction": {
+    "imos_requested": 29209,
+    "imos_matched": 28501,
+    "shards": 16,
+    "shard_bytes": 450743752,
+    "port_visits": 7893524,
+    "vessels_pulled": 28501
+  }
+}

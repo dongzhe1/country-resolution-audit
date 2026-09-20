@@ -1,21 +1,7 @@
 #!/usr/bin/env python3
-"""Is the gap stable over time, and is our record equally complete everywhere?
-
-    python temporal_coverage_tests.py /path/to/results_dir
-"""
+"""Is the gap stable over time, and is our record equally complete everywhere?"""
 
 from __future__ import annotations
-
-def _find_reference():
-    """The reference tables, wherever this file sits relative to them."""
-    from pathlib import Path as _P
-    here = _P(__file__).resolve()
-    for d in [here.parent] + list(here.parents):
-        cand = d / "reference"
-        if cand.is_dir():
-            return cand
-    raise SystemExit("cannot find reference/ above " + str(here.parent))
-
 
 import csv
 import math
@@ -33,7 +19,6 @@ from ais_visibility import diff_ci, welch, t_sf2, t_ppf, welch_df
 
 
 def spearman(pairs):
-    """Rank correlation over (x, y) pairs, averaging ties."""
     def rank(v):
         order = sorted(range(len(v)), key=lambda i: v[i])
         r = [0.0] * len(v)
@@ -62,11 +47,11 @@ def main():
     res = Path(sys.argv[1]).expanduser().resolve()
     for f in ("state_coverage.csv", "state_exposure_by_year.csv"):
         if not (res / f).exists():
-            sys.exit(f"{res/f} not found -- copy it back from the extraction host "
-                     f"($GFW/{f}, written by the voyage stage)")
+            sys.exit(f"{res/f} not found")
 
     flags = {r["iso3"]: r for r in csv.DictReader(open(res / "resolution_gap.csv"))}
     ind = {r["country"]: r for r in csv.DictReader(open(res / "country_indicators.csv"))}
+
 
     cov = []
     for r in csv.DictReader(open(res / "state_coverage.csv")):
@@ -118,6 +103,7 @@ def main():
              else "NOT equivalent -- interval reaches the margin")
         print(f"     {label:<24} {d:>+8.3f} {'[%+.3f, %+.3f]' % (lo, hi):>20} "
               f"{p:>7.3f}  {v}")
+
 
     by_year = {}
     for r in csv.DictReader(open(res / "state_exposure_by_year.csv")):

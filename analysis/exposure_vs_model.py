@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""How much of the model's own answer does our physical measure explain?
-
-    python exposure_vs_model.py /path/to/results_dir
-"""
+"""How much of the model's own answer does our physical measure explain?"""
 
 from __future__ import annotations
 
@@ -15,9 +12,7 @@ from pathlib import Path
 
 from facts import emit
 
-
 def _find_reference():
-    """The reference tables, wherever this file sits relative to them."""
     here = Path(__file__).resolve()
     for d in [here.parent] + list(here.parents):
         cand = d / "reference"
@@ -31,10 +26,10 @@ SCENARIOS_111 = None
 
 
 def ols_hc1(X, y, names):
-    """OLS with heteroskedasticity-consistent (HC1) standard errors."""
     n, k = len(y), len(X[0])
     XtX = [[sum(X[i][a] * X[i][b] for i in range(n)) for b in range(k)] for a in range(k)]
     Xty = [sum(X[i][a] * y[i] for i in range(n)) for a in range(k)]
+
 
     M = [row[:] + [1.0 if i == j else 0.0 for j in range(k)] for i, row in enumerate(XtX)]
     for c in range(k):
@@ -65,19 +60,23 @@ def ols_hc1(X, y, names):
     return b, se, 1 - ss_res / ss_tot, names
 
 
-def cv_r2(rows, cols, folds=10, repeats=20, seed=0):
-    """Repeated k-fold cross-validated R^2, and mean absolute error."""
+def cv_r2(rows, cols, folds=10, repeats=20, seed=0, groups=None):
     rng = random.Random(seed)
-    idx = list(range(len(rows)))
+    if groups is None:
+        groups = list(range(len(rows)))
+    members = {}
+    for i, g in enumerate(groups):
+        members.setdefault(g, []).append(i)
+    idx = list(members)
     r2s, maes = [], []
     for _ in range(repeats):
         rng.shuffle(idx)
         sse = sst = abserr = 0.0
         n = 0
         for f in range(folds):
-            test = set(idx[f::folds])
-            tr = [rows[i] for i in idx if i not in test]
-            te = [rows[i] for i in idx if i in test]
+            test = {i for g in idx[f::folds] for i in members[g]}
+            tr = [rows[i] for i in range(len(rows)) if i not in test]
+            te = [rows[i] for i in range(len(rows)) if i in test]
             if len(tr) < len(cols) + 3 or not te:
                 continue
             X = [[1.0] + [r[c] for c in cols] for r in tr]
@@ -96,6 +95,8 @@ def cv_r2(rows, cols, folds=10, repeats=20, seed=0):
         if sst > 0:
             r2s.append(1 - sse / sst)
             maes.append(abserr / n)
+
+
     if not r2s:
         return (float("nan"),) * 4
     r2s.sort()
@@ -105,19 +106,22 @@ def cv_r2(rows, cols, folds=10, repeats=20, seed=0):
 
 
 def num(x) -> str:
-    """A signed number that is safe in LaTeX text and math alike."""
     return r"\ensuremath{%+.3f}" % x
 
 
 def paired_cv_bootstrap(rows, cols_a, cols_b, draws=2000, folds=10, seed=1):
-    """Bootstrap the DIFFERENCE in CV R^2 between two models, over countries."""
     rng = random.Random(seed)
     n = len(rows)
     diffs = []
     for _ in range(draws):
-        samp = [rows[rng.randrange(n)] for _ in range(n)]
-        a = cv_r2(samp, cols_a, folds=folds, repeats=1, seed=rng.randrange(1 << 30))
-        b = cv_r2(samp, cols_b, folds=folds, repeats=1, seed=rng.randrange(1 << 30))
+        pick = [rng.randrange(n) for _ in range(n)]
+        samp = [rows[i] for i in pick]
+
+
+        a = cv_r2(samp, cols_a, folds=folds, repeats=1,
+                  seed=rng.randrange(1 << 30), groups=pick)
+        b = cv_r2(samp, cols_b, folds=folds, repeats=1,
+                  seed=rng.randrange(1 << 30), groups=pick)
         if a[0] == a[0] and b[0] == b[0]:
             diffs.append(a[0] - b[0])
     if not diffs:
@@ -162,12 +166,13 @@ def main():
     ind = {r["country"]: r for r in csv.DictReader(open(res / "country_indicators.csv"))}
     expo = {r["iso3"]: r for r in csv.DictReader(open(res / "resolution_gap.csv"))}
 
+
+    impact = [r for r in impact if r["disbursement"] == "none"]
     counts = {}
     for r in impact:
         counts[r["scenario"]] = counts.get(r["scenario"], 0) + 1
     scenarios = sorted((s for s, n in counts.items() if n == 111), key=int)
     print(f"scenarios reporting the assessment's 111 rows: {', '.join(scenarios)}")
-    print("(the others carry a different, larger row set and are left alone)\n")
 
     print(f"  {'scen':>5} {'n':>4} {'rho':>7} {'slope':>9} {'se':>8} {'t':>7} {'R2':>7}")
     slopes = []
@@ -206,6 +211,7 @@ def main():
 
     print(f"\n  median slope across scenarios: {statistics.median(slopes):+.4f}"
           if slopes else "\n  no scenario produced a usable fit")
+
 
     s0 = scenarios[0]
     rows = []
@@ -274,6 +280,7 @@ def main():
           "  than the training mean does. The band is over fold assignments,\n"
           "  not over countries, so it is NOT a sampling interval -- see below.")
 
+
     print(f"\nPAIRED BOOTSTRAP OVER COUNTRIES (2,000 draws, 10-fold)")
     print(f"  {'difference in CV R2':<34} {'median':>8} {'95% CI':>20} "
           f"{'P(>0)':>7}")
@@ -292,6 +299,8 @@ def main():
         "rho": f"{rho_headline:.2f}",
         "r2_exposure": round(r2_by_spec["exposure alone"], 3),
         "r2_income": round(r2_by_spec["income per head alone"], 3),
+
+
         "boot_exp_inc_mid": num(boot["exposure+income - income"][0]),
         "boot_exp_inc_lo": num(boot["exposure+income - income"][1]),
         "boot_exp_inc_hi": num(boot["exposure+income - income"][2]),
@@ -314,7 +323,7 @@ def main():
 
     print("\n  Read the R2 as the share of the assessment's own country-level\n"
           "  answer that is recoverable from ship movements alone. It is the\n"
-          "  number that decides whether this analysis may speak about incidence\n"
+          "  number that decides whether this paper may speak about incidence\n"
           "  for the states the assessment does not resolve, or only about\n"
           "  resolution itself.")
 

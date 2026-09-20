@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""List GFW anchorages that look like transit/waiting nodes, not trade nodes.
-
-    python transit_candidates.py <work_dir> [--jobs N]
-"""
+"""List GFW anchorages that look like transit/waiting nodes, not trade nodes."""
 
 from __future__ import annotations
 

@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""Does the assessment's OWN output vary within the groups it publishes?
-
-    python placebo_resolved.py <results_dir>
-"""
+"""Does the assessment's OWN output vary within the groups it publishes?"""
 
 from __future__ import annotations
 
@@ -14,9 +11,7 @@ from pathlib import Path
 from aggregate_rows import MIN_MEMBERS, admissible
 from facts import emit
 
-
 def _find_reference():
-    """The reference tables, wherever this file sits relative to them."""
     here = Path(__file__).resolve()
     for d in [here.parent] + list(here.parents):
         cand = d / "reference"
@@ -35,7 +30,6 @@ def truthy(v) -> bool:
 
 
 def load_states():
-    """iso3 -> the attributes admissible() needs, for M49 states only."""
     reg = {r["iso3"]: r for r in csv.DictReader(open(REF / "country_regions.csv"))}
     out = {}
     for r in csv.DictReader(open(REF / "country_status.csv")):
@@ -54,7 +48,6 @@ def load_states():
 
 
 def spread_pp(values):
-    """Ninetieth minus tenth percentile, linearly interpolated, in points."""
     v = sorted(values)
 
     def q(p):
@@ -89,6 +82,7 @@ def main():
     if missing:
         print(f"  no M49 attributes, dropped: {', '.join(missing)}")
 
+
     by = {}
     for iso, eff in effects.items():
         if iso not in states:
@@ -100,12 +94,16 @@ def main():
     print(f"  {'group':<52} {'n':>3} {'median':>8} {'p90-p10':>9} "
           f"{'min':>7} {'max':>7}")
     spreads, rows = [], []
+
+
     for row, members in sorted(by.items(), key=lambda kv: -len(kv[1])):
         if len(members) < MIN_FOR_ROW:
             continue
         vals = [e for _, e in members]
         sp = spread_pp(vals)
         spreads.append(sp)
+
+
         worst = min(members, key=lambda m: m[1])
         mildest = max(members, key=lambda m: m[1])
         rows.append((row, len(members), statistics.median(vals), sp,
@@ -121,6 +119,7 @@ def main():
           f"tenth and ninetieth percentile member")
     print(f"  widest {max(spreads):.2f} pp, narrowest {min(spreads):.2f} pp")
 
+
     widest = max(rows, key=lambda r: r[3])
     print(f"\n  widest group is {widest[0]!r}: "
           f"{widest[4][0]} at {widest[4][1]:+.2f}% and "
@@ -130,7 +129,10 @@ def main():
         print(f"  {signs} of {len(rows)} groups contain members whose "
               f"published effects differ in SIGN")
 
+
     between = spread_pp([r[2] for r in rows])
+
+
     RESIDUAL = "Rest of the world"
     sub = [r for r in rows if r[0] != RESIDUAL]
     if sub:
@@ -160,6 +162,8 @@ def main():
         "scenario": int(SCENARIO),
         "n_economies": sum(r[1] for r in rows),
         "n_groups": len(rows),
+
+
         "spread_median_pp": f"{med:.2f}",
         "spread_max_pp": round(max(spreads), 2),
         "spread_min_pp": round(min(spreads), 2),

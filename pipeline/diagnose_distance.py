@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""Can one route factor flatten the ship-type slope in the MRV comparison?
-
-    python diagnose_distance.py <work_dir>
-"""
+"""Can one route factor flatten the ship-type slope in the MRV comparison?"""
 
 from __future__ import annotations
 

@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""Does excluding transit anchorages move the state ranking?
-
-    python compare_transit.py <work_dir> [baseline.csv.gz] [alternative.csv.gz]
-"""
+"""Does excluding transit anchorages move the state ranking?"""
 
 from __future__ import annotations
 

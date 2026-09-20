@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""What changes when the same measure is read at two resolutions.
-
-    python decision_consequence.py /path/to/results_dir
-"""
+"""What changes when the same measure is read at two resolutions."""
 
 from __future__ import annotations
 
@@ -14,9 +11,7 @@ from pathlib import Path
 
 from facts import emit
 
-
 def _find_reference():
-    """The reference tables, wherever this file sits relative to them."""
     here = Path(__file__).resolve()
     for d in [here.parent] + list(here.parents):
         cand = d / "reference"
@@ -32,7 +27,6 @@ DRAWS = 2000
 
 
 def midrank(values):
-    """Ranks with ties averaged; 1 = most exposed."""
     order = sorted(range(len(values)), key=lambda i: values[i])
     r = [0.0] * len(values)
     i = 0
@@ -48,10 +42,11 @@ def midrank(values):
 
 
 def gdp_coverage(res: Path, states) -> float:
-    """Share of unresolved states' output that the row denominators actually see."""
     import sys as _sys
     _sys.path.insert(0, str(Path(__file__).resolve().parent))
     from sample import universe
+
+
     unresolved = universe(res)
     for r in csv.DictReader(open(REF / "gtap_regions_mepc82.csv")):
         if r.get("iso3") and r.get("resolution") == "individual":
@@ -100,7 +95,6 @@ def main():
           f"{sum(1 for s in states if len(s['adm']) > 1)}\n")
 
     def group_values(assign):
-        """Row-level intensity: the row's emissions over the row's output."""
         tot = {}
         for s in states:
             t = tot.setdefault(assign[s["iso"]], [0.0, 0.0])
@@ -163,6 +157,8 @@ def main():
         print(f"  {label:<26} {lo:.0f} / {mid:.0f} / {hi:.0f}")
 
     both, so, sg, miss = r0[0.25]
+
+
     cov = gdp_coverage(res, states)
     print(f"\nthe row denominators cover {cov:.1%} of the output of the states "
           f"the assessment leaves unresolved")
@@ -172,8 +168,15 @@ def main():
         "states": n, "shift_median": round(r0["shift_median"]),
         "shift_max": round(r0["shift_max"]), "quartile_k": k,
         "country_picks": so, "group_picks": sg, "both_picks": both, "missed": miss,
+
+
         "decile_k": max(1, round(0.10 * n)),
         "decile_group_picks": r0[0.10][2],
+
+
+        "fifth_k": max(1, round(0.20 * n)),
+        "fifth_group_picks": r0[0.20][2],
+        "fifth_both": r0[0.20][0],
         "missed_lo": round(band(0.25, 3)[0]), "missed_hi": round(band(0.25, 3)[2]),
         "shift_median_lo": round(band("shift_median", None)[0]),
         "shift_median_hi": round(band("shift_median", None)[2]),

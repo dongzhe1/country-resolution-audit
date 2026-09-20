@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the bottom-up voyage CO2 estimate against reported EU MRV totals.
-
-    python validate_mrv.py /path/to/gfw_port_visits
-"""
+"""Validate the bottom-up voyage CO2 estimate against reported EU MRV totals."""
 
 from __future__ import annotations
 
@@ -31,8 +28,6 @@ SEAWEB_COLS = ["lrnoimo_ship_no", "gross_tonnage", "deadweight", "shiptype_group
 
 
 def env_path(var: str) -> Path | None:
-    """An explicit path beats a guess -- these files rarely live under
-    the working directory."""
     v = os.environ.get(var, "").strip()
     if not v:
         return None
@@ -51,7 +46,6 @@ def find(work: Path, *rel) -> Path | None:
 
 
 def load_mrv(path: Path) -> pd.DataFrame:
-    """Every MRV file under `path`, concatenated."""
     if path.is_dir():
         files = sorted(list(path.glob("*.csv")) + list(path.glob("*.xlsx")))
     else:
@@ -92,7 +86,6 @@ def load_mrv(path: Path) -> pd.DataFrame:
 
 
 def load_mrv_file(path: Path) -> pd.DataFrame:
-    """Return imo / year / reported_co2_t, detecting whatever headers exist."""
     if path.suffix.lower() == ".xlsx":
         raw = pd.read_excel(path, dtype=str)
     else:
@@ -125,7 +118,6 @@ def load_mrv_file(path: Path) -> pd.DataFrame:
 
 
 def parse_args(argv, name):
-    """<work_dir> [--voyages NAME] [--mrv-dir PATH] [--seaweb PATH]."""
     voy, mrv_dir, seaweb, rest, i = "voyages_routed.csv.gz", None, None, [], 0
     while i < len(argv):
         if argv[i] == "--voyages":

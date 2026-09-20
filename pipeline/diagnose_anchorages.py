@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""Are canal and strait waiting anchorages being counted as port calls?
-
-    python diagnose_anchorages.py <work_dir> [--jobs N]
-"""
+"""Are canal and strait waiting anchorages being counted as port calls?"""
 
 from __future__ import annotations
 
@@ -25,7 +22,6 @@ def _read(path):
 
 
 def truthy(col: pd.Series) -> pd.Series:
-    """GFW returns atDock as a JSON bool; the CSV round-trip makes it a string."""
     return col.astype(str).str.strip().str.lower().isin(("true", "1", "t", "yes"))
 
 

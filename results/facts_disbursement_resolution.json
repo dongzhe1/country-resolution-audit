@@ -1,0 +1,20 @@
+{
+  "benefit_combinations": 12,
+  "benefit_first_is_group": 12,
+  "benefit_first_row": "Rest of Western Africa",
+  "benefit_groups_in_top_ten": 3,
+  "benefit_groups_in_top_ten_targeted": 7,
+  "benefit_scenarios": 4,
+  "between_pp": "0.191",
+  "economies": 99,
+  "economies_in_rows": 92,
+  "mappings": 16,
+  "min_members": 3,
+  "rows": 7,
+  "rows_wider": 4,
+  "scenarios": 10,
+  "weights": "World Bank GDP",
+  "within_pp": "0.200",
+  "within_share_equal_pct": 83,
+  "within_share_pct": 52
+}

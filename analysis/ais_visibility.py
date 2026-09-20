@@ -1,21 +1,7 @@
 #!/usr/bin/env python3
-"""Does our own record see poor and small states as well as it sees rich ones?
-
-    python ais_visibility.py /path/to/results_dir
-"""
+"""Does our own record see poor and small states as well as it sees rich ones?"""
 
 from __future__ import annotations
-
-def _find_reference():
-    """The reference tables, wherever this file sits relative to them."""
-    from pathlib import Path as _P
-    here = _P(__file__).resolve()
-    for d in [here.parent] + list(here.parents):
-        cand = d / "reference"
-        if cand.is_dir():
-            return cand
-    raise SystemExit("cannot find reference/ above " + str(here.parent))
-
 
 import csv
 import math
@@ -25,10 +11,18 @@ from pathlib import Path
 
 from facts import emit
 
+def _find_reference():
+    here = Path(__file__).resolve()
+    for d in [here.parent] + list(here.parents):
+        cand = d / "reference"
+        if cand.is_dir():
+            return cand
+    raise SystemExit("cannot find reference/ above " + str(here.parent))
+
+
 REF = _find_reference()
 
 from sample import in_sample, m49_codes
-
 
 _M49 = m49_codes()
 
@@ -62,7 +56,6 @@ def load(results: Path):
 
 
 def ols(x, y):
-    """Slope, intercept and residuals."""
     n = len(x)
     mx, my = sum(x) / n, sum(y) / n
     sxx = sum((v - mx) ** 2 for v in x)
@@ -76,7 +69,6 @@ def ols(x, y):
 
 
 def _betacf(a, b, x, itmax=200, eps=3e-14):
-    """Continued fraction for the incomplete beta function (Lentz's method)."""
     qab, qap, qam = a + b, a + 1.0, a - 1.0
     c, d = 1.0, 1.0 - qab * x / qap
     if abs(d) < 1e-300:
@@ -110,7 +102,6 @@ def _betacf(a, b, x, itmax=200, eps=3e-14):
 
 
 def betai(a, b, x):
-    """Regularised incomplete beta I_x(a, b)."""
     if x <= 0.0:
         return 0.0
     if x >= 1.0:
@@ -124,14 +115,12 @@ def betai(a, b, x):
 
 
 def t_sf2(t, df):
-    """Two-sided tail probability of Student's t."""
     if df <= 0 or t != t:
         return float("nan")
     return betai(0.5 * df, 0.5, df / (df + t * t))
 
 
 def t_ppf(p, df):
-    """Two-sided critical value: the t with t_sf2(t, df) == p."""
     lo, hi = 0.0, 1e3
     for _ in range(200):
         mid = 0.5 * (lo + hi)
@@ -143,14 +132,12 @@ def t_ppf(p, df):
 
 
 def welch_df(va, na, vb, nb):
-    """Welch--Satterthwaite degrees of freedom."""
     num = (va / na + vb / nb) ** 2
     den = (va / na) ** 2 / (na - 1) + (vb / nb) ** 2 / (nb - 1)
     return num / den if den > 0 else float("nan")
 
 
 def diff_ci(a, b, alpha=0.10):
-    """Difference in means with a two-sided 90% Welch interval."""
     ma, mb = statistics.mean(a), statistics.mean(b)
     va, vb = statistics.variance(a), statistics.variance(b)
     se = math.sqrt(va / len(a) + vb / len(b))
@@ -161,7 +148,6 @@ def diff_ci(a, b, alpha=0.10):
 
 
 def welch(a, b):
-    """Welch's two-sample t for unequal variances; returns t and its t-tail p."""
     if len(a) < 2 or len(b) < 2:
         return float("nan"), float("nan")
     ma, mb = statistics.mean(a), statistics.mean(b)
@@ -225,6 +211,7 @@ def main():
         print(f"  {label:<24} {d:>+11.3f} {'[%+.3f, %+.3f]' % (lo, hi):>20} "
               f"{p:>7.3f}  {verdict}")
 
+
     allf = {r["iso3"]: r for r in csv.DictReader(open(results / "resolution_gap.csv"))
             if r["dependency"] != "True"}
     have = {r["iso"] for r in rows}
@@ -242,7 +229,7 @@ def main():
 
     print("\n  A negative mean residual for a group means our record attributes "
           "less\n  activity to it than its published throughput would predict. "
-          "That is the\n  direction that would undermine the write-up's claim.")
+          "That is the\n  direction that would undermine the paper's claim.")
 
     worst = sorted(rows, key=lambda r: r["resid"])[:6]
     print("\nmost under-attributed relative to throughput")

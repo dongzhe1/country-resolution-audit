@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""Combine the automatic classification with the recorded human decisions.
-
-    python finalise_transit_list.py <work_dir>
-"""
+"""Combine the automatic classification with the recorded human decisions."""
 
 from __future__ import annotations
 
@@ -13,7 +10,6 @@ import pandas as pd
 
 
 def _find_reference():
-    """The reference tables, wherever this file sits relative to them."""
     here = Path(__file__).resolve()
     for d in [here.parent] + list(here.parents):
         cand = d / "reference"

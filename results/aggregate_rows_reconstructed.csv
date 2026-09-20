@@ -1,61 +1,61 @@
 iso3,name,reconstructed_row,n_admissible,admissible_rows,sids,ldc,t_per_musd,co2_t
-SUR,Suriname,Rest of American SIDS,1,Rest of American SIDS,True,False,74.101,335210
-BLZ,Belize,Rest of American SIDS,1,Rest of American SIDS,True,False,68.977,229452
-GUY,Guyana,Rest of American SIDS,1,Rest of American SIDS,True,False,23.098,625903
-MDV,Maldives,Rest of Asia,2,Rest of Asia; Rest of Asian SIDS and LDCs,True,False,97.523,754930
-TLS,Timor-Leste,Rest of Asia,2,Rest of Asia; Rest of Asian SIDS and LDCs,True,True,71.825,136624
-MMR,Myanmar,Rest of Asia,2,Rest of Asia; Rest of Asian SIDS and LDCs,False,True,21.977,1794786
-YEM,"Yemen, Rep.",Rest of Asian SIDS and LDCs,2,Rest of Asian SIDS and LDCs; Rest of Middle East and North Africa,False,True,34.105,736869
-KHM,Cambodia,Rest of Asian SIDS and LDCs,2,Rest of Asian SIDS and LDCs; Rest of Asia,False,True,19.747,1012396
-BHS,"Bahamas, The",Rest of Caribbean,1,Rest of Caribbean,True,False,460.185,7286020
-JAM,Jamaica,Rest of Caribbean,2,Rest of Caribbean; Rest of American SIDS,True,False,311.670,7076431
-LCA,St. Lucia,Rest of Caribbean,1,Rest of Caribbean,True,False,143.028,379945
-ATG,Antigua and Barbuda,Rest of Caribbean,1,Rest of Caribbean,True,False,79.072,184885
-DMA,Dominica,Rest of Caribbean,1,Rest of Caribbean,True,False,65.835,47655
-GRD,Grenada,Rest of Caribbean,1,Rest of Caribbean,True,False,60.291,85624
-KNA,St. Kitts and Nevis,Rest of Caribbean,1,Rest of Caribbean,True,False,57.302,67818
-BRB,Barbados,Rest of Caribbean,1,Rest of Caribbean,True,False,54.879,439940
-VCT,St. Vincent and the Grenadines,Rest of Caribbean,1,Rest of Caribbean,True,False,54.485,68391
-HTI,Haiti,Rest of Caribbean,2,Rest of Caribbean; Rest of American SIDS,True,True,21.506,689869
-CUB,Cuba,Rest of Caribbean,1,Rest of Caribbean,True,False,12.191,1308742
-ISL,Iceland,Rest of Europe,1,Rest of Europe,False,False,37.479,1446025
-MNE,Montenegro,Rest of Europe,1,Rest of Europe,False,False,19.377,178901
-TGO,Togo,Rest of LDC in Africa,2,Rest of LDC in Africa; Rest of Western Africa,False,True,669.604,7961562
-GIN,Guinea,Rest of LDC in Africa,2,Rest of LDC in Africa; Rest of Western Africa,False,True,371.923,10542529
-MOZ,Mozambique,Rest of LDC in Africa,1,Rest of LDC in Africa,False,True,332.320,7423365
-COM,Comoros,Rest of LDC in Africa,1,Rest of LDC in Africa,True,True,238.795,433393
-SEN,Senegal,Rest of LDC in Africa,2,Rest of LDC in Africa; Rest of Western Africa,False,True,114.654,4242960
-BEN,Benin,Rest of LDC in Africa,2,Rest of LDC in Africa; Rest of Western Africa,False,True,64.616,1587386
-COD,"Congo, Dem. Rep.",Rest of LDC in Africa,1,Rest of LDC in Africa,False,True,24.359,2217375
-SDN,Sudan,Rest of LDC in Africa,2,Rest of LDC in Africa; Rest of Middle East and North Africa,False,True,19.814,1192075
-LBN,Lebanon,Rest of Middle East and North Africa,1,Rest of Middle East and North Africa,False,False,63.097,1638742
-LBY,Libya,Rest of Middle East and North Africa,1,Rest of Middle East and North Africa,False,False,59.668,2869972
-AZE,Azerbaijan,Rest of Middle East and North Africa,1,Rest of Middle East and North Africa,False,False,0.592,44967
-MHL,Marshall Islands,Rest of Oceania,1,Rest of Oceania,True,False,1158.093,356693
-KIR,Kiribati,Rest of Oceania,1,Rest of Oceania,True,True,590.665,206276
-FSM,"Micronesia, Fed. Sts.",Rest of Oceania,1,Rest of Oceania,True,False,573.520,287791
-TUV,Tuvalu,Rest of Oceania,1,Rest of Oceania,True,True,513.179,29428
-SLB,Solomon Islands,Rest of Oceania,1,Rest of Oceania,True,True,374.649,655475
-VUT,Vanuatu,Rest of Oceania,1,Rest of Oceania,True,False,277.527,375677
-PLW,Palau,Rest of Oceania,1,Rest of Oceania,True,False,270.138,93198
-TON,Tonga,Rest of Oceania,1,Rest of Oceania,True,False,258.384,175499
-FJI,Fiji,Rest of Oceania,1,Rest of Oceania,True,False,193.691,1200502
-PNG,Papua New Guinea,Rest of Oceania,1,Rest of Oceania,True,False,179.123,5821256
-NRU,Naoero,Rest of Oceania,1,Rest of Oceania,True,False,166.758,29356
-WSM,Samoa,Rest of Oceania,1,Rest of Oceania,True,False,143.812,185221
-CPV,Cabo Verde,Rest of Western Africa,1,Rest of Western Africa,True,False,327.431,1000836
-SLE,Sierra Leone,Rest of Western Africa,1,Rest of Western Africa,False,True,195.828,1461691
-LBR,Liberia,Rest of Western Africa,1,Rest of Western Africa,False,True,166.371,872771
-MRT,Mauritania,Rest of Western Africa,1,Rest of Western Africa,False,True,151.763,1772580
-GMB,"Gambia, The",Rest of Western Africa,1,Rest of Western Africa,False,True,130.628,338806
-GNB,Guinea-Bissau,Rest of Western Africa,1,Rest of Western Africa,True,True,41.298,104400
-TKM,Turkmenistan,Rest of developing economies in Europe and Central Asia,1,Rest of developing economies in Europe and Central Asia,False,False,0.969,48274
-KAZ,Kazakhstan,Rest of developing economies in Europe and Central Asia,1,Rest of developing economies in Europe and Central Asia,False,False,0.045,13678
-MDA,Moldova,Rest of developing economies in Europe and Central Asia,1,Rest of developing economies in Europe and Central Asia,False,False,0.007,143
-DJI,Djibouti,Rest of the world,1,Rest of the world,False,True,844.498,3905411
-COG,"Congo, Rep.",Rest of the world,1,Rest of the world,False,False,314.341,5125843
-SYC,Seychelles,Rest of the world,1,Rest of the world,True,False,226.012,539495
-AGO,Angola,Rest of the world,1,Rest of the world,False,True,88.986,10871833
-ERI,Eritrea,Rest of the world,1,Rest of the world,False,True,60.243,124403
-SOM,"Somalia, Fed. Rep.",Rest of the world,1,Rest of the world,False,True,52.917,687670
-STP,Sao Tome and Principe,Rest of the world,1,Rest of the world,True,False,49.124,48205
+SUR,Suriname,Rest of American SIDS,1,Rest of American SIDS,True,False,8.726,335210
+BLZ,Belize,Rest of American SIDS,1,Rest of American SIDS,True,False,8.122,229452
+GUY,Guyana,Rest of American SIDS,1,Rest of American SIDS,True,False,2.720,625903
+MDV,Maldives,Rest of Asia,2,Rest of Asia; Rest of Asian SIDS and LDCs,True,False,11.484,754930
+TLS,Timor-Leste,Rest of Asia,2,Rest of Asia; Rest of Asian SIDS and LDCs,True,True,8.458,136624
+MMR,Myanmar,Rest of Asia,2,Rest of Asia; Rest of Asian SIDS and LDCs,False,True,2.588,1794786
+YEM,"Yemen, Rep.",Rest of Asian SIDS and LDCs,2,Rest of Asian SIDS and LDCs; Rest of Middle East and North Africa,False,True,4.016,736869
+KHM,Cambodia,Rest of Asian SIDS and LDCs,2,Rest of Asian SIDS and LDCs; Rest of Asia,False,True,2.325,1012396
+BHS,"Bahamas, The",Rest of Caribbean,1,Rest of Caribbean,True,False,54.189,7286020
+JAM,Jamaica,Rest of Caribbean,2,Rest of Caribbean; Rest of American SIDS,True,False,36.700,7076431
+LCA,St. Lucia,Rest of Caribbean,1,Rest of Caribbean,True,False,16.842,379945
+ATG,Antigua and Barbuda,Rest of Caribbean,1,Rest of Caribbean,True,False,9.311,184885
+DMA,Dominica,Rest of Caribbean,1,Rest of Caribbean,True,False,7.752,47655
+GRD,Grenada,Rest of Caribbean,1,Rest of Caribbean,True,False,7.100,85624
+KNA,St. Kitts and Nevis,Rest of Caribbean,1,Rest of Caribbean,True,False,6.748,67818
+BRB,Barbados,Rest of Caribbean,1,Rest of Caribbean,True,False,6.462,439940
+VCT,St. Vincent and the Grenadines,Rest of Caribbean,1,Rest of Caribbean,True,False,6.416,68391
+HTI,Haiti,Rest of Caribbean,2,Rest of Caribbean; Rest of American SIDS,True,True,2.532,689869
+CUB,Cuba,Rest of Caribbean,1,Rest of Caribbean,True,False,1.436,1308742
+ISL,Iceland,Rest of Europe,1,Rest of Europe,False,False,4.413,1446025
+MNE,Montenegro,Rest of Europe,1,Rest of Europe,False,False,2.282,178901
+TGO,Togo,Rest of LDC in Africa,2,Rest of LDC in Africa; Rest of Western Africa,False,True,78.849,7961562
+GIN,Guinea,Rest of LDC in Africa,2,Rest of LDC in Africa; Rest of Western Africa,False,True,43.795,10542529
+MOZ,Mozambique,Rest of LDC in Africa,1,Rest of LDC in Africa,False,True,39.132,7423365
+COM,Comoros,Rest of LDC in Africa,1,Rest of LDC in Africa,True,True,28.119,433393
+SEN,Senegal,Rest of LDC in Africa,2,Rest of LDC in Africa; Rest of Western Africa,False,True,13.501,4242960
+BEN,Benin,Rest of LDC in Africa,2,Rest of LDC in Africa; Rest of Western Africa,False,True,7.609,1587386
+COD,"Congo, Dem. Rep.",Rest of LDC in Africa,1,Rest of LDC in Africa,False,True,2.868,2217375
+SDN,Sudan,Rest of LDC in Africa,2,Rest of LDC in Africa; Rest of Middle East and North Africa,False,True,2.333,1192075
+LBN,Lebanon,Rest of Middle East and North Africa,1,Rest of Middle East and North Africa,False,False,7.430,1638742
+LBY,Libya,Rest of Middle East and North Africa,1,Rest of Middle East and North Africa,False,False,7.026,2869972
+AZE,Azerbaijan,Rest of Middle East and North Africa,1,Rest of Middle East and North Africa,False,False,0.070,44967
+MHL,Marshall Islands,Rest of Oceania,1,Rest of Oceania,True,False,136.370,356693
+KIR,Kiribati,Rest of Oceania,1,Rest of Oceania,True,True,69.553,206276
+FSM,"Micronesia, Fed. Sts.",Rest of Oceania,1,Rest of Oceania,True,False,67.534,287791
+TUV,Tuvalu,Rest of Oceania,1,Rest of Oceania,True,True,60.429,29428
+SLB,Solomon Islands,Rest of Oceania,1,Rest of Oceania,True,True,44.116,655475
+VUT,Vanuatu,Rest of Oceania,1,Rest of Oceania,True,False,32.680,375677
+PLW,Palau,Rest of Oceania,1,Rest of Oceania,True,False,31.810,93198
+TON,Tonga,Rest of Oceania,1,Rest of Oceania,True,False,30.426,175499
+FJI,Fiji,Rest of Oceania,1,Rest of Oceania,True,False,22.808,1200502
+PNG,Papua New Guinea,Rest of Oceania,1,Rest of Oceania,True,False,21.092,5821256
+NRU,Naoero,Rest of Oceania,1,Rest of Oceania,True,False,19.636,29356
+WSM,Samoa,Rest of Oceania,1,Rest of Oceania,True,False,16.934,185221
+CPV,Cabo Verde,Rest of Western Africa,1,Rest of Western Africa,True,False,38.556,1000836
+SLE,Sierra Leone,Rest of Western Africa,1,Rest of Western Africa,False,True,23.060,1461691
+LBR,Liberia,Rest of Western Africa,1,Rest of Western Africa,False,True,19.591,872771
+MRT,Mauritania,Rest of Western Africa,1,Rest of Western Africa,False,True,17.871,1772580
+GMB,"Gambia, The",Rest of Western Africa,1,Rest of Western Africa,False,True,15.382,338806
+GNB,Guinea-Bissau,Rest of Western Africa,1,Rest of Western Africa,True,True,4.863,104400
+TKM,Turkmenistan,Rest of developing economies in Europe and Central Asia,1,Rest of developing economies in Europe and Central Asia,False,False,0.114,48274
+KAZ,Kazakhstan,Rest of developing economies in Europe and Central Asia,1,Rest of developing economies in Europe and Central Asia,False,False,0.005,13678
+MDA,Moldova,Rest of developing economies in Europe and Central Asia,1,Rest of developing economies in Europe and Central Asia,False,False,0.001,143
+DJI,Djibouti,Rest of the world,1,Rest of the world,False,True,99.443,3905411
+COG,"Congo, Rep.",Rest of the world,1,Rest of the world,False,False,37.015,5125843
+SYC,Seychelles,Rest of the world,1,Rest of the world,True,False,26.614,539495
+AGO,Angola,Rest of the world,1,Rest of the world,False,True,10.478,10871833
+ERI,Eritrea,Rest of the world,1,Rest of the world,False,True,7.094,124403
+SOM,"Somalia, Fed. Rep.",Rest of the world,1,Rest of the world,False,True,6.231,687670
+STP,Sao Tome and Principe,Rest of the world,1,Rest of the world,True,False,5.785,48205

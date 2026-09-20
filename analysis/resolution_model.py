@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""What decides whether a state gets its own row in the impact assessment?
-
-    python resolution_model.py /path/to/results_dir
-"""
+"""What decides whether a state gets its own row in the impact assessment?"""
 
 from __future__ import annotations
 
@@ -16,19 +13,18 @@ import numpy as np
 from facts import emit
 
 
+FIRTH = True
+MAX_ITER = 500
+TOL = 1e-11
+
+
 def _find_reference():
-    """The reference tables, wherever this file sits relative to them."""
     here = Path(__file__).resolve()
     for d in [here.parent] + list(here.parents):
         cand = d / "reference"
         if cand.is_dir():
             return cand
     raise SystemExit("cannot find reference/ above " + str(here.parent))
-
-
-FIRTH = True
-MAX_ITER = 500
-TOL = 1e-11
 
 
 REF = _find_reference()
@@ -39,6 +35,8 @@ def load(results: Path, keep_dependencies=False):
                 if r["resolution"] == "individual" and r["iso3"]}
     status = {r["iso3"]: r for r in csv.DictReader(open(REF / "country_status.csv"))}
     ind = {r["country"]: r for r in csv.DictReader(open(results / "country_indicators.csv"))}
+
+
     from sample import universe
     keep = universe(results)
     rows, dropped = [], 0
@@ -77,7 +75,6 @@ def load(results: Path, keep_dependencies=False):
 
 
 def firth_fit(X: np.ndarray, y: np.ndarray):
-    """Firth-penalized logistic regression by modified IRLS."""
     n, k = X.shape
     b = np.zeros(k)
     for _ in range(MAX_ITER):
@@ -97,6 +94,8 @@ def firth_fit(X: np.ndarray, y: np.ndarray):
         else:
             grad = X.T @ (y - p)
         step = cov @ grad
+
+
         for _ in range(30):
             eta_new = np.clip(X @ (b + step), -500, 500)
             if np.all(np.isfinite(eta_new)):
@@ -118,11 +117,9 @@ def firth_fit(X: np.ndarray, y: np.ndarray):
 
 
 def pfmt(p: float) -> str:
-    """A p-value as it should appear in prose."""
     return r"\ensuremath{<}0.001" if p < 0.001 else f"{p:.3f}"
 
 def constrained_pll(X, y, j, value, start=None):
-    """Penalised log-likelihood with coefficient j held at `value`."""
     keep = [c for c in range(X.shape[1]) if c != j]
     off = X[:, j] * value
     Xr = X[:, keep]
@@ -152,7 +149,6 @@ def constrained_pll(X, y, j, value, start=None):
 
 
 def constrained_pll_multi(X, y, drop, start=None):
-    """Penalised log-likelihood with several coefficients held at zero."""
     keep = [c for c in range(X.shape[1]) if c not in drop]
     Xr = X[:, keep]
     b = np.zeros(Xr.shape[1])
@@ -181,7 +177,6 @@ def constrained_pll_multi(X, y, drop, start=None):
 
 
 def profile_ci(X, y, j, bhat, pll_hat, bhat_all, level=1.920729):
-    """Penalized profile-likelihood interval for coefficient j."""
     def pll_at(value):
         return constrained_pll(X, y, j, value, bhat_all)
 
@@ -243,13 +238,14 @@ def main():
     rows, dropped = load(results, keep_dependencies=keep_dep)
     if keep_dep:
         print("INCLUDING dependent territories -- diagnostic only, not the "
-              "specification the write-up reports")
+              "specification the paper reports")
     n = len(rows)
     nres = sum(r["resolved"] for r in rows)
     what = "entities" if keep_dep else "sovereign states"
     print(f"{what} with a resolution flag and indicators: {n} "
           f"({nres} resolved, {n - nres} not); {dropped} dropped "
           f"(missing data{'' if keep_dep else ', or a dependent territory'})")
+
 
     ident = max(abs(r["log_gdp"] - r["log_gdppc"] - r["log_pop"]) for r in rows)
     assert ident < 1e-9, f"log GDP != log GDPpc + log pop (max dev {ident})"
@@ -260,6 +256,7 @@ def main():
     fit_and_report(rows, ["log_gdp", "log_gdppc"], "size and income together")
     b, se, _, lrp, ci = fit_and_report(
         rows, ["log_gdp", "log_gdppc", "sids", "ldc"], "size, income, category")
+
 
     print("\nTHE SAME MODEL, THREE PARAMETERISATIONS")
     for terms, label in ((["log_gdp", "log_gdppc", "sids", "ldc"], "GDP + GDP/head"),
@@ -279,6 +276,8 @@ def main():
                         ([2], "GDP/head (given GDP)")):
         pll_r = constrained_pll_multi(Xf, y, drop)
         lr = 2.0 * (pll_full - pll_r)
+
+
         pv = (chi2_sf_1df(lr) if len(drop) == 1
               else math.exp(-max(lr, 0.0) / 2.0))
         print(f"  {label:<22} {lr:>8.1f} {pv:>8.3f}")
@@ -289,6 +288,7 @@ def main():
                       ([3], "lr_sids"), ([4], "lr_ldc"), ([1, 2], "lr_scale_both")):
         dev[key] = round(2.0 * (pll_full - constrained_pll_multi(Xf, y, drop)), 1)
 
+
     print("\nPREDICTED PROBABILITY OF AN INDIVIDUAL ROW")
     g = np.array(sorted(r["log_gdp"] for r in rows))
     med_pc = float(np.median([r["log_gdppc"] for r in rows]))
@@ -298,11 +298,14 @@ def main():
         eta = b[0] + b[1] * lg + b[2] * med_pc
         print(f"      GDP p{q:<2} (${math.exp(lg)/1e9:8.1f}bn)   "
               f"P = {1/(1+math.exp(-eta)):.2f}")
+
     lg_half = (-b[0] - b[2] * med_pc) / b[1]
     print(f"    P = 0.50 at GDP = ${math.exp(lg_half)/1e9:.0f}bn")
     for name, j in (("SIDS", 3), ("LDC", 4)):
         print(f"    holding size and income fixed, {name} multiplies the odds "
               f"of a row by {math.exp(b[j]):.2f}")
+
+
     for name, j in (("SIDS", 3), ("LDC", 4)):
         print(f"    a {name} needs to be {math.exp(-b[j]/b[1]):.0f}x larger to "
               f"reach the same probability as a state that is neither")
@@ -337,6 +340,7 @@ def main():
         "gdp_bn_p10": round(math.exp(float(np.percentile(g,10)))/1e9, 1),
         "gdp_bn_p90": round(math.exp(float(np.percentile(g,90)))/1e9),
     })
+
 
     B = 600
     rng = np.random.default_rng(0)

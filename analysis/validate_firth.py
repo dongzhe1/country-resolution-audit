@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""Check the Firth fit against an independent optimisation of the same objective.
-
-    python validate_firth.py <results_dir>
-"""
+"""Check the Firth fit against an independent optimisation of the same objective."""
 
 from __future__ import annotations
 
@@ -16,7 +13,6 @@ from resolution_model import firth_fit, load
 
 
 def penalised_ll(X: np.ndarray, y: np.ndarray, b: np.ndarray) -> float:
-    """l(b) + 0.5 log det I(b), from the definition."""
     eta = np.clip(X @ b, -30, 30)
     p = 1.0 / (1.0 + np.exp(-eta))
     ll = float(np.sum(y * np.log(np.clip(p, 1e-300, 1))
@@ -30,7 +26,6 @@ def penalised_ll(X: np.ndarray, y: np.ndarray, b: np.ndarray) -> float:
 
 
 def nelder_mead(f, x0, steps, iters=20000, tol=1e-12):
-    """Plain Nelder-Mead."""
     n = len(x0)
     simplex = [np.array(x0, float)]
     for i in range(n):
@@ -69,6 +64,7 @@ def main():
     if len(sys.argv) != 2:
         sys.exit(f"usage: {Path(sys.argv[0]).name} <results_dir>")
     rows = load(Path(sys.argv[1]).expanduser().resolve())[0]
+
     terms = ["log_gdp", "log_gdppc", "sids", "ldc"]
     X = np.column_stack([np.ones(len(rows))]
                         + [[float(r[t]) for r in rows] for t in terms])

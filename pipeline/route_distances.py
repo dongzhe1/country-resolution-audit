@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""Replace great-circle distance with a routed sea distance.
-
-    python route_distances.py <work_dir> [--voyages NAME] [--jobs N]
-"""
+"""Replace great-circle distance with a routed sea distance."""
 
 from __future__ import annotations
 
@@ -30,7 +27,6 @@ def _positions(path):
 
 
 def _route_chunk(args):
-    """One chunk of pairs."""
     import searoute as sr
     out = []
     for key, alat, alon, blat, blon in args:

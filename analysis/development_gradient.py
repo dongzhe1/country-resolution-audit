@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""Is the burden structured by development and geography?
-
-    python development_gradient.py <work_dir>
-"""
+"""Is the burden structured by development and geography?"""
 
 from __future__ import annotations
 
@@ -20,7 +17,6 @@ INCOME_ORDER = ["Low income", "Lower middle income",
 
 
 def ols(y: np.ndarray, X: np.ndarray) -> tuple[np.ndarray, np.ndarray, float]:
-    """Least squares with heteroskedasticity-robust (HC1) standard errors."""
     X = np.column_stack([np.ones(len(y)), X])
     beta, *_ = np.linalg.lstsq(X, y, rcond=None)
     resid = y - X @ beta
@@ -57,6 +53,7 @@ def main():
     print(f"{len(d)} sovereign states with exposure, GDP per capita and "
           f"mean voyage distance\n")
 
+
     print("--- exposure intensity by World Bank income group ---")
     print(f"  {'':<22}{'n':>4}{'unres.':>8}{'median t/M$':>13}"
           f"{'IQR':>20}{'x high-income':>15}")
@@ -70,6 +67,7 @@ def main():
               f"{sub['t_per_musd'].median():>13,.0f}"
               f"{f'[{q.iloc[0]:,.0f}, {q.iloc[1]:,.0f}]':>20}"
               f"{sub['t_per_musd'].median()/hi:>15,.1f}")
+
 
     y = np.log(d["co2_t"].to_numpy())
     lgdp = np.log(d["gdp_usd"].to_numpy())
@@ -100,6 +98,8 @@ def main():
           f"{10 ** (1 - beta):.1f}x the shipping CO2 per dollar of output,\n"
           f"  holding voyage distance fixed. Association across a cross-section, "
           f"not an effect.")
+
+
     t2 = b[2] / se[2] if se[2] else float("nan")
     if abs(t2) < 2:
         verdict = ("not distinguishable from zero once GDP is controlled for;\n"
@@ -113,6 +113,7 @@ def main():
                    "reporting it")
     print(f"\n  Remoteness enters at {b[2]:+.2f} (se {se[2]:.2f}, t {t2:+.1f}): "
           f"{verdict}.")
+
 
     print("\n--- where the unresolved states sit on both gradients ---")
     d["heavy"] = d["t_per_musd"] > d["t_per_musd"].median()

@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch the public inputs this analysis needs, and say where the rest comes from.
-
-    python download_data.py [--out data]
-"""
+"""Fetch the public inputs this analysis needs, and say where the rest comes from."""
 
 from __future__ import annotations
 

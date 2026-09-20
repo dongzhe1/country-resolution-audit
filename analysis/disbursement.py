@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""What the aggregation hides about who gains and who loses.
-
-    python disbursement.py <work_dir> [--price P] [--out NAME]
-"""
+"""What the aggregation hides about who gains and who loses."""
 
 from __future__ import annotations
 
@@ -72,7 +69,7 @@ def main():
             grp_sign = np.sign(grp_mean)
             flips = int((np.sign(sub) != grp_sign).sum())
             unres = int((mask & ~d["resolved"]).sum())
-            near = (np.abs(sub - grp_mean) <= np.abs(grp_mean)) if grp_mean else \
+            near = (np.abs(sub - grp_mean) <= np.abs(grp_mean)) if grp_mean else\
                 pd.Series(False, index=sub.index)
             spread = (sub.max() - sub.min())
             rows.append(dict(price=price, passthrough=alpha, scheme=sname,

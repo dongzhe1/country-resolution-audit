@@ -1,21 +1,7 @@
 #!/usr/bin/env python3
-"""Does the exposure gap survive its own units and its own denominator?
-
-    python exposure_denominators.py /path/to/results_dir
-"""
+"""Does the exposure gap survive its own units and its own denominator?"""
 
 from __future__ import annotations
-
-def _find_reference():
-    """The reference tables, wherever this file sits relative to them."""
-    from pathlib import Path as _P
-    here = _P(__file__).resolve()
-    for d in [here.parent] + list(here.parents):
-        cand = d / "reference"
-        if cand.is_dir():
-            return cand
-    raise SystemExit("cannot find reference/ above " + str(here.parent))
-
 
 import csv
 import statistics
@@ -24,16 +10,23 @@ from pathlib import Path
 
 from facts import emit
 
+def _find_reference():
+    here = Path(__file__).resolve()
+    for d in [here.parent] + list(here.parents):
+        cand = d / "reference"
+        if cand.is_dir():
+            return cand
+    raise SystemExit("cannot find reference/ above " + str(here.parent))
+
+
 REF = _find_reference()
 
 from sample import in_sample, m49_codes
-
 
 _M49 = m49_codes()
 
 
 def coverage_years(results: Path) -> tuple[float, str]:
-    """Observed span in years, counting the final partial year by its activity."""
     rows = list(csv.DictReader(open(results / "voyages_by_year.csv")))
     v = {int(r["year"]): float(r["voyages"]) for r in rows}
     years = sorted(v)
@@ -110,6 +103,8 @@ def main():
     results = Path(sys.argv[1]).expanduser().resolve()
     span, desc = coverage_years(results)
     rows = load(results)
+
+
     base = 0
     ind = {r["country"]: r for r in csv.DictReader(open(results / "country_indicators.csv"))}
     for r in csv.DictReader(open(results / "resolution_gap.csv")):
@@ -117,7 +112,7 @@ def main():
         if not in_sample(r, _M49) or c is None:
             continue
         try:
-            if float(c["gdp_usd"]) > 0 and float(c["population"]) > 0 \
+            if float(c["gdp_usd"]) > 0 and float(c["population"]) > 0\
                     and float(r["co2_t"]) > 0:
                 base += 1
         except (ValueError, KeyError):
@@ -127,6 +122,7 @@ def main():
     print(f"sovereign states with market GDP and exposure: {len(rows)}")
     print(f"  of which a purchasing-power figure is published for: "
           f"{sum(1 for r in rows if r.get('ppp') and r['ppp'] > 0)}")
+
 
     for r in rows:
         r["annual"] = r["co2"] / span
@@ -150,6 +146,8 @@ def main():
 
     ur_m, ur_p = line("no row of its own", lambda r: not r["resolved"])
     re_m, re_p = line("has its own row", lambda r: r["resolved"])
+
+
     def med(src, sel, key):
         return statistics.median(r[key] for r in src if sel(r))
     ur_m_pp = med(has_ppp, lambda r: not r["resolved"], "mkt")
@@ -202,6 +200,7 @@ def main():
           "  which states look exposed; the group contrasts above say whether it\n"
           "  decides the size of the gap.")
 
+
     import csv as _csv
     yr = {r["country"]: int(r["gdp_year"])
           for r in _csv.DictReader(open(REF / "country_indicators_wdi.csv"))
@@ -226,6 +225,8 @@ def main():
     sids = [r for r in rows if r["sids"]]
     sids_ppp = [r for r in has_ppp if r["sids"]]
     emit(results, "denominators", {
+
+
         "span_years": round(span, 2), "span_years_exact": round(span, 6),
         "states": len(has_ppp),
         "states_base": base,

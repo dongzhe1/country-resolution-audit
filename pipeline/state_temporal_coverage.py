@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""Exposure year by year, and how complete the record is for each state.
-
-    python state_temporal_coverage.py /path/to/gfw_port_visits
-"""
+"""Exposure year by year, and how complete the record is for each state."""
 
 from __future__ import annotations
 
@@ -20,7 +17,6 @@ MIN_VOYAGES_FOR_GAP = 4
 
 
 def per_year(df: pd.DataFrame) -> pd.DataFrame:
-    """Country x year attributed CO2, on the same 50/50 split as the main table."""
     df = df.copy()
     df["year"] = pd.to_datetime(df["dep_time"], errors="coerce").dt.year
     df = df[df["year"].notna()]
@@ -37,7 +33,6 @@ def per_year(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def gappy_vessels(df: pd.DataFrame) -> pd.Series:
-    """IMOs whose observed history contains an interior silence over GAP_DAYS."""
     d = df[["imo", "dep_time"]].copy()
     d["dep_time"] = pd.to_datetime(d["dep_time"], errors="coerce")
     d = d.dropna(subset=["dep_time"]).sort_values(["imo", "dep_time"])

@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""Separate waiting anchorages from anchorages where cargo is actually worked.
-
-    python transit_evidence.py <work_dir> [--jobs N]
-"""
+"""Separate waiting anchorages from anchorages where cargo is actually worked."""
 
 from __future__ import annotations
 
@@ -38,7 +35,6 @@ THROUGH_MAX_HRS = 48.0
 
 
 def classify(r) -> str:
-    """WAIT / DEST are evidence-backed."""
     if r["same_country"] >= WAIT_SAME and r["near"] >= WAIT_NEAR:
         return "WAIT"
     if r["detour"] > THROUGH_DETOUR:

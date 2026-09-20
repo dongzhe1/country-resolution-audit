@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""Turn GFW port-visit events into voyages.
-
-    python build_voyages.py /path/to/gfw_port_visits
-"""
+"""Turn GFW port-visit events into voyages."""
 
 from __future__ import annotations
 
@@ -29,7 +26,6 @@ USE_COLS = ["imo", "start", "end", "vessel_flag",
 
 
 def haversine_nm(lat1, lon1, lat2, lon2):
-    """Scalar reference implementation, kept so the vector one can be tested."""
     r = 3440.065
     p1, p2 = map(math.radians, (lat1, lat2))
     dp = math.radians(lat2 - lat1)
@@ -57,7 +53,6 @@ def _read_shard(path):
 
 
 def to_utc(col):
-    """ISO8601 fast path; fall back to the slow parser on older pandas."""
     try:
         return pd.to_datetime(col, format="ISO8601", errors="coerce", utc=True)
     except (ValueError, TypeError):
@@ -65,7 +60,6 @@ def to_utc(col):
 
 
 def parse_args(argv, name):
-    """<work_dir> [--jobs N] [--drop-anchorages FILE] [--out NAME]."""
     jobs, drop, out, rest, i = DEFAULT_JOBS, None, "voyages.csv.gz", [], 0
     routes = None
     while i < len(argv):
@@ -98,14 +92,11 @@ _DF = None
 
 
 def _set_df(df):
-    # spawn (Windows, macOS) re-imports this module, so the
-    # frame has to be handed to each worker explicitly
     global _DF
     _DF = df
 
 
 def _build_part(k):
-    """Build voyages for one IMO partition."""
     d = _DF[_DF["_part"] == k]
     if d.empty:
         return None
